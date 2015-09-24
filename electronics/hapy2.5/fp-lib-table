@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name corecode)(type Github)(uri https://github.com/corecode/kicad-libs)(options "")(descr ""))
+  (lib (name ab2tech)(type Github)(uri https://github.com/ab2tech/KiCad)(options "")(descr ""))
+  (lib (name bbb)(type Legacy)(uri ${KIPRJMOD}/bbb.mod)(options "")(descr ""))
+  (lib (name risebox)(type KiCad)(uri ${KIPRJMOD}/risebox.pretty)(options "")(descr ""))
+)

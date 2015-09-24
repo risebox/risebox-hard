@@ -354,10 +354,10 @@ Text Label 7100 1650 2    60   ~ 0
 Text Label 7100 2050 2    60   ~ 0
 5V
 $Comp
-L GND #PWR30
+L GND #PWR030
 U 1 1 55F3CF20
 P 1250 7500
-F 0 "#PWR30" H 1250 7500 30  0001 C CNN
+F 0 "#PWR030" H 1250 7500 30  0001 C CNN
 F 1 "GND" H 1250 7430 30  0001 C CNN
 F 2 "" H 1250 7500 60  0000 C CNN
 F 3 "" H 1250 7500 60  0000 C CNN
@@ -514,8 +514,6 @@ F 3 "" H 2700 950 60  0000 C CNN
 $EndComp
 Text Label 3450 1350 2    60   ~ 0
 P9_23
-Text Label 7100 2150 2    60   ~ 0
-5V_EXT
 Text HLabel 1600 6550 0    60   Input ~ 0
 BatteryLevel
 Text Label 2050 6550 2    60   ~ 0
@@ -534,13 +532,13 @@ $EndComp
 Text Label 1050 4050 0    60   ~ 0
 GND
 Text Label 3150 4050 2    60   ~ 0
-5V_EXT
+VDD_5V
 Text Label 1050 4150 0    60   ~ 0
 3.3V_EXT
 Text Label 3150 5250 2    60   ~ 0
 GND
 Text Label 3150 5150 2    60   ~ 0
-5V_EXT
+VDD_5V
 Text Label 1050 5150 0    60   ~ 0
 3.3V_EXT
 Text Label 3150 4250 2    60   ~ 0
@@ -1006,8 +1004,6 @@ Wire Notes Line
 Wire Wire Line
 	6700 1550 7050 1550
 Wire Wire Line
-	6700 2150 7100 2150
-Wire Wire Line
 	6700 5950 7100 5950
 Wire Wire Line
 	6700 5850 7100 5850
@@ -1256,4 +1252,5 @@ Wire Wire Line
 	9750 1300 9350 1300
 Wire Wire Line
 	7100 4750 6700 4750
+NoConn ~ 6700 2150
 $EndSCHEMATC

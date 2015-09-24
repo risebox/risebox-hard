@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Sep 2015 12:22:43 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Sep 2015 03:01:02 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /55F35E9F;
 Reference = D3;
 ValeurCmp = MMSZ4678T1G ZENER;
-IdModule  = Diodes_SMD:SOD-123;
+IdModule  = risebox:DIODE_SOD-123;
 EndCmp
 
 BeginCmp
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /55F1490D/55F22054;
 Reference = D5;
 ValeurCmp = 1SMB5935BT3G;
-IdModule  = Diodes_SMD:SMB_Standard;
+IdModule  = risebox:DIODE_SMB_Standard;
 EndCmp
 
 BeginCmp
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /55F149A4/55F233B5;
 Reference = D7;
 ValeurCmp = MMSZ4701-E3-08 ZENER;
-IdModule  = Diodes_SMD:SOD-123;
+IdModule  = risebox:DIODE_SOD-123;
 EndCmp
 
 BeginCmp
@@ -200,7 +200,7 @@ BeginCmp
 TimeStamp = /55F14AFC/55F27163;
 Reference = D10;
 ValeurCmp = PMEG2015EJ,115 DIODE;
-IdModule  = Diodes_SMD:SOD-323;
+IdModule  = risebox:DIODE_SOD-323;
 EndCmp
 
 BeginCmp
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /55F149A4/55FB723E;
 Reference = D14;
 ValeurCmp = MMSZ4678T1G  ZENER;
-IdModule  = Diodes_SMD:SOD-123;
+IdModule  = risebox:DIODE_SOD-123;
 EndCmp
 
 BeginCmp
@@ -424,14 +424,14 @@ BeginCmp
 TimeStamp = /55F14AF9/55F281E7;
 Reference = Q1;
 ValeurCmp = 2N7002;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F14AFC/55F2701F;
 Reference = Q2;
 ValeurCmp = 2N7002;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
@@ -445,28 +445,28 @@ BeginCmp
 TimeStamp = /55F149A4/55F96BC6;
 Reference = Q4;
 ValeurCmp = 2N7002;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F149A4/55F9622B;
 Reference = Q5;
 ValeurCmp = BSS84P H6327;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/55FB58DE;
 Reference = Q6;
 ValeurCmp = 2N7002;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
 TimeStamp = /55FAC4A3/55FACAA9;
 Reference = Q7;
 ValeurCmp = 2N7002;
-IdModule  = corecode:SOT-23-FET;
+IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp

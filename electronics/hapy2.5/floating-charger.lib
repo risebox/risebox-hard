@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Charger_24V/12V_floating
+#
+DEF Charger_24V/12V_floating #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -350 20 H I C CNN
+F1 "Charger_24V/12V_floating" 0 350 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -400 300 400 -300 0 1 0 N
+X 12Vout ~ 450 150 394 L 50 50 1 1 O
+X 24Vin ~ -450 150 394 R 50 50 1 1 I
+X GNDin ~ -450 -150 394 R 50 50 1 1 I
+X GNDout ~ 450 -150 394 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

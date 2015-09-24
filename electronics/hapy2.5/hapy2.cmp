@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Sep 2015 03:01:02 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Sep 2015 04:31:34 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -269,22 +269,22 @@ EndCmp
 BeginCmp
 TimeStamp = /55F37875;
 Reference = P1;
-ValeurCmp = BORNIER;
+ValeurCmp = RELAY_PUMP;
 IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F366C2;
 Reference = P2;
-ValeurCmp = BORNIER;
+ValeurCmp = ALIM_SECTEUR;
 IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F37B7F;
+TimeStamp = /5604B528;
 Reference = P3;
-ValeurCmp = BORNIER;
-IdModule  = Connect:bornier2;
+ValeurCmp = LOWER_FANS;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
@@ -302,31 +302,31 @@ IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A5A7;
+TimeStamp = /55F28D01/56044400;
 Reference = P6;
-ValeurCmp = WOverflow Lower;
-IdModule  = Connect:bornier2;
+ValeurCmp = UPPER_LEDS;
+IdModule  = Connect:bornier6;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A5F3;
+TimeStamp = /55F28D01/56041B85;
 Reference = P7;
-ValeurCmp = WOverflow Upper;
-IdModule  = Connect:bornier2;
+ValeurCmp = LOWER_LEDS;
+IdModule  = Connect:bornier6;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A656;
+TimeStamp = /55F28D01/56047EA7;
 Reference = P8;
-ValeurCmp = LED Blue Lower;
-IdModule  = Connect:bornier2;
+ValeurCmp = USER_PANEL;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A5AE;
+TimeStamp = /55F28D01/56046FA4;
 Reference = P9;
-ValeurCmp = LED Blue Upper;
-IdModule  = Connect:bornier2;
+ValeurCmp = LOWER_BED;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
@@ -337,31 +337,17 @@ IdModule  = Connect:bornier3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A66A;
+TimeStamp = /55F28D01/56045584;
 Reference = P11;
-ValeurCmp = LED Red Lower;
-IdModule  = Connect:bornier2;
+ValeurCmp = UPPER_BED;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A5DC;
+TimeStamp = /5604B575;
 Reference = P12;
-ValeurCmp = WCycle Lower;
-IdModule  = Connect:bornier2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F28D01/55F2A60A;
-Reference = P13;
-ValeurCmp = WCycle Upper;
-IdModule  = Connect:bornier2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F28D01/55F2A62E;
-Reference = P14;
-ValeurCmp = LED Red Upper;
-IdModule  = Connect:bornier2;
+ValeurCmp = UPPER_FANS;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
@@ -372,23 +358,9 @@ IdModule  = Connect:bornier3;
 EndCmp
 
 BeginCmp
-TimeStamp = /55F28D01/55F2A642;
-Reference = P16;
-ValeurCmp = LED White Upper;
-IdModule  = Connect:bornier2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F28D01/55F2A69C;
-Reference = P17;
-ValeurCmp = LED White Lower;
-IdModule  = Connect:bornier2;
-EndCmp
-
-BeginCmp
 TimeStamp = /55FACF9A;
 Reference = P18;
-ValeurCmp = BORNIER;
+ValeurCmp = RELAY_AIRPUMP;
 IdModule  = Connect:bornier2;
 EndCmp
 
@@ -404,20 +376,6 @@ TimeStamp = /55F28D01/55FC335B;
 Reference = P20;
 ValeurCmp = HE10-26;
 IdModule  = Connect:HE10_26D;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F28D01/55FB3B6D;
-Reference = P21;
-ValeurCmp = Multifunction button;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
-EndCmp
-
-BeginCmp
-TimeStamp = /55F28D01/55FB3962;
-Reference = P22;
-ValeurCmp = Status light;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
 EndCmp
 
 BeginCmp

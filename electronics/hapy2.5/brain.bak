@@ -33,7 +33,6 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
-LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -53,7 +52,6 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -517,7 +515,7 @@ P9_23
 Text HLabel 1600 6550 0    60   Input ~ 0
 BatteryLevel
 Text Label 2050 6550 2    60   ~ 0
-AIN6
+AIN2
 $Comp
 L HE10-26 P20
 U 1 1 55FC335B
@@ -655,7 +653,6 @@ NoConn ~ 6700 4050
 NoConn ~ 6700 4350
 NoConn ~ 6700 4550
 NoConn ~ 6700 4650
-NoConn ~ 6700 5050
 NoConn ~ 6700 5150
 NoConn ~ 6700 5450
 Text Label 7100 5850 2    60   ~ 0
@@ -1253,4 +1250,8 @@ Wire Wire Line
 Wire Wire Line
 	7100 4750 6700 4750
 NoConn ~ 6700 2150
+Wire Wire Line
+	6700 5050 7100 5050
+Text Label 7100 5050 2    60   ~ 0
+AIN2
 $EndSCHEMATC

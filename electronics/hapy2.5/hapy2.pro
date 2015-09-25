@@ -1,4 +1,4 @@
-update=Thu 24 Sep 2015 11:23:15 AM CEST
+update=Vendredi 25 septembre 2015 11:43:19
 version=1
 last_client=kicad
 [cvpcb]
@@ -96,3 +96,13 @@ LibName62=ttl_ieee
 LibName63=valves
 LibName64=video
 LibName65=xilinx
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

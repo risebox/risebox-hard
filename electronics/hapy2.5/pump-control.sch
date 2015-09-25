@@ -77,7 +77,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3900 2650 0    60   Input ~ 0
-24VIn
+24VIn_Pump
 Text HLabel 3900 3750 0    60   Input ~ 0
 OnOffGPIO
 $Comp

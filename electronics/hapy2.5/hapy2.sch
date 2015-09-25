@@ -290,7 +290,7 @@ S 4000 1700 1600 650
 U 55F14AF9
 F0 "Pump relay control" 60
 F1 "pump-control.sch" 60
-F2 "24VIn" I L 4000 2200 60 
+F2 "24VIn_Pump" I L 4000 2200 60 
 F3 "OnOffGPIO" I R 5600 2200 60 
 F4 "Relay24VOut" I R 5600 1850 60 
 F5 "RelayGndOut" I R 5600 1950 60 
@@ -300,7 +300,7 @@ S 4000 750  1600 650
 U 55FAC4A3
 F0 "Air relay control" 60
 F1 "air-control.sch" 60
-F2 "24VIn" I L 4000 1250 60 
+F2 "24VIn_Air" I L 4000 1250 60 
 F3 "OnOffGPIO" I R 5600 1250 60 
 F4 "Relay24VOut" O R 5600 900 60 
 F5 "RelayGndOut" O R 5600 1000 60 

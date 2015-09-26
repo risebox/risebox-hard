@@ -33,6 +33,7 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
+LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -52,6 +53,7 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -98,20 +100,6 @@ F3 "Alim24V" I L 1750 5250 60
 F4 "AlimGnd" I L 1750 5450 60 
 F5 "3.3V_BBB" I R 3350 6400 60 
 F6 "BatteryLevel" O L 1750 6350 60 
-$EndSheet
-$Sheet
-S 6850 3600 1600 2300
-U 55F28D01
-F0 "Brain, sensors and lights" 60
-F1 "brain.sch" 60
-F2 "PowerProbe" I L 6850 5250 60 
-F3 "5VIn" I L 6850 4400 60 
-F4 "PumpGPIO" O L 6850 4100 60 
-F5 "FansGPIO" O R 8450 3850 60 
-F6 "BatteryLEDGPIO" O R 8450 5500 60 
-F7 "3.3Vout" O L 6850 5550 60 
-F8 "AirGPIO" O L 6850 3850 60 
-F9 "BatteryLevel" I L 6850 5800 60 
 $EndSheet
 $Comp
 L DIODE D1
@@ -479,4 +467,18 @@ Connection ~ 10750 3850
 Wire Wire Line
 	10750 4250 10850 4250
 Connection ~ 10750 4050
+$Sheet
+S 6850 3600 1600 2300
+U 55F28D01
+F0 "Brain, sensors and lights" 60
+F1 "brain.sch" 60
+F2 "PowerProbe" I L 6850 5250 60 
+F3 "5VIn" I L 6850 4400 60 
+F4 "PumpGPIO" O L 6850 4100 60 
+F5 "FansGPIO" O R 8450 3850 60 
+F6 "BatteryLEDGPIO" O R 8450 5500 60 
+F7 "3.3Vout" O L 6850 5550 60 
+F8 "AirGPIO" O L 6850 3850 60 
+F9 "BatteryLevel" I L 6850 5800 60 
+$EndSheet
 $EndSCHEMATC

@@ -33,6 +33,7 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
+LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -52,6 +53,7 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -66,7 +68,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -349,13 +351,13 @@ Text Label 7100 1850 2    60   ~ 0
 VDD_5V
 Text Label 7100 1650 2    60   ~ 0
 3.3V
-Text Label 7100 2050 2    60   ~ 0
+Text Label 7100 2150 2    60   ~ 0
 5V
 $Comp
-L GND #PWR030
+L GND #PWR035
 U 1 1 55F3CF20
 P 1250 7500
-F 0 "#PWR030" H 1250 7500 30  0001 C CNN
+F 0 "#PWR035" H 1250 7500 30  0001 C CNN
 F 1 "GND" H 1250 7430 30  0001 C CNN
 F 2 "" H 1250 7500 60  0000 C CNN
 F 3 "" H 1250 7500 60  0000 C CNN
@@ -779,8 +781,6 @@ Wire Wire Line
 	6700 1850 7100 1850
 Wire Wire Line
 	6700 1650 7100 1650
-Wire Wire Line
-	6700 2050 7100 2050
 Wire Wire Line
 	1250 7500 1250 7250
 Wire Wire Line
@@ -1249,9 +1249,11 @@ Wire Wire Line
 	9750 1300 9350 1300
 Wire Wire Line
 	7100 4750 6700 4750
-NoConn ~ 6700 2150
 Wire Wire Line
 	6700 5050 7100 5050
 Text Label 7100 5050 2    60   ~ 0
 AIN2
+Wire Wire Line
+	6700 2150 7100 2150
+NoConn ~ 6700 2050
 $EndSCHEMATC

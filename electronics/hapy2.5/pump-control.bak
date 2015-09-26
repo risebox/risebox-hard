@@ -33,6 +33,7 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
+LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -52,6 +53,7 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex

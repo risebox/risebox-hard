@@ -33,6 +33,7 @@ LIBS:linear
 LIBS:logo
 LIBS:memory
 LIBS:microchip
+LIBS:microchip1
 LIBS:microchip_pic10mcu
 LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
@@ -52,6 +53,7 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -142,10 +144,10 @@ Wire Wire Line
 Wire Wire Line
 	6750 4650 5800 4650
 $Comp
-L GND #PWR032
+L GND #PWR031
 U 1 1 55F2820C
 P 5800 5400
-F 0 "#PWR032" H 5800 5400 30  0001 C CNN
+F 0 "#PWR031" H 5800 5400 30  0001 C CNN
 F 1 "GND" H 5800 5330 30  0001 C CNN
 F 2 "" H 5800 5400 60  0000 C CNN
 F 3 "" H 5800 5400 60  0000 C CNN
@@ -188,10 +190,10 @@ F 3 "" H 4650 4900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR033
+L GND #PWR032
 U 1 1 55F2833B
 P 4650 5400
-F 0 "#PWR033" H 4650 5400 30  0001 C CNN
+F 0 "#PWR032" H 4650 5400 30  0001 C CNN
 F 1 "GND" H 4650 5330 30  0001 C CNN
 F 2 "" H 4650 5400 60  0000 C CNN
 F 3 "" H 4650 5400 60  0000 C CNN

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adrien/dev/risebox-hard/electronics/hapy2.5/hapy2.sch)
-    (date "Sun 27 Sep 2015 04:53:24 PM CEST")
+    (date "Sun 27 Sep 2015 05:43:52 PM CEST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref D1)

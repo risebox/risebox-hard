@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Sep 2015 04:31:34 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 27 Sep 2015 04:53:15 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = Connect:bornier2;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /55F1490D/55F220D7;
 Reference = C2;
 ValeurCmp = 10nF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -270,21 +270,21 @@ BeginCmp
 TimeStamp = /55F37875;
 Reference = P1;
 ValeurCmp = RELAY_PUMP;
-IdModule  = Connect:bornier2;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F366C2;
 Reference = P2;
 ValeurCmp = ALIM_SECTEUR;
-IdModule  = Connect:bornier2;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /5604B528;
 Reference = P3;
 ValeurCmp = LOWER_FANS;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
@@ -298,77 +298,77 @@ BeginCmp
 TimeStamp = /55F28D01/55F2AE60;
 Reference = P5;
 ValeurCmp = Tank Level Sensor;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/56044400;
 Reference = P6;
 ValeurCmp = UPPER_LEDS;
-IdModule  = Connect:bornier6;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f6-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/56041B85;
 Reference = P7;
 ValeurCmp = LOWER_LEDS;
-IdModule  = Connect:bornier6;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f6-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/56047EA7;
 Reference = P8;
 ValeurCmp = USER_PANEL;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/56046FA4;
 Reference = P9;
 ValeurCmp = LOWER_BED;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/55F2A5B5;
 Reference = P10;
 ValeurCmp = WTemp probe;
-IdModule  = Connect:bornier3;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f3-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/56045584;
 Reference = P11;
 ValeurCmp = UPPER_BED;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /5604B575;
 Reference = P12;
 ValeurCmp = UPPER_FANS;
-IdModule  = Connect:bornier4;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f4-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/55F2A687;
 Reference = P15;
 ValeurCmp = Air probe;
-IdModule  = Connect:bornier3;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f3-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55FACF9A;
 Reference = P18;
 ValeurCmp = RELAY_AIRPUMP;
-IdModule  = Connect:bornier2;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/55FB4E48;
 Reference = P19;
 ValeurCmp = Power button;
-IdModule  = Connect:bornier2;
+IdModule  = smisioto_bornier_mpt:mpt_0,5%2f2-2,54;
 EndCmp
 
 BeginCmp

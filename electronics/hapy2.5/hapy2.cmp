@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 27 Sep 2015 04:53:15 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 28 Sep 2015 12:31:37 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /55F1490D/55F17D85;
 Reference = C4;
 ValeurCmp = GMK105BJ104KV-F 0.1µF LE;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -445,7 +445,7 @@ BeginCmp
 TimeStamp = /55F1490D/55F17C47;
 Reference = R3;
 ValeurCmp = 220K;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp

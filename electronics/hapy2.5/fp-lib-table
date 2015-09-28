@@ -4,4 +4,5 @@
   (lib (name bbb)(type Legacy)(uri ${KIPRJMOD}/bbb.mod)(options "")(descr ""))
   (lib (name risebox)(type KiCad)(uri ${KIPRJMOD}/risebox.pretty)(options "")(descr ""))
   (lib (name smisioto_bornier_mpt)(type KiCad)(uri ${KIPRJMOD}/w_conn_mpt.pretty)(options "")(descr ""))
+  (lib (name smisioto_he10)(type KiCad)(uri ${KIPRJMOD}/w_conn_strip.pretty)(options "")(descr ""))
 )

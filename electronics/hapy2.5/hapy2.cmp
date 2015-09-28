@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 28 Sep 2015 12:31:37 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 28 Sep 2015 02:02:14 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /55F28D01/55FC335B;
 Reference = P20;
 ValeurCmp = HE10-26;
-IdModule  = Connect:HE10_26D;
+IdModule  = smisioto_he10:vasch_strip_13x2;
 EndCmp
 
 BeginCmp

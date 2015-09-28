@@ -563,13 +563,13 @@ Text Label 3150 4450 2    60   ~ 0
 I2C2_SCL
 Text Label 1050 4450 0    60   ~ 0
 I2C2_SDA
-Text Label 3150 4850 2    60   ~ 0
-UART4_RXD
-Text Label 1050 4850 0    60   ~ 0
-UART4_TXD
 Text Label 1050 4750 0    60   ~ 0
-UART4_RTSN
+UART4_RXD
 Text Label 3150 4750 2    60   ~ 0
+UART4_TXD
+Text Label 3150 4850 2    60   ~ 0
+UART4_RTSN
+Text Label 1050 4850 0    60   ~ 0
 UART4_CTSN
 Text Label 3150 4650 2    60   ~ 0
 SPI0_CS0

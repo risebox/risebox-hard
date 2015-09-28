@@ -967,4 +967,10 @@ F 3 "" H 6900 3000 60  0000 C CNN
 	1    6900 3000
 	1    0    0    -1  
 $EndComp
+Text Label 1150 2800 0    60   ~ 0
+12V_battery
+Text Label 1150 3400 0    60   ~ 0
+GND_battery
+Text Label 2600 2800 0    60   ~ 0
+12V
 $EndSCHEMATC

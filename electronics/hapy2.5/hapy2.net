@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adrien/dev/risebox-hard/electronics/hapy2.5/hapy2.sch)
-    (date "Tue 29 Sep 2015 07:55:07 PM CEST")
+    (date "Tue 29 Sep 2015 10:11:45 PM CEST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref D1)
@@ -210,13 +210,13 @@
       (tstamp 5603EA2C))
     (comp (ref R10)
       (value 220K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0805)
       (libsource (lib hapy2-cache) (part R))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F21624))
     (comp (ref R11)
       (value 43.2K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0805)
       (libsource (lib hapy2-cache) (part R))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F2162B))
@@ -240,7 +240,7 @@
       (tstamp 55F2165C))
     (comp (ref C13)
       (value "GMK105BJ104KV-F 0.1µF LE")
-      (footprint Capacitors_SMD:C_1206)
+      (footprint Capacitors_SMD:C_0402)
       (libsource (lib hapy2-cache) (part C))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F2166A))
@@ -258,13 +258,13 @@
       (tstamp 55F2168E))
     (comp (ref C14)
       (value "C0402C120J3GACTU 12pF LE")
-      (footprint Capacitors_SMD:C_1206)
+      (footprint Capacitors_SMD:C_0402)
       (libsource (lib hapy2-cache) (part C))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F21695))
     (comp (ref C15)
       (value "C0402C121J5GACTU 120pF LE")
-      (footprint Capacitors_SMD:C_1206)
+      (footprint Capacitors_SMD:C_0402)
       (libsource (lib hapy2-cache) (part C))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F216A7))
@@ -324,13 +324,13 @@
       (tstamp 55F233B5))
     (comp (ref C10)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0402)
+      (footprint Capacitors_SMD:C_1206)
       (libsource (lib hapy2-cache) (part C))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F233BC))
     (comp (ref R44)
       (value 10K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0805)
       (libsource (lib hapy2-cache) (part R))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F959FE))
@@ -354,7 +354,7 @@
       (tstamp 55F96BC6))
     (comp (ref R47)
       (value 11.8K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0805)
       (libsource (lib hapy2-cache) (part R))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55F9A3B5))
@@ -402,7 +402,7 @@
       (tstamp 55FB027D))
     (comp (ref R39)
       (value 1K)
-      (footprint Resistors_SMD:R_0603)
+      (footprint Resistors_SMD:R_0805)
       (libsource (lib hapy2-cache) (part R))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55FB07F1))
@@ -432,7 +432,7 @@
       (tstamp 55FB723E))
     (comp (ref C18)
       (value 10nF)
-      (footprint Capacitors_SMD:C_0402)
+      (footprint Capacitors_SMD:C_0603)
       (libsource (lib hapy2-cache) (part C))
       (sheetpath (names "/Battery power supply/") (tstamps /55F149A4/))
       (tstamp 55FB732E))
@@ -720,27 +720,6 @@
       (sheetpath (names "/Brain, sensors and lights/") (tstamps /55F28D01/))
       (tstamp 56047EA7)))
   (libparts
-    (libpart (lib hapy2-cache) (part BATTERY)
-      (fields
-        (field (name Reference) BT)
-        (field (name Value) BATTERY))
-      (pins
-        (pin (num 1) (name +) (type passive))
-        (pin (num 2) (name -) (type passive))))
-    (libpart (lib tps54335a) (part DCDC_TI_TPS54335A)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) DCDC_TI_TPS54335A))
-      (pins
-        (pin (num 1) (name BOOT) (type output))
-        (pin (num 2) (name VIN) (type input))
-        (pin (num 3) (name PH) (type output))
-        (pin (num 4) (name GND) (type passive))
-        (pin (num 5) (name VSENSE) (type input))
-        (pin (num 6) (name COMP) (type output))
-        (pin (num 7) (name EN) (type input))
-        (pin (num 8) (name RT) (type output))
-        (pin (num 9) (name PAD) (type passive))))
     (libpart (lib bbb) (part bbb)
       (fields
         (field (name Reference) U)
@@ -840,26 +819,80 @@
         (pin (num 944) (name DGND) (type power_in))
         (pin (num 945) (name DGND) (type power_in))
         (pin (num 946) (name DGND) (type power_in))))
-    (libpart (lib hapy2-cache) (part DIODE)
-      (footprints
-        (fp D?)
-        (fp S*))
+    (libpart (lib tps54335a) (part DCDC_TI_TPS54335A)
       (fields
-        (field (name Reference) D)
-        (field (name Value) DIODE))
+        (field (name Reference) U)
+        (field (name Value) DCDC_TI_TPS54335A))
       (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib hapy2-cache) (part MOS_P)
+        (pin (num 1) (name BOOT) (type output))
+        (pin (num 2) (name VIN) (type input))
+        (pin (num 3) (name PH) (type output))
+        (pin (num 4) (name GND) (type passive))
+        (pin (num 5) (name VSENSE) (type input))
+        (pin (num 6) (name COMP) (type output))
+        (pin (num 7) (name EN) (type input))
+        (pin (num 8) (name RT) (type output))
+        (pin (num 9) (name PAD) (type passive))))
+    (libpart (lib hapy2-cache) (part BATTERY)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) BATTERY))
+      (pins
+        (pin (num 1) (name +) (type passive))
+        (pin (num 2) (name -) (type passive))))
+    (libpart (lib hapy2-cache) (part BD140)
       (aliases
-        (alias MOSFET_P))
+        (alias BD136)
+        (alias BD138)
+        (alias BD234)
+        (alias BD236)
+        (alias BD238))
+      (footprints
+        (fp TO126*))
       (fields
         (field (name Reference) Q)
-        (field (name Value) MOS_P))
+        (field (name Value) BD140)
+        (field (name Footprint) TO126))
       (pins
-        (pin (num D) (name D) (type passive))
-        (pin (num G) (name G) (type input))
-        (pin (num S) (name S) (type passive))))
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name C) (type passive))
+        (pin (num 3) (name B) (type input))))
+    (libpart (lib hapy2-cache) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib hapy2-cache) (part CONN_01X02)
+      (footprints
+        (fp Pin_Header_Straight_1X02)
+        (fp Pin_Header_Angled_1X02)
+        (fp Socket_Strip_Straight_1X02)
+        (fp Socket_Strip_Angled_1X02))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X02))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))))
+    (libpart (lib hapy2-cache) (part CONN_01X03)
+      (footprints
+        (fp Pin_Header_Straight_1X03)
+        (fp Pin_Header_Angled_1X03)
+        (fp Socket_Strip_Straight_1X03)
+        (fp Socket_Strip_Angled_1X03))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X03))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))))
     (libpart (lib hapy2-cache) (part CONN_01X04)
       (footprints
         (fp Pin_Header_Straight_1X04)
@@ -874,27 +907,39 @@
         (pin (num 2) (name P2) (type passive))
         (pin (num 3) (name P3) (type passive))
         (pin (num 4) (name P4) (type passive))))
-    (libpart (lib hapy2-cache) (part MOS_N)
-      (aliases
-        (alias MOSFET_N))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MOS_N))
-      (pins
-        (pin (num D) (name D) (type passive))
-        (pin (num G) (name G) (type input))
-        (pin (num S) (name S) (type passive))))
-    (libpart (lib hapy2-cache) (part C)
+    (libpart (lib hapy2-cache) (part CONN_01X06)
       (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
+        (fp Pin_Header_Straight_1X06)
+        (fp Pin_Header_Angled_1X06)
+        (fp Socket_Strip_Straight_1X06)
+        (fp Socket_Strip_Angled_1X06))
       (fields
-        (field (name Reference) C)
-        (field (name Value) C))
+        (field (name Reference) P)
+        (field (name Value) CONN_01X06))
       (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))))
+    (libpart (lib hapy2-cache) (part DIODE)
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODE))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib hapy2-cache) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
     (libpart (lib hapy2-cache) (part HE10-26)
       (fields
         (field (name Reference) P)
@@ -926,58 +971,6 @@
         (pin (num 24) (name 24) (type passive))
         (pin (num 25) (name 25) (type passive))
         (pin (num 26) (name 26) (type passive))))
-    (libpart (lib hapy2-cache) (part SPST)
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SPST))
-      (pins
-        (pin (num 1) (name 1) (type input))
-        (pin (num 2) (name 2) (type input))))
-    (libpart (lib hapy2-cache) (part FUSE)
-      (fields
-        (field (name Reference) F)
-        (field (name Value) FUSE))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))))
-    (libpart (lib hapy2-cache) (part BD140)
-      (aliases
-        (alias BD136)
-        (alias BD138)
-        (alias BD234)
-        (alias BD236)
-        (alias BD238))
-      (footprints
-        (fp TO126*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BD140)
-        (field (name Footprint) TO126))
-      (pins
-        (pin (num 1) (name E) (type passive))
-        (pin (num 2) (name C) (type passive))
-        (pin (num 3) (name B) (type input))))
-    (libpart (lib hapy2-cache) (part LM317_SOT223)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) LM317_SOT223))
-      (pins
-        (pin (num 1) (name ADJ) (type input))
-        (pin (num 2) (name OUT) (type power_out))
-        (pin (num 3) (name IN) (type input))))
-    (libpart (lib hapy2-cache) (part R)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib hapy2-cache) (part INDUCTOR)
       (fields
         (field (name Reference) L)
@@ -985,42 +978,6 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib hapy2-cache) (part CONN_01X03)
-      (footprints
-        (fp Pin_Header_Straight_1X03)
-        (fp Pin_Header_Angled_1X03)
-        (fp Socket_Strip_Straight_1X03)
-        (fp Socket_Strip_Angled_1X03))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X03))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))))
-    (libpart (lib hapy2-cache) (part CONN_01X02)
-      (footprints
-        (fp Pin_Header_Straight_1X02)
-        (fp Pin_Header_Angled_1X02)
-        (fp Socket_Strip_Straight_1X02)
-        (fp Socket_Strip_Angled_1X02))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X02))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))))
-    (libpart (lib hapy2-cache) (part ZENER)
-      (footprints
-        (fp D?)
-        (fp SO*)
-        (fp SM*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) ZENER))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
     (libpart (lib hapy2-cache) (part LED)
       (footprints
         (fp LED-3MM)
@@ -1036,29 +993,72 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
-    (libpart (lib hapy2-cache) (part CONN_01X06)
-      (footprints
-        (fp Pin_Header_Straight_1X06)
-        (fp Pin_Header_Angled_1X06)
-        (fp Socket_Strip_Straight_1X06)
-        (fp Socket_Strip_Angled_1X06))
+    (libpart (lib hapy2-cache) (part LM317_SOT223)
       (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X06))
+        (field (name Reference) U)
+        (field (name Value) LM317_SOT223))
       (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive)))))
+        (pin (num 1) (name ADJ) (type input))
+        (pin (num 2) (name OUT) (type power_out))
+        (pin (num 3) (name IN) (type input))))
+    (libpart (lib hapy2-cache) (part MOS_N)
+      (aliases
+        (alias MOSFET_N))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOS_N))
+      (pins
+        (pin (num D) (name D) (type passive))
+        (pin (num G) (name G) (type input))
+        (pin (num S) (name S) (type passive))))
+    (libpart (lib hapy2-cache) (part MOS_P)
+      (aliases
+        (alias MOSFET_P))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOS_P))
+      (pins
+        (pin (num D) (name D) (type passive))
+        (pin (num G) (name G) (type input))
+        (pin (num S) (name S) (type passive))))
+    (libpart (lib hapy2-cache) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib hapy2-cache) (part SPST)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SPST))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))))
+    (libpart (lib hapy2-cache) (part ZENER)
+      (footprints
+        (fp D?)
+        (fp SO*)
+        (fp SM*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) ZENER))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive)))))
   (libraries
+    (library (logical tps54335a)
+      (uri /home/adrien/dev/risebox-hard/electronics/hapy2.5/tps54335a.lib))
     (library (logical hapy2-cache)
       (uri /home/adrien/dev/risebox-hard/electronics/hapy2.5/hapy2-cache.lib))
     (library (logical bbb)
-      (uri /home/adrien/dev/risebox-hard/electronics/hapy2.5/bbb.lib))
-    (library (logical tps54335a)
-      (uri /home/adrien/dev/risebox-hard/electronics/hapy2.5/tps54335a.lib)))
+      (uri /home/adrien/dev/risebox-hard/electronics/hapy2.5/bbb.lib)))
   (nets
     (net (code 1) (name "/Brain, sensors and lights/AirGPIO")
       (node (ref U1) (pin 17))

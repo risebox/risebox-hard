@@ -90,17 +90,6 @@ F5 "GNDChargeur" I L 1800 3500 60
 F6 "24VIn" I L 1800 2750 60 
 F7 "24VOut" O R 3400 2500 60 
 $EndSheet
-$Sheet
-S 1750 5000 1600 1500
-U 55F149A4
-F0 "Battery power supply" 60
-F1 "battery.sch" 60
-F2 "5.4V" O R 3350 5750 60 
-F3 "Alim24V" I L 1750 5250 60 
-F4 "AlimGnd" I L 1750 5450 60 
-F5 "3.3V_BBB" I R 3350 6400 60 
-F6 "BatteryLevel" O L 1750 6350 60 
-$EndSheet
 $Comp
 L DIODE D1
 U 1 1 55F325B1
@@ -480,5 +469,16 @@ F6 "BatteryLEDGPIO" O R 8450 5500 60
 F7 "3.3Vout" O L 6850 5550 60 
 F8 "AirGPIO" O L 6850 3850 60 
 F9 "BatteryLevel" I L 6850 5800 60 
+$EndSheet
+$Sheet
+S 1750 5000 1600 1500
+U 55F149A4
+F0 "Battery power supply" 60
+F1 "battery.sch" 60
+F2 "5.4V" O R 3350 5750 60 
+F3 "Alim24V" I L 1750 5250 60 
+F4 "AlimGnd" I L 1750 5450 60 
+F5 "3.3V_BBB" I R 3350 6400 60 
+F6 "BatteryLevel" O L 1750 6350 60 
 $EndSheet
 $EndSCHEMATC

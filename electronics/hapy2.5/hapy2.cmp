@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 29 Sep 2015 10:11:33 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 30 Sep 2015 05:13:55 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -130,7 +130,14 @@ BeginCmp
 TimeStamp = /55F149A4/55FB732E;
 Reference = C18;
 ValeurCmp = 10nF;
-IdModule  = Capacitors_SMD:C_0603;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560C1319;
+Reference = C19;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
@@ -243,6 +250,13 @@ TimeStamp = /55FAC4A3/55FACABE;
 Reference = D16;
 ValeurCmp = RS1A DIODE;
 IdModule  = ab2tech:AB2_DO-214AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560BEB1E;
+Reference = D17;
+ValeurCmp = ZENER;
+IdModule  = risebox:DIODE_SOD-123;
 EndCmp
 
 BeginCmp
@@ -428,6 +442,13 @@ IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
+TimeStamp = /55F28D01/560BF63D;
+Reference = Q8;
+ValeurCmp = BSS84P H6327;
+IdModule  = risebox:SOT-23-FET;
+EndCmp
+
+BeginCmp
 TimeStamp = /55F357A2;
 Reference = R1;
 ValeurCmp = 24.3K;
@@ -501,7 +522,7 @@ BeginCmp
 TimeStamp = /55F149A4/55F2162B;
 Reference = R11;
 ValeurCmp = 43.2K;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -711,7 +732,7 @@ BeginCmp
 TimeStamp = /55F149A4/55FAEF36;
 Reference = R41;
 ValeurCmp = 56;
-IdModule  = Resistors_SMD:R_0603;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
@@ -795,6 +816,20 @@ BeginCmp
 TimeStamp = /55F1490D/56030DBE;
 Reference = R53;
 ValeurCmp = 16K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560C072C;
+Reference = R54;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560C0066;
+Reference = R55;
+ValeurCmp = R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 

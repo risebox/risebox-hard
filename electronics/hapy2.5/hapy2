@@ -1,0 +1,134 @@
+ISource,/Users/nicolasnardone/dev/risebox-hard/electronics/hapy2.5/hapy2.sch
+Kicad Rev,Eeschema (2015-09-09 BZR 6176)-product
+Generated Date,Mercredi 30 septembre 2015 22:38:42
+
+Title,Risebox Brain Hâpy 2.5
+Company,Risebox
+Revision,0.1
+Date Issue,20 Aug 2015
+
+Reference,Value,Library,Library Ref
+D1,VS-30BQ040TRPBF SCHOTTKY,hapy2-cache,DIODE
+D2,VS-30BQ040TRPBF SCHOTTKY,hapy2-cache,DIODE
+R1,24.3K,hapy2-cache,R
+R2,11.5K,hapy2-cache,R
+D3,MMSZ4678T1G ZENER,hapy2-cache,ZENER
+C1,10nF,hapy2-cache,C
+P2,ALIM_SECTEUR,hapy2-cache,CONN_01X02
+P1,RELAY_PUMP,hapy2-cache,CONN_01X02
+R37,470,hapy2-cache,R
+D11,KPT-1608YC,hapy2-cache,LED
+P18,RELAY_AIRPUMP,hapy2-cache,CONN_01X02
+P3,LOWER_FANS,hapy2-cache,CONN_01X04
+P12,UPPER_FANS,hapy2-cache,CONN_01X04
+R3,220K,hapy2-cache,R
+R4,43.2K,hapy2-cache,R
+C3,GRM31CC8YA106KA12L - 10µF LE,hapy2-cache,C
+C4,GMK105BJ104KV-F 0.1µF LE,hapy2-cache,C
+R5,143K,hapy2-cache,R
+C5,GMK105BJ104KV-F 0.1µF LE,hapy2-cache,C
+L1,XAL6060-153MEC - 15µH - 6A,hapy2-cache,INDUCTOR
+R6,3.74K,hapy2-cache,R
+C6,C0402C120J3GACTU 12pF LE,hapy2-cache,C
+C7,C0402C121J5GACTU 120pF LE,hapy2-cache,C
+C8,GRM31CR60J476KE19L 47µF LE,hapy2-cache,C
+C9,GRM31CR60J476KE19L 47µF LE,hapy2-cache,C
+R7,51.1,hapy2-cache,R
+R8,100K,hapy2-cache,R
+R9,680,hapy2-cache,R
+SW1,MSS3112D,hapy2-cache,SPST
+D4,RS1A DIODE,hapy2-cache,DIODE
+D5,1SMB5935BT3G,hapy2-cache,ZENER
+C2,10nF,hapy2-cache,C
+R53,16K,hapy2-cache,R
+U2,DCDC_TI_TPS54335A,tps54335a,DCDC_TI_TPS54335A
+Q2,2N7002,hapy2-cache,MOSFET_N
+R35,100,hapy2-cache,R
+R36,1K,hapy2-cache,R
+D10,PMEG2015EJ,115 DIODE,hapy2-cache,DIODE
+Q1,2N7002,hapy2-cache,MOSFET_N
+R18,100,hapy2-cache,R
+R19,1K,hapy2-cache,R
+D9,RS1A DIODE,hapy2-cache,DIODE
+R17,470,hapy2-cache,R
+D8,KPH-1608EC,hapy2-cache,LED
+Q7,2N7002,hapy2-cache,MOSFET_N
+R51,100,hapy2-cache,R
+R52,1K,hapy2-cache,R
+D16,RS1A DIODE,hapy2-cache,DIODE
+R50,470,hapy2-cache,R
+D15,KPH-1608EC,hapy2-cache,LED
+P10,WTemp probe,hapy2-cache,CONN_01X03
+R27,4.7K,hapy2-cache,R
+R23,10K,hapy2-cache,R
+R29,10K,hapy2-cache,R
+R24,10K,hapy2-cache,R
+R30,10K,hapy2-cache,R
+R26,1K,hapy2-cache,R
+R31,1K,hapy2-cache,R
+R33,1K,hapy2-cache,R
+R25,1K,hapy2-cache,R
+R28,1K,hapy2-cache,R
+P15,Air probe,hapy2-cache,CONN_01X03
+R32,4.7K,hapy2-cache,R
+R34,1K,hapy2-cache,R
+R21,1.8K,hapy2-cache,R
+R20,3.3K,hapy2-cache,R
+P4,PH Probe,hapy2-cache,CONN_01X03
+R22,1K,hapy2-cache,R
+P5,Tank Level Sensor,hapy2-cache,CONN_01X04
+R49,200,hapy2-cache,R
+R48,10K,hapy2-cache,R
+P19,Power button,hapy2-cache,CONN_01X02
+Q6,2N7002,hapy2-cache,MOS_N
+P20,T821126A1S100CEU  HE10-26,hapy2-cache,HE10-26
+U1,bbb,bbb,bbb
+P7,LOWER_LEDS,hapy2-cache,CONN_01X06
+P6,UPPER_LEDS,hapy2-cache,CONN_01X06
+P11,UPPER_BED,hapy2-cache,CONN_01X04
+P9,LOWER_BED,hapy2-cache,CONN_01X04
+P8,USER_PANEL,hapy2-cache,CONN_01X04
+D17,ZENER,hapy2-cache,ZENER
+Q8,BSS84P H6327,hapy2-cache,MOS_P
+R55,R,hapy2-cache,R
+R54,R,hapy2-cache,R
+C19,10nF,hapy2-cache,C
+R10,220K,hapy2-cache,R
+R11,43.2K,hapy2-cache,R
+C11,GRM31CC8YA106KA12L - 10µF LE,hapy2-cache,C
+C12,GMK105BJ104KV-F 0.1µF LE,hapy2-cache,C
+R12,143K,hapy2-cache,R
+C13,GMK105BJ104KV-F 0.1µF LE,hapy2-cache,C
+L2,XAL6060-153MEC - 15µH - 6A,hapy2-cache,INDUCTOR
+R13,3.74K,hapy2-cache,R
+C14,C0402C120J3GACTU 12pF LE,hapy2-cache,C
+C15,C0402C121J5GACTU 120pF LE,hapy2-cache,C
+C16,GRM31CR60J476KE19L 47µF LE,hapy2-cache,C
+C17,GRM31CR60J476KE19L 47µF LE,hapy2-cache,C
+R14,51.1,hapy2-cache,R
+R15,100K,hapy2-cache,R
+R16,17.4K,hapy2-cache,R
+BT1,BATTERY,hapy2-cache,BATTERY
+F1,0154002.DR  LITTELFUSE,hapy2-cache,FUSE
+D6,RS1A DIODE,hapy2-cache,DIODE
+D7,MMSZ4701-E3-08 ZENER,hapy2-cache,ZENER
+C10,10nF,hapy2-cache,C
+R44,10K,hapy2-cache,R
+Q5,BSS84P H6327,hapy2-cache,MOS_P
+R45,100,hapy2-cache,R
+Q4,2N7002,hapy2-cache,MOS_N
+R47,11.8K,hapy2-cache,R
+R46,71.5K,hapy2-cache,R
+D12,RS1A DIODE,hapy2-cache,DIODE
+D13,RS1A DIODE,hapy2-cache,DIODE
+R41,56,hapy2-cache,R
+R40,10K,hapy2-cache,R
+Q3,BD140,hapy2-cache,BD140
+U5,LM317,hapy2-cache,LM317_SOT223
+R39,1K,hapy2-cache,R
+R38,9.76K,hapy2-cache,R
+R43,10K,hapy2-cache,R
+R42,100,hapy2-cache,R
+D14,MMSZ4678T1G  ZENER,hapy2-cache,ZENER
+C18,10nF,hapy2-cache,C
+U3,DCDC_TI_TPS54335A,tps54335a,DCDC_TI_TPS54335A

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 30 Sep 2015 05:13:55 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 01 Oct 2015 09:29:58 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -732,7 +732,7 @@ BeginCmp
 TimeStamp = /55F149A4/55FAEF36;
 Reference = R41;
 ValeurCmp = 56;
-IdModule  = Resistors_SMD:R_0805;
+IdModule  = Resistors_SMD:R_1206;
 EndCmp
 
 BeginCmp

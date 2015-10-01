@@ -271,34 +271,34 @@ P8_46
 $Comp
 L R R21
 U 1 1 55F2AE44
-P 1900 1150
-F 0 "R21" V 1980 1150 40  0000 C CNN
-F 1 "1.8K" V 1907 1151 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1830 1150 30  0001 C CNN
-F 3 "" H 1900 1150 30  0000 C CNN
-	1    1900 1150
+P 1850 1850
+F 0 "R21" V 1930 1850 40  0000 C CNN
+F 1 "1.8K" V 1857 1851 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 1850 30  0001 C CNN
+F 3 "" H 1850 1850 30  0000 C CNN
+	1    1850 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R20
 U 1 1 55F2AE4B
-P 1600 1600
-F 0 "R20" V 1680 1600 40  0000 C CNN
-F 1 "3.3K" V 1607 1601 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1530 1600 30  0001 C CNN
-F 3 "" H 1600 1600 30  0000 C CNN
-	1    1600 1600
+P 1450 1350
+F 0 "R20" V 1530 1350 40  0000 C CNN
+F 1 "3.3K" V 1457 1351 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 1350 30  0001 C CNN
+F 3 "" H 1450 1350 30  0000 C CNN
+	1    1450 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_01X03 P4
 U 1 1 55F2AE52
-P 950 850
-F 0 "P4" H 950 1050 50  0000 C CNN
-F 1 "PH Probe" V 1050 850 50  0000 C CNN
-F 2 "Connect:PINHEAD1-3" H 950 850 60  0001 C CNN
-F 3 "" H 950 850 60  0000 C CNN
-	1    950  850 
+P 750 850
+F 0 "P4" H 750 1050 50  0000 C CNN
+F 1 "PH Probe" V 850 850 50  0000 C CNN
+F 2 "Connect:PINHEAD1-3" H 750 850 60  0001 C CNN
+F 3 "" H 750 850 60  0000 C CNN
+	1    750  850 
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -331,9 +331,9 @@ Text Label 2050 2900 2    60   ~ 0
 P8_11
 Text Label 2050 2700 2    60   ~ 0
 GND
-Text Label 2650 850  2    60   ~ 0
+Text Label 2800 2200 2    60   ~ 0
 AGND
-Text Label 2650 1450 2    60   ~ 0
+Text Label 2800 1350 2    60   ~ 0
 AIN6
 Text HLabel 1600 6350 0    60   Input ~ 0
 PowerProbe
@@ -502,15 +502,15 @@ P9_23
 $Comp
 L MOS_N Q6
 U 1 1 55FB58DE
-P 3300 2100
-F 0 "Q6" H 3310 2270 60  0000 R CNN
-F 1 "2N7002" H 3310 1950 60  0000 R CNN
-F 2 "risebox:SOT-23-FET" H 3300 2100 60  0001 C CNN
-F 3 "" H 3300 2100 60  0000 C CNN
-	1    3300 2100
+P 3300 2200
+F 0 "Q6" H 3310 2370 60  0000 R CNN
+F 1 "2N7002" H 3310 2050 60  0000 R CNN
+F 2 "risebox:SOT-23-FET" H 3300 2200 60  0001 C CNN
+F 3 "" H 3300 2200 60  0000 C CNN
+	1    3300 2200
 	-1   0    0    1   
 $EndComp
-Text Label 4100 2100 2    60   ~ 0
+Text Label 4100 2200 2    60   ~ 0
 P9_23
 Text HLabel 1600 6550 0    60   Input ~ 0
 BatteryLevel
@@ -670,6 +670,204 @@ F 3 "" H 10600 6000 60  0000 C CNN
 	1    10600 6000
 	1    0    0    -1  
 $EndComp
+Text Notes 9050 5750 0    60   ~ 0
+Blue
+Text Notes 9050 5950 0    60   ~ 0
+Red
+Text Notes 9050 6150 0    60   ~ 0
+White
+Text Notes 8850 5500 0    60   ~ 0
+LOWER LEDS
+Text Label 10150 5100 0    60   ~ 0
+GND
+Text Label 9350 4600 0    60   ~ 0
+P9_29
+Text Label 10150 4700 0    60   ~ 0
+GND
+Text Label 9350 4800 0    60   ~ 0
+P9_31
+Text Label 10150 4900 0    60   ~ 0
+GND
+Text Label 9350 5000 0    60   ~ 0
+P9_42
+$Comp
+L CONN_01X06 P6
+U 1 1 56044400
+P 10600 4850
+F 0 "P6" H 10600 5200 50  0000 C CNN
+F 1 "UPPER_LEDS" V 10700 4850 50  0000 C CNN
+F 2 "smisioto_bornier_mpt:mpt_0,5%2f6-2,54" H 10600 4850 60  0001 C CNN
+F 3 "" H 10600 4850 60  0000 C CNN
+	1    10600 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 9050 4600 0    60   ~ 0
+Blue
+Text Notes 9050 4800 0    60   ~ 0
+Red
+Text Notes 9050 5000 0    60   ~ 0
+White
+Text Notes 8850 4350 0    60   ~ 0
+UPPER LEDS
+$Comp
+L CONN_01X04 P11
+U 1 1 56045584
+P 10800 3650
+F 0 "P11" H 10800 3900 50  0000 C CNN
+F 1 "UPPER_BED" V 10900 3650 50  0000 C CNN
+F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 3650 60  0001 C CNN
+F 3 "" H 10800 3650 60  0000 C CNN
+	1    10800 3650
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 3500 0    60   ~ 0
+Overflow
+Text Notes 8900 3700 0    60   ~ 0
+WCycle
+Text Notes 8900 3150 0    60   ~ 0
+UPPER BED
+Text Label 10250 2400 0    60   ~ 0
+GND
+Text Label 9350 2300 0    60   ~ 0
+P8_8
+Text Label 9350 2150 0    60   ~ 0
+3.3V
+Text Label 10250 2600 0    60   ~ 0
+GND
+Text Label 9350 2500 0    60   ~ 0
+P8_7
+Text Label 9350 2650 0    60   ~ 0
+3.3V
+$Comp
+L CONN_01X04 P9
+U 1 1 56046FA4
+P 10800 2450
+F 0 "P9" H 10800 2700 50  0000 C CNN
+F 1 "LOWER_BED" V 10900 2450 50  0000 C CNN
+F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 2450 60  0001 C CNN
+F 3 "" H 10800 2450 60  0000 C CNN
+	1    10800 2450
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 2300 0    60   ~ 0
+Overflow
+Text Notes 8900 2500 0    60   ~ 0
+WCycle
+Text Notes 8900 1950 0    60   ~ 0
+LOWER BED
+Text Label 10250 1200 0    60   ~ 0
+GND
+Text Label 9350 1100 0    60   ~ 0
+P8_32
+Text Label 9350 950  0    60   ~ 0
+3.3V
+Text Label 10250 1400 0    60   ~ 0
+GND
+Text Label 9350 1300 0    60   ~ 0
+P8_34
+$Comp
+L CONN_01X04 P8
+U 1 1 56047EA7
+P 10800 1250
+F 0 "P8" H 10800 1500 50  0000 C CNN
+F 1 "USER_PANEL" V 10900 1250 50  0000 C CNN
+F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 1250 60  0001 C CNN
+F 3 "" H 10800 1250 60  0000 C CNN
+	1    10800 1250
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 1100 0    60   ~ 0
+Button
+Text Notes 8800 1300 0    60   ~ 0
+Status LED
+Text Notes 8900 750  0    60   ~ 0
+USER PANEL
+Text Label 7100 5050 2    60   ~ 0
+AIN2
+NoConn ~ 6700 2050
+Text Label 3150 4050 2    60   ~ 0
+GND
+NoConn ~ 5200 5650
+NoConn ~ 5100 5000
+$Comp
+L ZENER D17
+U 1 1 560BEB1E
+P 2150 1650
+F 0 "D17" H 2150 1750 50  0000 C CNN
+F 1 "ZENER" H 2150 1550 40  0000 C CNN
+F 2 "risebox:DIODE_SOD-123" H 2150 1650 60  0001 C CNN
+F 3 "" H 2150 1650 60  0000 C CNN
+	1    2150 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 560BEEB4
+P 2150 2050
+F 0 "#PWR020" H 2150 2050 30  0001 C CNN
+F 1 "GND" H 2150 1980 30  0001 C CNN
+F 2 "" H 2150 2050 60  0000 C CNN
+F 3 "" H 2150 2050 60  0000 C CNN
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOS_P Q8
+U 1 1 560BF63D
+P 3200 950
+F 0 "Q8" H 3200 1140 60  0000 R CNN
+F 1 "BSS84P H6327" H 3200 770 60  0000 R CNN
+F 2 "risebox:SOT-23-FET" H 3200 950 60  0001 C CNN
+F 3 "" H 3200 950 60  0000 C CNN
+	1    3200 950 
+	0    1    -1   0   
+$EndComp
+Text Label 4350 850  2    60   ~ 0
+5V
+$Comp
+L GND #PWR021
+U 1 1 560C0052
+P 3200 2600
+F 0 "#PWR021" H 3200 2600 30  0001 C CNN
+F 1 "GND" H 3200 2530 30  0001 C CNN
+F 2 "" H 3200 2600 60  0000 C CNN
+F 3 "" H 3200 2600 60  0000 C CNN
+	1    3200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R55
+U 1 1 560C0066
+P 3650 1300
+F 0 "R55" V 3730 1300 40  0000 C CNN
+F 1 "R" V 3657 1301 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3580 1300 30  0001 C CNN
+F 3 "" H 3650 1300 30  0000 C CNN
+	1    3650 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R54
+U 1 1 560C072C
+P 3200 1650
+F 0 "R54" V 3280 1650 40  0000 C CNN
+F 1 "R" V 3207 1651 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3130 1650 30  0001 C CNN
+F 3 "" H 3200 1650 30  0000 C CNN
+	1    3200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 560C1319
+P 2400 1650
+F 0 "C19" H 2400 1750 40  0000 L CNN
+F 1 "10nF" H 2406 1565 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2438 1500 30  0001 C CNN
+F 3 "" H 2400 1650 60  0000 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6700 3650 7100 3650
 Wire Wire Line
@@ -753,20 +951,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 2700 2050 2700
 Wire Wire Line
-	1150 850  2650 850 
-Wire Wire Line
-	1150 950  1250 950 
-Wire Wire Line
-	1250 950  1250 1600
-Wire Wire Line
-	1250 1600 1350 1600
-Wire Wire Line
-	1900 1400 1900 1600
-Wire Wire Line
-	1900 1450 2650 1450
-Connection ~ 1900 1450
-Wire Wire Line
-	1900 1600 1850 1600
+	1700 1350 2800 1350
 Wire Wire Line
 	1600 6150 2050 6150
 Wire Wire Line
@@ -882,7 +1067,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6500 3850 6500
 Wire Wire Line
-	3500 2100 4100 2100
+	3500 2200 4100 2200
 Wire Wire Line
 	1600 6550 2050 6550
 Wire Wire Line
@@ -963,9 +1148,6 @@ Wire Wire Line
 	5200 4850 4850 4850
 Wire Wire Line
 	6700 2250 7100 2250
-Wire Wire Line
-	1900 900  1900 850 
-Connection ~ 1900 850 
 Connection ~ 7950 2750
 Connection ~ 7950 3250
 Connection ~ 7900 4800
@@ -998,12 +1180,6 @@ Wire Wire Line
 	10400 6250 10150 6250
 Wire Wire Line
 	10400 5750 10200 5750
-Text Notes 9050 5750 0    60   ~ 0
-Blue
-Text Notes 9050 5950 0    60   ~ 0
-Red
-Text Notes 9050 6150 0    60   ~ 0
-White
 Wire Notes Line
 	8750 5350 8750 6400
 Wire Notes Line
@@ -1016,31 +1192,6 @@ Wire Notes Line
 	9600 5500 9600 5350
 Wire Notes Line
 	9600 5350 8750 5350
-Text Notes 8850 5500 0    60   ~ 0
-LOWER LEDS
-Text Label 10150 5100 0    60   ~ 0
-GND
-Text Label 9350 4600 0    60   ~ 0
-P9_29
-Text Label 10150 4700 0    60   ~ 0
-GND
-Text Label 9350 4800 0    60   ~ 0
-P9_31
-Text Label 10150 4900 0    60   ~ 0
-GND
-Text Label 9350 5000 0    60   ~ 0
-P9_42
-$Comp
-L CONN_01X06 P6
-U 1 1 56044400
-P 10600 4850
-F 0 "P6" H 10600 5200 50  0000 C CNN
-F 1 "UPPER_LEDS" V 10700 4850 50  0000 C CNN
-F 2 "smisioto_bornier_mpt:mpt_0,5%2f6-2,54" H 10600 4850 60  0001 C CNN
-F 3 "" H 10600 4850 60  0000 C CNN
-	1    10600 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9700 4600 9350 4600
 Wire Wire Line
@@ -1059,12 +1210,6 @@ Wire Wire Line
 	10400 5100 10150 5100
 Wire Wire Line
 	10400 4600 10200 4600
-Text Notes 9050 4600 0    60   ~ 0
-Blue
-Text Notes 9050 4800 0    60   ~ 0
-Red
-Text Notes 9050 5000 0    60   ~ 0
-White
 Wire Notes Line
 	8750 4200 8750 5250
 Wire Notes Line
@@ -1077,29 +1222,12 @@ Wire Notes Line
 	9600 4350 9600 4200
 Wire Notes Line
 	9600 4200 8750 4200
-Text Notes 8850 4350 0    60   ~ 0
-UPPER LEDS
-$Comp
-L CONN_01X04 P11
-U 1 1 56045584
-P 10800 3650
-F 0 "P11" H 10800 3900 50  0000 C CNN
-F 1 "UPPER_BED" V 10900 3650 50  0000 C CNN
-F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 3650 60  0001 C CNN
-F 3 "" H 10800 3650 60  0000 C CNN
-	1    10800 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 3850 10100 3850
 Wire Wire Line
 	10200 3350 10200 3500
 Wire Wire Line
 	10100 3350 10200 3350
-Text Notes 8900 3500 0    60   ~ 0
-Overflow
-Text Notes 8900 3700 0    60   ~ 0
-WCycle
 Wire Notes Line
 	11000 3150 11000 4050
 Wire Notes Line
@@ -1112,20 +1240,6 @@ Wire Notes Line
 	8750 3000 8750 4050
 Wire Notes Line
 	8750 4050 11000 4050
-Text Notes 8900 3150 0    60   ~ 0
-UPPER BED
-Text Label 10250 2400 0    60   ~ 0
-GND
-Text Label 9350 2300 0    60   ~ 0
-P8_8
-Text Label 9350 2150 0    60   ~ 0
-3.3V
-Text Label 10250 2600 0    60   ~ 0
-GND
-Text Label 9350 2500 0    60   ~ 0
-P8_7
-Text Label 9350 2650 0    60   ~ 0
-3.3V
 Wire Wire Line
 	10250 2400 10600 2400
 Wire Wire Line
@@ -1142,27 +1256,12 @@ Wire Wire Line
 Connection ~ 10200 2500
 Wire Wire Line
 	9600 2650 9350 2650
-$Comp
-L CONN_01X04 P9
-U 1 1 56046FA4
-P 10800 2450
-F 0 "P9" H 10800 2700 50  0000 C CNN
-F 1 "LOWER_BED" V 10900 2450 50  0000 C CNN
-F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 2450 60  0001 C CNN
-F 3 "" H 10800 2450 60  0000 C CNN
-	1    10800 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 2650 10100 2650
 Wire Wire Line
 	10200 2150 10200 2300
 Wire Wire Line
 	10100 2150 10200 2150
-Text Notes 8900 2300 0    60   ~ 0
-Overflow
-Text Notes 8900 2500 0    60   ~ 0
-WCycle
 Wire Notes Line
 	11000 1950 11000 2850
 Wire Notes Line
@@ -1175,18 +1274,6 @@ Wire Notes Line
 	8750 1800 8750 2850
 Wire Notes Line
 	8750 2850 11000 2850
-Text Notes 8900 1950 0    60   ~ 0
-LOWER BED
-Text Label 10250 1200 0    60   ~ 0
-GND
-Text Label 9350 1100 0    60   ~ 0
-P8_32
-Text Label 9350 950  0    60   ~ 0
-3.3V
-Text Label 10250 1400 0    60   ~ 0
-GND
-Text Label 9350 1300 0    60   ~ 0
-P8_34
 Wire Wire Line
 	10250 1200 10600 1200
 Wire Wire Line
@@ -1196,25 +1283,10 @@ Wire Wire Line
 	9600 950  9350 950 
 Wire Wire Line
 	10250 1400 10600 1400
-$Comp
-L CONN_01X04 P8
-U 1 1 56047EA7
-P 10800 1250
-F 0 "P8" H 10800 1500 50  0000 C CNN
-F 1 "USER_PANEL" V 10900 1250 50  0000 C CNN
-F 2 "smisioto_bornier_mpt:mpt_0,5%2f4-2,54" H 10800 1250 60  0001 C CNN
-F 3 "" H 10800 1250 60  0000 C CNN
-	1    10800 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 950  10200 1100
 Wire Wire Line
 	10100 950  10200 950 
-Text Notes 8800 1100 0    60   ~ 0
-Button
-Text Notes 8800 1300 0    60   ~ 0
-Status LED
 Wire Notes Line
 	11000 750  11000 1650
 Wire Notes Line
@@ -1227,8 +1299,6 @@ Wire Notes Line
 	8750 600  8750 1650
 Wire Notes Line
 	8750 1650 11000 1650
-Text Notes 8900 750  0    60   ~ 0
-USER PANEL
 Wire Wire Line
 	10600 1300 10250 1300
 Wire Wire Line
@@ -1237,123 +1307,59 @@ Wire Wire Line
 	7100 4750 6700 4750
 Wire Wire Line
 	6700 5050 7100 5050
-Text Label 7100 5050 2    60   ~ 0
-AIN2
 Wire Wire Line
 	6700 2150 7100 2150
-NoConn ~ 6700 2050
-Text Label 3150 4050 2    60   ~ 0
-GND
-NoConn ~ 5200 5650
-NoConn ~ 5100 5000
-$Comp
-L ZENER D17
-U 1 1 560BEB1E
-P 2200 1750
-F 0 "D17" H 2200 1850 50  0000 C CNN
-F 1 "ZENER" H 2200 1650 40  0000 C CNN
-F 2 "risebox:DIODE_SOD-123" H 2200 1750 60  0001 C CNN
-F 3 "" H 2200 1750 60  0000 C CNN
-	1    2200 1750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	2200 1550 2200 1450
+	2150 1350 2150 1450
 Wire Wire Line
-	2200 1950 2200 2150
-$Comp
-L GND #PWR020
-U 1 1 560BEEB4
-P 2200 2150
-F 0 "#PWR020" H 2200 2150 30  0001 C CNN
-F 1 "GND" H 2200 2080 30  0001 C CNN
-F 2 "" H 2200 2150 60  0000 C CNN
-F 3 "" H 2200 2150 60  0000 C CNN
-	1    2200 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOS_P Q8
-U 1 1 560BF63D
-P 3200 850
-F 0 "Q8" H 3200 1040 60  0000 R CNN
-F 1 "BSS84P H6327" H 3200 670 60  0000 R CNN
-F 2 "risebox:SOT-23-FET" H 3200 850 60  0001 C CNN
-F 3 "" H 3200 850 60  0000 C CNN
-	1    3200 850 
-	0    1    -1   0   
-$EndComp
+	2150 1850 2150 2050
 Wire Wire Line
-	3400 750  4350 750 
-Text Label 4350 750  2    60   ~ 0
-5V
+	3400 850  4350 850 
 Wire Wire Line
-	3200 2300 3200 2500
-$Comp
-L GND #PWR021
-U 1 1 560C0052
-P 3200 2500
-F 0 "#PWR021" H 3200 2500 30  0001 C CNN
-F 1 "GND" H 3200 2430 30  0001 C CNN
-F 2 "" H 3200 2500 60  0000 C CNN
-F 3 "" H 3200 2500 60  0000 C CNN
-	1    3200 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R55
-U 1 1 560C0066
-P 3650 1200
-F 0 "R55" V 3730 1200 40  0000 C CNN
-F 1 "R" V 3657 1201 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3580 1200 30  0001 C CNN
-F 3 "" H 3650 1200 30  0000 C CNN
-	1    3650 1200
-	0    1    1    0   
-$EndComp
+	3200 2400 3200 2600
 Wire Wire Line
-	4050 750  4050 1200
+	4050 850  4050 1300
 Wire Wire Line
-	4050 1200 3900 1200
-Connection ~ 4050 750 
+	4050 1300 3900 1300
+Connection ~ 4050 850 
 Wire Wire Line
-	3200 1050 3200 1300
+	3200 1150 3200 1400
 Wire Wire Line
-	3200 1200 3400 1200
-$Comp
-L R R54
-U 1 1 560C072C
-P 3200 1550
-F 0 "R54" V 3280 1550 40  0000 C CNN
-F 1 "R" V 3207 1551 40  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3130 1550 30  0001 C CNN
-F 3 "" H 3200 1550 30  0000 C CNN
-	1    3200 1550
-	1    0    0    -1  
-$EndComp
-Connection ~ 3200 1200
+	3200 1300 3400 1300
+Connection ~ 3200 1300
 Wire Wire Line
-	3200 1800 3200 1900
-Connection ~ 2200 1450
+	3200 1900 3200 2000
+Connection ~ 2150 1350
 Wire Wire Line
-	1150 750  3000 750 
-$Comp
-L C C19
-U 1 1 560C1319
-P 2450 1750
-F 0 "C19" H 2450 1850 40  0000 L CNN
-F 1 "10nF" H 2456 1665 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 2488 1600 30  0001 C CNN
-F 3 "" H 2450 1750 60  0000 C CNN
-	1    2450 1750
-	1    0    0    -1  
-$EndComp
+	2400 1850 2400 1950
 Wire Wire Line
-	2450 1950 2450 2050
+	2400 1950 2150 1950
+Connection ~ 2150 1950
 Wire Wire Line
-	2450 2050 2200 2050
-Connection ~ 2200 2050
+	2400 1350 2400 1450
+Connection ~ 2400 1350
 Wire Wire Line
-	2450 1550 2450 1450
-Connection ~ 2450 1450
+	550  2200 2800 2200
+Connection ~ 1850 1350
+Wire Wire Line
+	1850 1350 1850 1600
+Wire Wire Line
+	1850 2100 1850 2200
+Connection ~ 1850 2200
+Wire Wire Line
+	1100 1350 1200 1350
+Wire Wire Line
+	950  850  3000 850 
+Wire Wire Line
+	1100 1350 1100 950 
+Wire Wire Line
+	1100 950  950  950 
+Wire Wire Line
+	550  2200 550  550 
+Wire Wire Line
+	550  550  1150 550 
+Wire Wire Line
+	1150 550  1150 750 
+Wire Wire Line
+	1150 750  950  750 
 $EndSCHEMATC

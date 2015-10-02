@@ -937,11 +937,11 @@
       (net 1 GND))
   )
 
-  (module ab2tech:AB2_DO-214AC (layer F.Cu) (tedit 560D58E1) (tstamp 56041346)
+  (module ab2tech:AB2_DO-214AC (layer F.Cu) (tedit 560E853F) (tstamp 56041346)
     (at 199.671 94.459 180)
     (path /55F14AF9/55F281FC)
     (fp_text reference D9 (at 0 -2.54 180) (layer F.SilkS)
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "RS1A DIODE" (at 0 2.54 180) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
@@ -1149,11 +1149,11 @@
       (net 1 GND))
   )
 
-  (module ab2tech:AB2_DO-214AC (layer F.Cu) (tedit 560D58E8) (tstamp 560413C6)
+  (module ab2tech:AB2_DO-214AC (layer F.Cu) (tedit 560E854F) (tstamp 560413C6)
     (at 199.671 87.601 180)
     (path /55FAC4A3/55FACABE)
     (fp_text reference D16 (at 0 -2.54 180) (layer F.SilkS)
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "RS1A DIODE" (at 0 2.54 180) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
@@ -1206,11 +1206,11 @@
       (net 135 "/Battery power supply/12V"))
   )
 
-  (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 560D56AF) (tstamp 560413DA)
+  (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 560E84DC) (tstamp 560413DA)
     (at 95.5 127.75 270)
     (path /55F1490D/55F17F2C)
     (fp_text reference L1 (at 0 4.75 270) (layer F.SilkS)
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "XAL6060-153MEC - 15µH - 6A" (at 0.09 4.75 270) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1267,11 +1267,11 @@
       (net 26 "Net-(P4-Pad3)"))
   )
 
-  (module risebox:SOT-23-FET (layer F.Cu) (tedit 5605553D) (tstamp 560414DD)
+  (module risebox:SOT-23-FET (layer F.Cu) (tedit 560E8558) (tstamp 560414DD)
     (at 193.575 94.459 270)
     (path /55F14AF9/55F281E7)
     (fp_text reference Q1 (at -2.667 0 270) (layer F.SilkS)
-      (effects (font (size 0.81 0.81) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2N7002 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.81 0.81) (thickness 0.15)))
@@ -1292,11 +1292,11 @@
       (net 16 "/Pump relay control/RelayGndOut"))
   )
 
-  (module risebox:SOT-23-FET (layer F.Cu) (tedit 560D5813) (tstamp 560414EC)
+  (module risebox:SOT-23-FET (layer F.Cu) (tedit 560E84FA) (tstamp 560414EC)
     (at 194.21 111.985 270)
     (path /55F14AFC/55F2701F)
     (fp_text reference Q2 (at -2.485 -0.04 360) (layer F.SilkS)
-      (effects (font (size 0.81 0.81) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FDN337N (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.81 0.81) (thickness 0.15)))
@@ -1392,11 +1392,11 @@
       (net 1 GND))
   )
 
-  (module risebox:SOT-23-FET (layer F.Cu) (tedit 56055775) (tstamp 56041534)
+  (module risebox:SOT-23-FET (layer F.Cu) (tedit 560E8562) (tstamp 56041534)
     (at 193.575 87.601 270)
     (path /55FAC4A3/55FACAA9)
     (fp_text reference Q7 (at -2.794 0 270) (layer F.SilkS)
-      (effects (font (size 0.81 0.81) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2N7002 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 0.81 0.81) (thickness 0.15)))
@@ -3675,11 +3675,11 @@
     )
   )
 
-  (module risebox:DCDC-TPS54335A (layer F.Cu) (tedit 560D5510) (tstamp 5604183F)
+  (module risebox:DCDC-TPS54335A (layer F.Cu) (tedit 560E848E) (tstamp 5604183F)
     (at 103.5 120.25 270)
     (path /55F1490D/5603EA2C)
-    (fp_text reference U2 (at 0.04 -5.92 270) (layer F.SilkS)
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+    (fp_text reference U2 (at 4.25 0 360) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DCDC_TI_TPS54335A (at 0.11 5.84 270) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3762,13 +3762,13 @@
     )
   )
 
-  (module smisioto_he10:vasch_strip_13x2 (layer F.Cu) (tedit 56092BFD) (tstamp 560957C4)
+  (module smisioto_he10:vasch_strip_13x2 (layer F.Cu) (tedit 560E858D) (tstamp 560957C4)
     (at 193.25 42.5)
     (descr "Box header 13x2pin 2.54mm")
     (tags "CONN DEV")
     (path /55F28D01/55FC335B)
-    (fp_text reference P20 (at 0 -5.7) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.2032)))
+    (fp_text reference P20 (at 0.25 6.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "T821126A1S100CEU  HE10-26" (at 0 5.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2032)))
@@ -4056,11 +4056,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 5609D864) (tstamp 5609E49D)
+  (module Connect:1pin (layer F.Cu) (tedit 560E859C) (tstamp 5609E49D)
     (at 209.5 136)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab)
@@ -4084,11 +4084,11 @@
     (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 5609D8EF) (tstamp 5609E4BC)
+  (module Connect:1pin (layer F.Cu) (tedit 560E8573) (tstamp 5609E4BC)
     (at 212.25 51.75)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.048) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1pin (at 0 2.794) (layer F.Fab)

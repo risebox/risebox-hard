@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 02 Oct 2015 12:28:43 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 02 Oct 2015 02:55:20 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /55F149A4/560D96CA;
 Reference = C20;
 ValeurCmp = 0.1µF;
-IdModule  = Capacitors_SMD:C_0402;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp

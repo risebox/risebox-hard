@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 01 Oct 2015 09:29:58 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 02 Oct 2015 12:28:43 PM CEST
 
 BeginCmp
 TimeStamp = /55F149A4/55F217A7;
@@ -141,6 +141,27 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
+TimeStamp = /55F149A4/560D96CA;
+Reference = C20;
+ValeurCmp = 0.1µF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560DEF5E;
+Reference = C21;
+ValeurCmp = 0.1µF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560DEF2B;
+Reference = C22;
+ValeurCmp = 0.1µF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
 TimeStamp = /55F325B1;
 Reference = D1;
 ValeurCmp = VS-30BQ040TRPBF SCHOTTKY;
@@ -171,8 +192,8 @@ EndCmp
 BeginCmp
 TimeStamp = /55F1490D/55F22054;
 Reference = D5;
-ValeurCmp = 1SMB5935BT3G;
-IdModule  = risebox:DIODE_SMB_Standard;
+ValeurCmp = SMBJ26A  Transil;
+IdModule  = risebox:DIODE_DO_214_AA;
 EndCmp
 
 BeginCmp
@@ -185,8 +206,8 @@ EndCmp
 BeginCmp
 TimeStamp = /55F149A4/55F233B5;
 Reference = D7;
-ValeurCmp = MMSZ4701-E3-08 ZENER;
-IdModule  = risebox:DIODE_SOD-123;
+ValeurCmp = SMBJ15A  Transil;
+IdModule  = risebox:DIODE_DO_214_AA;
 EndCmp
 
 BeginCmp
@@ -255,8 +276,15 @@ EndCmp
 BeginCmp
 TimeStamp = /55F28D01/560BEB1E;
 Reference = D17;
-ValeurCmp = ZENER;
+ValeurCmp = MMSZ4678T1G;
 IdModule  = risebox:DIODE_SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F149A4/560D91A1;
+Reference = D18;
+ValeurCmp = MRA4007T3G;
+IdModule  = ab2tech:AB2_DO-214AC;
 EndCmp
 
 BeginCmp
@@ -402,15 +430,15 @@ EndCmp
 BeginCmp
 TimeStamp = /55F14AFC/55F2701F;
 Reference = Q2;
-ValeurCmp = 2N7002;
+ValeurCmp = FDN337N;
 IdModule  = risebox:SOT-23-FET;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F149A4/55FAF0EA;
 Reference = Q3;
-ValeurCmp = BD140;
-IdModule  = Housings_SOT:SOT126_SOT32_Housing_Vertical;
+ValeurCmp = BCP69,115;
+IdModule  = ab2tech:AB2_SOT223;
 EndCmp
 
 BeginCmp
@@ -577,7 +605,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55F14AF9/55F281F5;
 Reference = R19;
-ValeurCmp = 1K;
+ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -710,14 +738,14 @@ EndCmp
 BeginCmp
 TimeStamp = /55F149A4/55FB085A;
 Reference = R38;
-ValeurCmp = 9.76K;
+ValeurCmp = 12.4K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F149A4/55FB07F1;
 Reference = R39;
-ValeurCmp = 1K;
+ValeurCmp = 1.2K;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
@@ -808,7 +836,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55FAC4A3/55FACAB7;
 Reference = R52;
-ValeurCmp = 1K;
+ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -822,14 +850,28 @@ EndCmp
 BeginCmp
 TimeStamp = /55F28D01/560C072C;
 Reference = R54;
-ValeurCmp = R;
+ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /55F28D01/560C0066;
 Reference = R55;
-ValeurCmp = R;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560DD0DF;
+Reference = R56;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F28D01/560DD2EA;
+Reference = R57;
+ValeurCmp = 100;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 

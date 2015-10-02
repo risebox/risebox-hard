@@ -1,6 +1,6 @@
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2014-jul-16 BZR unknown)-product) date Fri 02 Oct 2015 04:50:24 PM CEST*
+G04 Created by KiCad (PCBNEW (2014-jul-16 BZR unknown)-product) date Fri 02 Oct 2015 05:10:55 PM CEST*
 %MOMM*%
 G01*
 G04 APERTURE LIST*

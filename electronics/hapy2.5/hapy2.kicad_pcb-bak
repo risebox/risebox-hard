@@ -3,9 +3,9 @@
   (general
     (links 282)
     (no_connects 1)
-    (area 0 0 0 0)
+    (area 46.360716 35.75 226.105852 143.500001)
     (thickness 1.6)
-    (drawings 128)
+    (drawings 129)
     (tracks 2009)
     (zones 0)
     (modules 134)
@@ -69,7 +69,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010e0_80000001)
       (usegerberextensions true)
@@ -1256,11 +1256,11 @@
       (net 12 "/Battery power supply/5.4V"))
   )
 
-  (module Connect:PINHEAD1-3 (layer F.Cu) (tedit 560D4011) (tstamp 56041413)
+  (module Connect:PINHEAD1-3 (layer F.Cu) (tedit 560E9E25) (tstamp 56041413)
     (at 65.465 49.46 270)
     (path /55F28D01/55F2AE52)
     (attr virtual)
-    (fp_text reference P4 (at 0.05 -3.8 270) (layer F.SilkS) hide
+    (fp_text reference P4 (at 1.34 -2.335 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "PH Probe" (at 0 3.81 270) (layer F.Fab)
@@ -2798,11 +2798,11 @@
     )
   )
 
-  (module risebox:SPDT_MSS3112D (layer F.Cu) (tedit 560D5540) (tstamp 56084D2A)
+  (module risebox:SPDT_MSS3112D (layer F.Cu) (tedit 560E9D86) (tstamp 56084D2A)
     (at 67 119.25 270)
     (path /55F1490D/55F19790)
-    (fp_text reference SW1 (at -8.75 0 360) (layer F.SilkS)
-      (effects (font (size 1.5 1.5) (thickness 0.15)))
+    (fp_text reference SW1 (at -7.95 0.1 540) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MSS3112D (at 0.15 5.52 270) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -3149,12 +3149,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560D3DE3) (tstamp 56051786)
+  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560E9DAC) (tstamp 56051786)
     (at 65.5 80.5 270)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F149A4/55F217A7)
-    (fp_text reference BT1 (at 0 -4.50088 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference BT1 (at 0.4 -1.9 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BATTERY (at 0 4.50088 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3179,12 +3179,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560D4A22) (tstamp 5605178B)
+  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560E9CB0) (tstamp 5605178B)
     (at 210.466 95.856 90)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F37875)
-    (fp_text reference P1 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P1 (at -0.744 1.834 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RELAY_PUMP (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3209,12 +3209,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560D3D14) (tstamp 56084D06)
+  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560E9D57) (tstamp 56084D06)
     (at 66.25 129.5 270)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F366C2)
-    (fp_text reference P2 (at 0 -4.50088 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P2 (at 1.5 -1.95 450) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ALIM_SECTEUR (at 0 4.50088 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3239,12 +3239,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D4D88) (tstamp 56051795)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9C8D) (tstamp 56051795)
     (at 210.466 104.492 90)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /5604B528)
-    (fp_text reference P3 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P3 (at -3.208 1.734 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LOWER_FANS (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3275,12 +3275,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D4E92) (tstamp 5605179C)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9BDD) (tstamp 5605179C)
     (at 210.466 126.844 90)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/55F2AE60)
-    (fp_text reference P5 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P5 (at -2.456 1.834 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Tank Level Sensor" (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3311,12 +3311,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f6-2,54 (layer F.Cu) (tedit 560D427A) (tstamp 560D4281)
+  (module smisioto_bornier_mpt:mpt_0,5%2f6-2,54 (layer F.Cu) (tedit 560E9E3A) (tstamp 560D4281)
     (at 81.485 41.84 180)
     (descr "6-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/56044400)
-    (fp_text reference P6 (at 0 -4.50088 180) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P6 (at 2.685 -1.86 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value UPPER_LEDS (at -0.015 -4.66 180) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3353,14 +3353,14 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f6-2,54 (layer F.Cu) (tedit 560D466B) (tstamp 560517AC)
+  (module smisioto_bornier_mpt:mpt_0,5%2f6-2,54 (layer F.Cu) (tedit 560E9D06) (tstamp 560E9965)
     (at 210.5295 67.3445 90)
     (descr "6-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/56041B85)
-    (fp_text reference P7 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P7 (at -4.9555 -1.8295 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LOWER_LEDS (at -0.4055 -5.0295 90) (layer F.SilkS)
+    (fp_text value LOWER_LEDS (at -0.4055 -5.0295 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 7.8994 -3.0988) (end -7.8994 -3.0988) (layer F.SilkS) (width 0.254))
@@ -3395,12 +3395,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D489C) (tstamp 560517B5)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9CE8) (tstamp 560517B5)
     (at 210.5295 81.1875 90)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/56047EA7)
-    (fp_text reference P8 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P8 (at -2.8125 -1.8295 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USER_PANEL (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3431,12 +3431,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D4FB0) (tstamp 560517BC)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9C23) (tstamp 560517BC)
     (at 186.463 135.607)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/56046FA4)
-    (fp_text reference P9 (at 0 -4.50088) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P9 (at -2.663 -1.807) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LOWER_BED (at 0 4.50088) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3467,12 +3467,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f3-2,54 (layer F.Cu) (tedit 560D3EBD) (tstamp 560517C3)
+  (module smisioto_bornier_mpt:mpt_0,5%2f3-2,54 (layer F.Cu) (tedit 560E9DE5) (tstamp 560517C3)
     (at 65.5 66.75 270)
     (descr "3-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/55F2A5B5)
-    (fp_text reference P10 (at 0 -4.50088 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P10 (at 1.95 -1.9 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "WTemp probe" (at 0 4.50088 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3500,12 +3500,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D4FB8) (tstamp 560517C9)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9C43) (tstamp 560517C9)
     (at 197.639 135.607)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/56045584)
-    (fp_text reference P11 (at 0 -5.715 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P11 (at -2.739 -1.907 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value UPPER_BED (at 0 4.50088) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3536,12 +3536,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560D4E7C) (tstamp 560517D0)
+  (module smisioto_bornier_mpt:mpt_0,5%2f4-2,54 (layer F.Cu) (tedit 560E9C6C) (tstamp 560517D0)
     (at 210.466 115.668 90)
     (descr "4-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /5604B575)
-    (fp_text reference P12 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P12 (at -2.732 1.834 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value UPPER_FANS (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3572,12 +3572,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f3-2,54 (layer F.Cu) (tedit 560D3FB9) (tstamp 560517D7)
+  (module smisioto_bornier_mpt:mpt_0,5%2f3-2,54 (layer F.Cu) (tedit 560E9E04) (tstamp 560517D7)
     (at 65.5 58 270)
     (descr "3-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/55F2A687)
-    (fp_text reference P15 (at 0 -4.50088 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P15 (at 1.8 -1.9 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Air probe" (at 0 4.50088 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3605,12 +3605,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560D499D) (tstamp 560517DD)
+  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560E9CCC) (tstamp 560517DD)
     (at 210.466 89.76 90)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55FACF9A)
-    (fp_text reference P18 (at 0 -4.50088 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P18 (at -1.24 1.734 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RELAY_AIRPUMP (at 0 4.50088 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -3635,12 +3635,12 @@
     )
   )
 
-  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560D3E4D) (tstamp 560517E2)
+  (module smisioto_bornier_mpt:mpt_0,5%2f2-2,54 (layer F.Cu) (tedit 560E9DC5) (tstamp 560517E2)
     (at 65.5 74.25 270)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /55F28D01/55FB4E48)
-    (fp_text reference P19 (at 0 -4.50088 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+    (fp_text reference P19 (at 0.55 -1.9 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Power button" (at 0 4.50088 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -4700,6 +4700,9 @@
     )
   )
 
+  (gr_text "LOWER LEDS" (at 205.5 67.3 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "Designed @Risebox by Adrien & Nicolas,\nwith the help of Crafty, HUGE thanks to him !  :)" (at 60.25 140.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )

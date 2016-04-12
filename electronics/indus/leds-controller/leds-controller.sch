@@ -1,0 +1,513 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:risebox
+LIBS:tps54335a
+LIBS:leds-controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA328-P IC?
+U 1 1 56E1DAFD
+P 3950 3750
+F 0 "IC?" H 3200 5000 40  0000 L BNN
+F 1 "ATMEGA328-P" H 4350 2350 40  0000 L BNN
+F 2 "DIL28" H 3950 3750 30  0000 C CIN
+F 3 "" H 3950 3750 60  0000 C CNN
+	1    3950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56E1DB95
+P 6150 900
+F 0 "#PWR?" H 6150 900 30  0001 C CNN
+F 1 "GND" H 6150 830 30  0001 C CNN
+F 2 "" H 6150 900 60  0000 C CNN
+F 3 "" H 6150 900 60  0000 C CNN
+	1    6150 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X10 P?
+U 1 1 56E1DBBE
+P 10600 2550
+F 0 "P?" H 10600 3100 50  0000 C CNN
+F 1 "CONN_01X10" V 10700 2550 50  0000 C CNN
+F 2 "" H 10600 2550 60  0000 C CNN
+F 3 "" H 10600 2550 60  0000 C CNN
+	1    10600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X10 P?
+U 1 1 56E1DC1F
+P 10600 5650
+F 0 "P?" H 10600 6200 50  0000 C CNN
+F 1 "CONN_01X10" V 10700 5650 50  0000 C CNN
+F 2 "" H 10600 5650 60  0000 C CNN
+F 3 "" H 10600 5650 60  0000 C CNN
+	1    10600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 56E1DC4E
+P 6150 1450
+F 0 "#PWR?" H 6150 1400 20  0001 C CNN
+F 1 "+24V" H 6150 1550 30  0000 C CNN
+F 2 "" H 6150 1450 60  0000 C CNN
+F 3 "" H 6150 1450 60  0000 C CNN
+	1    6150 1450
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2150 1300 950  550 
+U 56E1DC6E
+F0 "dcdc_24_5" 60
+F1 "dcdc_24_5.sch" 60
+$EndSheet
+$Sheet
+S 7650 3450 1200 650 
+U 56E1C90E
+F0 "Blue" 60
+F1 "Blue.sch" 60
+$EndSheet
+$Sheet
+S 6800 2350 1200 700 
+U 56E1C919
+F0 "Red" 60
+F1 "Red.sch" 60
+$EndSheet
+$Sheet
+S 6850 4400 1250 650 
+U 56E1C91C
+F0 "Color3" 60
+F1 "Color3.sch" 60
+$EndSheet
+$Sheet
+S 7650 5300 1150 650 
+U 56E1C91F
+F0 "Color4" 60
+F1 "Color4.sch" 60
+$EndSheet
+$Comp
+L DIPS_03 SW?
+U 1 1 56E1EF78
+P 1300 4850
+F 0 "SW?" V 1100 4850 60  0000 C CNN
+F 1 "DIPS_03" V 1500 4850 60  0000 C CNN
+F 2 "" H 1300 4850 60  0000 C CNN
+F 3 "" H 1300 4850 60  0000 C CNN
+	1    1300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56E1F01C
+P 1300 5250
+F 0 "#PWR?" H 1300 5250 30  0001 C CNN
+F 1 "GND" H 1300 5180 30  0001 C CNN
+F 2 "" H 1300 5250 60  0000 C CNN
+F 3 "" H 1300 5250 60  0000 C CNN
+	1    1300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56E1F0BA
+P 1050 4000
+F 0 "R?" V 1130 4000 40  0000 C CNN
+F 1 "10k" V 1057 4001 40  0000 C CNN
+F 2 "" V 980 4000 30  0000 C CNN
+F 3 "" H 1050 4000 30  0000 C CNN
+	1    1050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56E1F0F6
+P 1300 4000
+F 0 "R?" V 1380 4000 40  0000 C CNN
+F 1 "10k" V 1307 4001 40  0000 C CNN
+F 2 "" V 1230 4000 30  0000 C CNN
+F 3 "" H 1300 4000 30  0000 C CNN
+	1    1300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56E1F119
+P 1550 4000
+F 0 "R?" V 1630 4000 40  0000 C CNN
+F 1 "10k" V 1557 4001 40  0000 C CNN
+F 2 "" V 1480 4000 30  0000 C CNN
+F 3 "" H 1550 4000 30  0000 C CNN
+	1    1550 4000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4150 1250 950  600 
+U 570645EF
+F0 "dcdc_24_12" 60
+F1 "dcdc_24_12.sch" 60
+$EndSheet
+Text Label 5450 2750 2    60   ~ 0
+PWM_RED
+Text Label 5450 2850 2    60   ~ 0
+PWM_BLUE
+Text Label 5450 4550 2    60   ~ 0
+PWM_FANS
+Text Label 5450 4750 2    60   ~ 0
+PWM_COL3
+Text Label 5450 4850 2    60   ~ 0
+PWM_COL4
+Text Label 5450 4250 2    60   ~ 0
+RX
+Text Label 5450 4350 2    60   ~ 0
+TX
+$Comp
+L SP485EN-L U?
+U 1 1 570BAE24
+P 4350 7700
+F 0 "U?" H 4350 7700 60  0000 C CNN
+F 1 "SP485EN-L" H 4350 7700 60  0000 C CNN
+F 2 "" H 4350 7700 60  0000 C CNN
+F 3 "" H 4350 7700 60  0000 C CNN
+	1    4350 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 570BC4D0
+P 6300 6950
+F 0 "P?" H 6300 7100 50  0000 C CNN
+F 1 "CONN_01X02" V 6400 6950 50  0000 C CNN
+F 2 "" H 6300 6950 60  0000 C CNN
+F 3 "" H 6300 6950 60  0000 C CNN
+	1    6300 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5100 1400 5050
+Wire Wire Line
+	1200 5100 1400 5100
+Wire Wire Line
+	1300 5050 1300 5250
+Wire Wire Line
+	1200 5050 1200 5100
+Wire Wire Line
+	1050 4250 1050 4600
+Wire Wire Line
+	1300 4250 1300 4650
+Wire Wire Line
+	1550 4250 1550 4600
+Connection ~ 1050 4350
+Wire Wire Line
+	1550 4550 2050 4550
+Connection ~ 1550 4550
+Wire Wire Line
+	4950 4750 5450 4750
+Wire Wire Line
+	4950 4850 5450 4850
+Wire Wire Line
+	4950 2750 5450 2750
+Wire Wire Line
+	4950 2850 5450 2850
+Wire Wire Line
+	4950 4550 5450 4550
+Wire Wire Line
+	4950 4250 5450 4250
+Wire Wire Line
+	4950 4350 5450 4350
+Wire Wire Line
+	1050 4600 1200 4600
+Wire Wire Line
+	1200 4600 1200 4650
+Wire Wire Line
+	1550 4600 1400 4600
+Wire Wire Line
+	1400 4600 1400 4650
+Wire Wire Line
+	1050 4350 2050 4350
+Wire Wire Line
+	1300 4450 2050 4450
+Connection ~ 1300 4450
+Wire Wire Line
+	1050 3750 1050 3600
+Wire Wire Line
+	1050 3600 2050 3600
+Wire Wire Line
+	1300 3750 1300 3600
+Connection ~ 1300 3600
+Wire Wire Line
+	1550 3750 1550 3600
+Connection ~ 1550 3600
+Wire Wire Line
+	5100 6800 6100 6800
+Wire Wire Line
+	6100 6800 6100 6900
+Wire Wire Line
+	5100 7050 6100 7050
+Wire Wire Line
+	6100 7050 6100 7000
+Wire Wire Line
+	2700 6550 3600 6550
+Wire Wire Line
+	2700 7350 3600 7350
+Wire Wire Line
+	3000 6800 3600 6800
+Wire Wire Line
+	3600 7050 3400 7050
+Wire Wire Line
+	3400 7050 3400 6800
+Connection ~ 3400 6800
+Wire Wire Line
+	4950 4450 5450 4450
+Text Label 5450 4450 2    60   ~ 0
+BUS_WAY
+Text Label 3000 6800 0    60   ~ 0
+BUS_WAY
+Wire Wire Line
+	5100 7350 5700 7350
+Wire Wire Line
+	5100 6550 5700 6550
+Text Label 5700 6550 2    60   ~ 0
+ALIM_5V
+Text Label 5700 7350 2    60   ~ 0
+GND
+Wire Wire Line
+	6150 900  6150 700 
+Wire Wire Line
+	6150 700  6450 700 
+Text Label 6450 700  2    60   ~ 0
+GND
+Wire Wire Line
+	6150 1450 6150 1650
+Wire Wire Line
+	6150 1650 6750 1650
+Text Label 6750 1650 2    60   ~ 0
+ALIM_24V
+$Comp
+L CONN_01X02 P?
+U 1 1 570C2481
+P 1300 6950
+F 0 "P?" H 1300 7100 50  0000 C CNN
+F 1 "CONN_01X02" V 1400 6950 50  0000 C CNN
+F 2 "" H 1300 6950 60  0000 C CNN
+F 3 "" H 1300 6950 60  0000 C CNN
+	1    1300 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 570C2544
+P 2500 6550
+F 0 "D?" H 2500 6650 40  0000 C CNN
+F 1 "DIODE" H 2500 6450 40  0000 C CNN
+F 2 "" H 2500 6550 60  0000 C CNN
+F 3 "" H 2500 6550 60  0000 C CNN
+	1    2500 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 6550 2300 6550
+Wire Wire Line
+	1650 6550 1650 6900
+Wire Wire Line
+	1650 6900 1500 6900
+Wire Wire Line
+	1950 6550 1950 6050
+Wire Wire Line
+	1950 6050 2550 6050
+Connection ~ 1950 6550
+$Comp
+L DIODE D?
+U 1 1 570C2746
+P 2500 7350
+F 0 "D?" H 2500 7450 40  0000 C CNN
+F 1 "DIODE" H 2500 7250 40  0000 C CNN
+F 2 "" H 2500 7350 60  0000 C CNN
+F 3 "" H 2500 7350 60  0000 C CNN
+	1    2500 7350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 7350 2300 7350
+Wire Wire Line
+	1650 7350 1650 7000
+Wire Wire Line
+	1650 7000 1500 7000
+Wire Wire Line
+	2100 7350 2100 6200
+Wire Wire Line
+	2100 6200 2550 6200
+Connection ~ 2100 7350
+Text Label 2550 6050 2    60   ~ 0
+RX
+Text Label 2550 6200 2    60   ~ 0
+TX
+$Comp
+L R R?
+U 1 1 570C2C8C
+P 1950 2650
+F 0 "R?" V 2030 2650 40  0000 C CNN
+F 1 "R" V 1957 2651 40  0000 C CNN
+F 2 "" V 1880 2650 30  0000 C CNN
+F 3 "" H 1950 2650 30  0000 C CNN
+	1    1950 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 570C2CB7
+P 1400 2300
+F 0 "C?" H 1400 2400 40  0000 L CNN
+F 1 "C" H 1406 2215 40  0000 L CNN
+F 2 "" H 1438 2150 30  0000 C CNN
+F 3 "" H 1400 2300 60  0000 C CNN
+	1    1400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2650 2200 2650
+$Comp
+L GND #PWR?
+U 1 1 570C3013
+P 850 2150
+F 0 "#PWR?" H 850 2150 30  0001 C CNN
+F 1 "GND" H 850 2080 30  0001 C CNN
+F 2 "" H 850 2150 60  0000 C CNN
+F 3 "" H 850 2150 60  0000 C CNN
+	1    850  2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2100 1400 1950
+Wire Wire Line
+	1400 1950 850  1950
+Wire Wire Line
+	850  1950 850  2150
+Wire Wire Line
+	1150 2650 1700 2650
+Wire Wire Line
+	1150 2650 1150 2950
+Wire Wire Line
+	1150 2950 3050 2950
+Wire Wire Line
+	1400 2500 1400 2650
+Connection ~ 1400 2650
+$Sheet
+S 8250 1100 1300 850 
+U 570C333F
+F0 "usb_connector" 60
+F1 "usb_connector.sch" 60
+$EndSheet
+Wire Wire Line
+	6000 6800 6000 5800
+Connection ~ 6000 6800
+Wire Wire Line
+	5850 5950 5850 7050
+Wire Wire Line
+	4150 5950 5850 5950
+Connection ~ 5850 7050
+$Comp
+L R R?
+U 1 1 570C3845
+P 4600 5800
+F 0 "R?" V 4680 5800 40  0000 C CNN
+F 1 "150" V 4607 5801 40  0000 C CNN
+F 2 "" V 4530 5800 30  0000 C CNN
+F 3 "" H 4600 5800 30  0000 C CNN
+	1    4600 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 570C38D2
+P 5450 5800
+F 0 "JP?" H 5450 5950 60  0000 C CNN
+F 1 "JUMPER" H 5450 5720 40  0000 C CNN
+F 2 "" H 5450 5800 60  0000 C CNN
+F 3 "" H 5450 5800 60  0000 C CNN
+	1    5450 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5800 5750 5800
+Wire Wire Line
+	5150 5800 4850 5800
+Wire Wire Line
+	4350 5800 4150 5800
+Wire Wire Line
+	4150 5800 4150 5950
+Text Notes 8300 1500 0    60   ~ 0
+Non équipé\n(test boards or kits only)
+Wire Wire Line
+	4950 2950 5450 2950
+Wire Wire Line
+	4950 3050 5450 3050
+Wire Wire Line
+	4950 3150 5450 3150
+Text Label 5450 2950 2    60   ~ 0
+ADDR1
+Text Label 5450 3050 2    60   ~ 0
+ADDR2
+Text Label 5450 3150 2    60   ~ 0
+ADDR3
+Text Label 2050 4350 2    60   ~ 0
+ADDR1
+Text Label 2050 4450 2    60   ~ 0
+ADDR2
+Text Label 2050 4550 2    60   ~ 0
+ADDR3
+Wire Wire Line
+	2650 2650 2650 2250
+Wire Wire Line
+	2650 2250 3250 2250
+Connection ~ 2650 2650
+Text Label 3250 2250 2    60   ~ 0
+ALIM_5V
+Text Label 2050 3600 2    60   ~ 0
+ALIM_5V
+$EndSCHEMATC

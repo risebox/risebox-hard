@@ -36,14 +36,22 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
-Title ""
+Sheet 5 8
+Title "Carte controlleur de LEDs 4 canaux"
 Date ""
-Rev ""
-Comp ""
+Rev "WIP"
+Comp "Risebox"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 10800 2450 0    60   Output ~ 0
+LED+
+Text HLabel 10800 2700 0    60   Output ~ 0
+LED-
+Text HLabel 1300 2250 0    60   Input ~ 0
+VIN_24V
+Text Notes 3400 3650 0    60   ~ 0
+TODO avec le LM3404 ou avec le TPS92513\nCircuit buck en courant constant 700mA classique (inductance, condos, feedback, boot, PWM, etc)\n
 $EndSCHEMATC

@@ -37,10 +37,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Carte controlleur de LEDs 4 canaux"
+Date "18 Apr 2016"
+Rev "WIP"
+Comp "Risebox"
 Comment1 ""
 Comment2 ""
 Comment3 ""

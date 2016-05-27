@@ -46,12 +46,302 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 10800 2450 0    60   Output ~ 0
+Text HLabel 10500 3450 2    60   Output ~ 0
 LED+
-Text HLabel 10800 2700 0    60   Output ~ 0
+Text HLabel 10500 4050 2    60   Output ~ 0
 LED-
-Text HLabel 1300 2250 0    60   Input ~ 0
+Text HLabel 1150 3450 0    60   Input ~ 0
 VIN_24V
-Text Notes 3400 3650 0    60   ~ 0
-TODO avec le LM3404 ou avec le TPS92513\nCircuit buck en courant constant 700mA classique (inductance, condos, feedback, boot, PWM, etc)\n
+$Comp
+L TPS92513 U?
+U 1 1 5715946D
+P 5850 3550
+F 0 "U?" H 6200 2600 60  0000 C CNN
+F 1 "TPS92513" H 5450 2600 60  0000 C CNN
+F 2 "" H 6000 3650 60  0000 C CNN
+F 3 "" H 6000 3650 60  0000 C CNN
+	1    5850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3450 5300 3450
+$Comp
+L GND #PWR?
+U 1 1 57159475
+P 3400 3100
+F 0 "#PWR?" H 3400 3100 30  0001 C CNN
+F 1 "GND" H 3400 3030 30  0001 C CNN
+F 2 "" H 3400 3100 60  0000 C CNN
+F 3 "" H 3400 3100 60  0000 C CNN
+	1    3400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5715947B
+P 3400 2650
+F 0 "C?" H 3400 2750 40  0000 L CNN
+F 1 "C" H 3406 2565 40  0000 L CNN
+F 2 "" H 3438 2500 30  0000 C CNN
+F 3 "" H 3400 2650 60  0000 C CNN
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57159482
+P 4150 2700
+F 0 "R?" V 4230 2700 40  0000 C CNN
+F 1 "R" V 4157 2701 40  0000 C CNN
+F 2 "" V 4080 2700 30  0000 C CNN
+F 3 "" H 4150 2700 30  0000 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2850 3400 3100
+Wire Wire Line
+	4150 2950 4150 3450
+Connection ~ 4150 3450
+$Comp
+L C C?
+U 1 1 5715948C
+P 1650 4150
+F 0 "C?" H 1650 4250 40  0000 L CNN
+F 1 "C" H 1656 4065 40  0000 L CNN
+F 2 "" H 1688 4000 30  0000 C CNN
+F 3 "" H 1650 4150 60  0000 C CNN
+	1    1650 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3950 1650 3450
+Connection ~ 1650 3450
+Wire Wire Line
+	1650 4350 1650 4900
+Wire Wire Line
+	1650 4900 10200 4900
+Wire Wire Line
+	6000 4550 6000 5250
+Wire Wire Line
+	5800 4550 5800 4900
+Connection ~ 5800 4900
+$Comp
+L GND #PWR?
+U 1 1 5715949A
+P 6000 5250
+F 0 "#PWR?" H 6000 5250 30  0001 C CNN
+F 1 "GND" H 6000 5180 30  0001 C CNN
+F 2 "" H 6000 5250 60  0000 C CNN
+F 3 "" H 6000 5250 60  0000 C CNN
+	1    6000 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 4900
+$Comp
+L R R?
+U 1 1 571594A1
+P 2200 3800
+F 0 "R?" V 2280 3800 40  0000 C CNN
+F 1 "R" V 2207 3801 40  0000 C CNN
+F 2 "" V 2130 3800 30  0000 C CNN
+F 3 "" H 2200 3800 30  0000 C CNN
+	1    2200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571594A8
+P 2200 4500
+F 0 "R?" V 2280 4500 40  0000 C CNN
+F 1 "R" V 2207 4501 40  0000 C CNN
+F 2 "" V 2130 4500 30  0000 C CNN
+F 3 "" H 2200 4500 30  0000 C CNN
+	1    2200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3550 2200 3450
+Connection ~ 2200 3450
+Wire Wire Line
+	2200 4050 2200 4250
+Wire Wire Line
+	2200 4750 2200 4900
+Connection ~ 2200 4900
+Wire Wire Line
+	2200 4150 2500 4150
+Wire Wire Line
+	2500 4150 2500 3750
+Wire Wire Line
+	2500 3750 5300 3750
+Connection ~ 2200 4150
+$Comp
+L C C?
+U 1 1 571594B8
+P 3100 4300
+F 0 "C?" H 3100 4400 40  0000 L CNN
+F 1 "C" H 3106 4215 40  0000 L CNN
+F 2 "" H 3138 4150 30  0000 C CNN
+F 3 "" H 3100 4300 60  0000 C CNN
+	1    3100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571594BF
+P 4100 4500
+F 0 "R?" V 4180 4500 40  0000 C CNN
+F 1 "R" V 4107 4501 40  0000 C CNN
+F 2 "" V 4030 4500 30  0000 C CNN
+F 3 "" H 4100 4500 30  0000 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4500 3100 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4100 3100 3900
+Wire Wire Line
+	3100 3900 5300 3900
+Wire Wire Line
+	5300 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 4250
+Wire Wire Line
+	4100 4750 4100 4900
+Connection ~ 4100 4900
+$Comp
+L INDUCTOR L?
+U 1 1 571594CE
+P 8250 3450
+F 0 "L?" V 8200 3450 40  0000 C CNN
+F 1 "XAL6060-153MEC - 15µH - 6A" V 8350 3450 40  0000 C CNN
+F 2 "risebox:SELF_COILCRAFT_XAL6060-153" H 8250 3450 60  0001 C CNN
+F 3 "" H 8250 3450 60  0000 C CNN
+	1    8250 3450
+	0    -1   -1   0   
+$EndComp
+Text Notes 8600 3200 2    60   ~ 0
+self métallique
+Wire Notes Line
+	7850 3650 8700 3650
+Wire Notes Line
+	8700 3100 7850 3100
+Wire Notes Line
+	7850 3100 7850 3200
+Wire Notes Line
+	7850 3650 7850 3550
+Wire Notes Line
+	8700 3650 8700 3550
+Wire Notes Line
+	8700 3100 8700 3200
+Wire Wire Line
+	6450 3450 7950 3450
+Wire Wire Line
+	6050 2950 6050 2250
+$Comp
+L C C?
+U 1 1 571594DE
+P 6850 2900
+F 0 "C?" H 6850 3000 40  0000 L CNN
+F 1 "C" H 6856 2815 40  0000 L CNN
+F 2 "" H 6888 2750 30  0000 C CNN
+F 3 "" H 6850 2900 60  0000 C CNN
+	1    6850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2250 5700 2950
+Wire Wire Line
+	3400 2250 5700 2250
+Connection ~ 4150 2250
+Wire Wire Line
+	3400 2450 3400 2250
+Wire Wire Line
+	4150 2450 4150 2250
+Wire Wire Line
+	6050 2250 6850 2250
+Wire Wire Line
+	6850 2250 6850 2700
+Wire Wire Line
+	6850 3100 6850 3450
+Connection ~ 6850 3450
+Wire Wire Line
+	8550 3450 10500 3450
+$Comp
+L C C?
+U 1 1 571594EF
+P 9600 3750
+F 0 "C?" H 9600 3850 40  0000 L CNN
+F 1 "C" H 9606 3665 40  0000 L CNN
+F 2 "" H 9638 3600 30  0000 C CNN
+F 3 "" H 9600 3750 60  0000 C CNN
+	1    9600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 3550 9600 3450
+Connection ~ 9600 3450
+Wire Wire Line
+	9600 3950 9600 4050
+Connection ~ 9600 4050
+$Comp
+L R R?
+U 1 1 571594FA
+P 8250 4050
+F 0 "R?" V 8330 4050 40  0000 C CNN
+F 1 "R" V 8257 4051 40  0000 C CNN
+F 2 "" V 8180 4050 30  0000 C CNN
+F 3 "" H 8250 4050 30  0000 C CNN
+	1    8250 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 4050 8000 4050
+Wire Wire Line
+	8500 4050 10500 4050
+$Comp
+L R R?
+U 1 1 57159503
+P 10200 4500
+F 0 "R?" V 10280 4500 40  0000 C CNN
+F 1 "R" V 10207 4501 40  0000 C CNN
+F 2 "" V 10130 4500 30  0000 C CNN
+F 3 "" H 10200 4500 30  0000 C CNN
+	1    10200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4250 10200 4050
+Connection ~ 10200 4050
+Wire Wire Line
+	10200 4900 10200 4750
+$Comp
+L DIODESCH D?
+U 1 1 5715950D
+P 7400 4500
+F 0 "D?" H 7400 4600 40  0000 C CNN
+F 1 "DIODESCH" H 7400 4400 40  0000 C CNN
+F 2 "" H 7400 4500 60  0000 C CNN
+F 3 "" H 7400 4500 60  0000 C CNN
+	1    7400 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4300 7400 3450
+Connection ~ 7400 3450
+Wire Wire Line
+	7400 4700 7400 4900
+Connection ~ 7400 4900
+Text HLabel 1150 3000 0    60   Input ~ 0
+PWM
+Wire Wire Line
+	1150 3000 1650 3000
+Text Label 1650 3000 2    60   ~ 0
+PDIM
+Wire Wire Line
+	5300 3600 4850 3600
+Text Label 4850 3600 0    60   ~ 0
+PDIM
 $EndSCHEMATC

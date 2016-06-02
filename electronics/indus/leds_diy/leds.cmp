@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 31 May 2016 05:54:16 PM CEST
+
+BeginCmp
+TimeStamp = /56E1A1EF;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1BEDB;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C418;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C44F;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1A231;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1BEE1;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C41E;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C455;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1A294;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1BEE7;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C424;
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C45B;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1A2C5;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1BEED;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C42A;
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1C461;
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = Luxeon:LUXEON-C;
+EndCmp
+
+BeginCmp
+TimeStamp = /574871E9;
+Reference = P1;
+ValeurCmp = LED+;
+IdModule  = Connect:bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /57487486;
+Reference = P2;
+ValeurCmp = THERM;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /574872E2;
+Reference = P3;
+ValeurCmp = LED-;
+IdModule  = Connect:bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /574515E8;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E1CF63;
+Reference = TH1;
+ValeurCmp = THERM CTN 10K;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+EndListe

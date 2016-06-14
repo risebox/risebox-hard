@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:leds-controller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -37,17 +37,17 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
-Title "Carte controlleur de LEDs 4 canaux"
+Title ""
 Date ""
-Rev "WIP"
-Comp "Risebox"
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE927
 P 3250 3800
 F 0 "R?" V 3330 3800 40  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 3250 3800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE928
 P 3250 4600
 F 0 "R?" V 3330 4600 40  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 3250 4600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE929
 P 3250 5350
 F 0 "#PWR?" H 3250 5350 30  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 3250 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE92A
 P 3850 3050
 F 0 "C?" H 3850 3150 40  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "" H 3850 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE92B
 P 4250 3050
 F 0 "C?" H 4250 3150 40  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "" H 4250 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE92C
 P 4250 3650
 F 0 "#PWR?" H 4250 3650 30  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 4250 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE92D
 P 5050 3850
 F 0 "R?" V 5130 3850 40  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 5050 3850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE92E
 P 5050 4500
 F 0 "#PWR?" H 5050 4500 30  0001 C CNN
@@ -135,7 +135,7 @@ F 3 "" H 5050 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE92F
 P 6850 2500
 F 0 "C?" H 6850 2600 40  0000 L CNN
@@ -159,7 +159,7 @@ $EndComp
 Text Label 4700 2700 0    60   ~ 0
 VSENSE
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE931
 P 6700 3650
 F 0 "#PWR?" H 6700 3650 30  0001 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 6700 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE932
 P 7250 3550
 F 0 "R?" V 7330 3550 40  0000 C CNN
@@ -181,7 +181,7 @@ F 3 "" H 7250 3550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE933
 P 7250 4300
 F 0 "C?" H 7250 4400 40  0000 L CNN
@@ -192,7 +192,7 @@ F 3 "" H 7250 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE934
 P 7250 5200
 F 0 "#PWR?" H 7250 5200 30  0001 C CNN
@@ -203,7 +203,7 @@ F 3 "" H 7250 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE935
 P 7950 4000
 F 0 "C?" H 7950 4100 40  0000 L CNN
@@ -214,7 +214,7 @@ F 3 "" H 7950 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE936
 P 8400 3000
 F 0 "C?" H 8400 3100 40  0000 L CNN
@@ -225,7 +225,7 @@ F 3 "" H 8400 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE937
 P 8850 3000
 F 0 "C?" H 8850 3100 40  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "" H 8850 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE938
 P 8400 3650
 F 0 "#PWR?" H 8400 3650 30  0001 C CNN
@@ -247,7 +247,7 @@ F 3 "" H 8400 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE939
 P 9300 3000
 F 0 "R?" V 9380 3000 40  0000 C CNN
@@ -258,7 +258,7 @@ F 3 "" H 9300 3000 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE93A
 P 9300 3750
 F 0 "R?" V 9380 3750 40  0000 C CNN
@@ -269,7 +269,7 @@ F 3 "" H 9300 3750 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 570BE93B
 P 9300 4650
 F 0 "R?" V 9380 4650 40  0000 C CNN
@@ -281,10 +281,10 @@ F 3 "" H 9300 4650 30  0000 C CNN
 $EndComp
 Text Label 9450 4200 0    60   ~ 0
 VSENSE
-Text HLabel 10850 2500 2    60   Output ~ 0
+Text HLabel 10050 2500 2    60   Output ~ 0
 12V
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE93C
 P 9300 5200
 F 0 "#PWR?" H 9300 5200 30  0001 C CNN
@@ -306,7 +306,7 @@ F 3 "" H 2050 3100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ZENER-RESCUE-leds-controller D?
+L ZENER D?
 U 1 1 570BE941
 P 2450 3100
 F 0 "D?" H 2450 3200 50  0000 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 2450 3100 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 570BE942
 P 2850 3100
 F 0 "C?" H 2850 3200 40  0000 L CNN
@@ -328,7 +328,7 @@ F 3 "" H 2850 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 570BE943
 P 2050 3950
 F 0 "#PWR?" H 2050 3950 30  0001 C CNN
@@ -362,9 +362,11 @@ F 3 "" H 5750 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1550 2500 0    60   Input ~ 0
-ALIM_24V
+ALIM_24V+
 Wire Wire Line
-	3250 4050 3250 4350
+	3250 4050 3250 4200
+Wire Wire Line
+	3250 4200 3250 4350
 Wire Wire Line
 	3250 4850 3250 5350
 Wire Wire Line
@@ -374,7 +376,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 3400 4250 3400
 Wire Wire Line
-	4250 3250 4250 3650
+	4250 3250 4250 3400
+Wire Wire Line
+	4250 3400 4250 3650
 Wire Wire Line
 	4250 2500 4250 2850
 Connection ~ 4250 3400
@@ -384,7 +388,9 @@ Wire Wire Line
 Wire Wire Line
 	6300 2500 6650 2500
 Wire Wire Line
-	7050 2500 7450 2500
+	7050 2500 7250 2500
+Wire Wire Line
+	7250 2500 7450 2500
 Wire Wire Line
 	6300 2700 7250 2700
 Wire Wire Line
@@ -395,18 +401,24 @@ Wire Wire Line
 Wire Wire Line
 	6300 3100 6700 3100
 Wire Wire Line
-	6700 3100 6700 3650
+	6700 3100 6700 3200
+Wire Wire Line
+	6700 3200 6700 3650
 Wire Wire Line
 	6300 3200 6700 3200
 Connection ~ 6700 3200
 Wire Wire Line
-	6300 2900 7950 2900
+	6300 2900 7250 2900
+Wire Wire Line
+	7250 2900 7950 2900
 Wire Wire Line
 	7250 2900 7250 3300
 Wire Wire Line
 	7250 3800 7250 4100
 Wire Wire Line
-	7250 4500 7250 5200
+	7250 4500 7250 4700
+Wire Wire Line
+	7250 4700 7250 5200
 Wire Wire Line
 	7950 2900 7950 3800
 Connection ~ 7250 2900
@@ -416,7 +428,13 @@ Wire Wire Line
 	7950 4700 7250 4700
 Connection ~ 7250 4700
 Wire Wire Line
-	8050 2500 10850 2500
+	8050 2500 8400 2500
+Wire Wire Line
+	8400 2500 8850 2500
+Wire Wire Line
+	8850 2500 9300 2500
+Wire Wire Line
+	9300 2500 10050 2500
 Wire Wire Line
 	8400 2800 8400 2500
 Connection ~ 8400 2500
@@ -424,7 +442,9 @@ Wire Wire Line
 	8850 2800 8850 2500
 Connection ~ 8850 2500
 Wire Wire Line
-	8400 3200 8400 3650
+	8400 3200 8400 3450
+Wire Wire Line
+	8400 3450 8400 3650
 Wire Wire Line
 	8850 3200 8850 3450
 Wire Wire Line
@@ -436,7 +456,9 @@ Connection ~ 9300 2500
 Wire Wire Line
 	9300 3250 9300 3500
 Wire Wire Line
-	9300 4000 9300 4400
+	9300 4000 9300 4200
+Wire Wire Line
+	9300 4200 9300 4400
 Wire Wire Line
 	9300 4200 9800 4200
 Connection ~ 9300 4200
@@ -450,11 +472,17 @@ Connection ~ 2050 2500
 Wire Wire Line
 	2850 2500 2850 2900
 Wire Wire Line
-	2050 3300 2050 3950
+	2050 3300 2050 3600
+Wire Wire Line
+	2050 3600 2050 3950
 Wire Wire Line
 	2450 3600 2450 3300
 Wire Wire Line
-	2000 3600 2850 3600
+	2000 3600 2050 3600
+Wire Wire Line
+	2050 3600 2450 3600
+Wire Wire Line
+	2450 3600 2850 3600
 Connection ~ 2050 3600
 Wire Wire Line
 	2850 3600 2850 3300
@@ -496,7 +524,21 @@ Wire Notes Line
 Wire Notes Line
 	8200 2700 8200 2550
 Wire Wire Line
-	1550 2500 5300 2500
+	1550 2500 2050 2500
+Wire Wire Line
+	2050 2500 2450 2500
+Wire Wire Line
+	2450 2500 2850 2500
+Wire Wire Line
+	2850 2500 3250 2500
+Wire Wire Line
+	3250 2500 3550 2500
+Wire Wire Line
+	3550 2500 3850 2500
+Wire Wire Line
+	3850 2500 4250 2500
+Wire Wire Line
+	4250 2500 5300 2500
 Wire Wire Line
 	4750 2900 4750 4200
 Wire Wire Line
@@ -505,39 +547,4 @@ Text Notes 1450 5000 0    60   ~ 0
 TODO : Ajuster pour enable à 12V
 Text Notes 7550 5500 0    60   ~ 0
 TODO : Ajuster pour sortir à 12V
-$Comp
-L 7805 U?
-U 1 1 570FB25B
-P 10350 3350
-F 0 "U?" H 10500 3154 60  0000 C CNN
-F 1 "7805" H 10350 3550 60  0000 C CNN
-F 2 "" H 10350 3350 60  0000 C CNN
-F 3 "" H 10350 3350 60  0000 C CNN
-	1    10350 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10400 2500 10400 2950
-Connection ~ 10400 2500
-Wire Wire Line
-	10400 3750 10400 4050
-Wire Wire Line
-	10400 4050 10850 4050
-$Comp
-L GND-RESCUE-leds-controller #PWR?
-U 1 1 570FB4C5
-P 9900 3750
-F 0 "#PWR?" H 9900 3750 30  0001 C CNN
-F 1 "GND" H 9900 3680 30  0001 C CNN
-F 2 "" H 9900 3750 60  0000 C CNN
-F 3 "" H 9900 3750 60  0000 C CNN
-	1    9900 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 3350 9900 3350
-Wire Wire Line
-	9900 3350 9900 3750
-Text HLabel 10850 4050 2    60   Output ~ 0
-5V
 $EndSCHEMATC

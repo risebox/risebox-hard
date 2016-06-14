@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:leds-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D1
+L LED-RESCUE-leds D1
 U 1 1 56E1A1EF
 P 4750 1950
 F 0 "D1" H 4750 2050 50  0000 C CNN
@@ -56,7 +56,7 @@ F 3 "" H 4750 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-leds D5
 U 1 1 56E1A231
 P 5400 1950
 F 0 "D5" H 5400 2050 50  0000 C CNN
@@ -67,7 +67,7 @@ F 3 "" H 5400 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D9
+L LED-RESCUE-leds D9
 U 1 1 56E1A294
 P 6050 1950
 F 0 "D9" H 6050 2050 50  0000 C CNN
@@ -78,7 +78,7 @@ F 3 "" H 6050 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D13
+L LED-RESCUE-leds D13
 U 1 1 56E1A2C5
 P 6700 1950
 F 0 "D13" H 6700 2050 50  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "" H 6700 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-leds D2
 U 1 1 56E1BEDB
 P 4750 2450
 F 0 "D2" H 4750 2550 50  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 4750 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L LED-RESCUE-leds D6
 U 1 1 56E1BEE1
 P 5400 2450
 F 0 "D6" H 5400 2550 50  0000 C CNN
@@ -111,7 +111,7 @@ F 3 "" H 5400 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D10
+L LED-RESCUE-leds D10
 U 1 1 56E1BEE7
 P 6050 2450
 F 0 "D10" H 6050 2550 50  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "" H 6050 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D14
+L LED-RESCUE-leds D14
 U 1 1 56E1BEED
 P 6700 2450
 F 0 "D14" H 6700 2550 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 6700 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-leds D3
 U 1 1 56E1C418
 P 4750 2950
 F 0 "D3" H 4750 3050 50  0000 C CNN
@@ -144,7 +144,7 @@ F 3 "" H 4750 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L LED-RESCUE-leds D7
 U 1 1 56E1C41E
 P 5400 2950
 F 0 "D7" H 5400 3050 50  0000 C CNN
@@ -155,7 +155,7 @@ F 3 "" H 5400 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D11
+L LED-RESCUE-leds D11
 U 1 1 56E1C424
 P 6050 2950
 F 0 "D11" H 6050 3050 50  0000 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 6050 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D15
+L LED-RESCUE-leds D15
 U 1 1 56E1C42A
 P 6700 2950
 F 0 "D15" H 6700 3050 50  0000 C CNN
@@ -177,7 +177,7 @@ F 3 "" H 6700 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-leds D4
 U 1 1 56E1C44F
 P 4750 3450
 F 0 "D4" H 4750 3550 50  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 4750 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D8
+L LED-RESCUE-leds D8
 U 1 1 56E1C455
 P 5400 3450
 F 0 "D8" H 5400 3550 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 5400 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D12
+L LED-RESCUE-leds D12
 U 1 1 56E1C45B
 P 6050 3450
 F 0 "D12" H 6050 3550 50  0000 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 6050 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D16
+L LED-RESCUE-leds D16
 U 1 1 56E1C461
 P 6700 3450
 F 0 "D16" H 6700 3550 50  0000 C CNN
@@ -276,10 +276,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 4550 5000 4800
 $Comp
-L GND #PWR01
+L GND-RESCUE-leds #PWR1
 U 1 1 5714EE15
 P 6050 5200
-F 0 "#PWR01" H 6050 5200 30  0001 C CNN
+F 0 "#PWR1" H 6050 5200 30  0001 C CNN
 F 1 "GND" H 6050 5130 30  0001 C CNN
 F 2 "" H 6050 5200 60  0000 C CNN
 F 3 "" H 6050 5200 60  0000 C CNN
@@ -291,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 4700 7100 4700
 $Comp
-L R R1
+L R-RESCUE-leds R1
 U 1 1 574515E8
 P 5550 4400
 F 0 "R1" V 5630 4400 40  0000 C CNN

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:leds-controller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328-P IC?
+L ATMEGA328-P-RESCUE-leds-controller IC?
 U 1 1 56E1DAFD
 P 3950 3750
 F 0 "IC?" H 3200 5000 40  0000 L BNN
@@ -58,7 +58,7 @@ F 3 "" H 3950 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 56E1DB95
 P 700 800
 F 0 "#PWR?" H 700 800 30  0001 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 1250 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 56E1F01C
 P 1250 5050
 F 0 "#PWR?" H 1250 5050 30  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 1250 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 56E1F0BA
 P 1000 3800
 F 0 "R?" V 1080 3800 40  0000 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 1000 3800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 56E1F0F6
 P 1250 3800
 F 0 "R?" V 1330 3800 40  0000 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 1250 3800 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 56E1F119
 P 1500 3800
 F 0 "R?" V 1580 3800 40  0000 C CNN
@@ -236,7 +236,7 @@ RX
 Text Label 2700 7350 0    60   ~ 0
 TX
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 570C2C8C
 P 1950 2650
 F 0 "R?" V 2030 2650 40  0000 C CNN
@@ -247,7 +247,7 @@ F 3 "" H 1950 2650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-leds-controller C?
 U 1 1 570C2CB7
 P 1400 2300
 F 0 "C?" H 1400 2400 40  0000 L CNN
@@ -258,7 +258,7 @@ F 3 "" H 1400 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 570C3013
 P 850 2150
 F 0 "#PWR?" H 850 2150 30  0001 C CNN
@@ -278,7 +278,7 @@ F3 "RX" I R 10450 1250 60
 F4 "VIN_5V" I L 9150 1100 60 
 $EndSheet
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 570C3845
 P 4600 5800
 F 0 "R?" V 4680 5800 40  0000 C CNN
@@ -331,7 +331,7 @@ $EndComp
 Text Label 4800 1050 2    60   ~ 0
 ALIM_5V
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 570FC0EA
 P 2100 1300
 F 0 "#PWR?" H 2100 1300 30  0001 C CNN
@@ -344,7 +344,7 @@ $EndComp
 Text Label 4800 850  2    60   ~ 0
 ALIM_12V
 $Comp
-L LED D?
+L LED-RESCUE-leds-controller D?
 U 1 1 5710F8AD
 P 6100 2550
 F 0 "D?" H 6100 2650 50  0000 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 6100 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 5710F8D8
 P 6300 2700
 F 0 "#PWR?" H 6300 2700 30  0001 C CNN
@@ -366,7 +366,7 @@ F 3 "" H 6300 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 5710F961
 P 5900 2900
 F 0 "R?" V 5980 2900 40  0000 C CNN
@@ -436,7 +436,7 @@ ALIM_5V
 Text Label 10100 5650 0    60   ~ 0
 TEMP2
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 57118968
 P 10100 6000
 F 0 "#PWR?" H 10100 6000 30  0001 C CNN
@@ -447,7 +447,7 @@ F 3 "" H 10100 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 5714DE0B
 P 9500 2500
 F 0 "#PWR?" H 9500 2500 30  0001 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 5650 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-leds-controller R?
 U 1 1 5714EAA9
 P 5650 1100
 F 0 "R?" V 5730 1100 40  0000 C CNN
@@ -490,7 +490,7 @@ F 3 "" H 5650 1100 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 5714EACC
 P 5650 2350
 F 0 "#PWR?" H 5650 2350 30  0001 C CNN
@@ -818,7 +818,7 @@ F 3 "" H 2300 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-leds-controller C?
 U 1 1 572988EA
 P 2800 5450
 F 0 "C?" H 2800 5550 40  0000 L CNN
@@ -829,7 +829,7 @@ F 3 "" H 2800 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C-RESCUE-leds-controller C?
 U 1 1 57298990
 P 1800 5450
 F 0 "C?" H 1800 5550 40  0000 L CNN
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 5800 2800 5650
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 5729D841
 P 2300 6000
 F 0 "#PWR?" H 2300 6000 30  0001 C CNN
@@ -942,7 +942,7 @@ NoConn ~ 4950 4950
 NoConn ~ 4950 2650
 NoConn ~ 3050 3250
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 57448CD8
 P 2950 5150
 F 0 "#PWR?" H 2950 5150 30  0001 C CNN
@@ -975,7 +975,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4100 6700 4300
 $Comp
-L GND #PWR?
+L GND-RESCUE-leds-controller #PWR?
 U 1 1 5744AD3B
 P 6700 4300
 F 0 "#PWR?" H 6700 4300 30  0001 C CNN

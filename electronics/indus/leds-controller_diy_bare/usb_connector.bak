@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:leds-controller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -92,7 +92,7 @@ NoConn ~ 4500 3550
 NoConn ~ 4500 4050
 NoConn ~ 6350 3050
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 5744DAC4
 P 5450 5100
 F 0 "#PWR?" H 5450 5100 30  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 5450 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 5744DB8B
 P 7000 3250
 F 0 "C?" H 7000 3350 40  0000 L CNN
@@ -118,7 +118,7 @@ RESET_MCU
 Text Label 3450 3550 2    60   ~ 0
 VUSB
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 5744DE9A
 P 1950 5650
 F 0 "#PWR?" H 1950 5650 30  0001 C CNN
@@ -140,7 +140,7 @@ F 3 "" H 1650 5200 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 5744DF6D
 P 2250 5200
 F 0 "C?" H 2250 5300 40  0000 L CNN
@@ -154,7 +154,7 @@ Text Label 2750 4800 2    60   ~ 0
 VUSB
 NoConn ~ 2850 4000
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 5744E0DC
 P 3100 4400
 F 0 "#PWR?" H 3100 4400 30  0001 C CNN
@@ -165,7 +165,7 @@ F 3 "" H 3100 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 5744E125
 P 1350 4450
 F 0 "#PWR?" H 1350 4450 30  0001 C CNN
@@ -260,7 +260,7 @@ Wire Wire Line
 	1750 4150 1350 4150
 Connection ~ 1350 4150
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 5744E25F
 P 7600 3800
 F 0 "R?" V 7680 3800 40  0000 C CNN
@@ -271,7 +271,7 @@ F 3 "" H 7600 3800 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 5744E2C6
 P 7600 4200
 F 0 "R?" V 7680 4200 40  0000 C CNN
@@ -282,7 +282,7 @@ F 3 "" H 7600 4200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-leds-controller D?
+L LED D?
 U 1 1 5744E2E7
 P 8400 3800
 F 0 "D?" H 8400 3900 50  0000 C CNN
@@ -293,7 +293,7 @@ F 3 "" H 8400 3800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-leds-controller D?
+L LED D?
 U 1 1 5744E36A
 P 8400 4200
 F 0 "D?" H 8400 4300 50  0000 C CNN

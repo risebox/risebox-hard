@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:leds-controller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -66,7 +66,7 @@ $EndComp
 Wire Wire Line
 	1150 3200 5300 3200
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 57158002
 P 3400 2850
 F 0 "#PWR?" H 3400 2850 30  0001 C CNN
@@ -77,7 +77,7 @@ F 3 "" H 3400 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 57158008
 P 3400 2400
 F 0 "C?" H 3400 2500 40  0000 L CNN
@@ -88,7 +88,7 @@ F 3 "" H 3400 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 5715800F
 P 4150 2450
 F 0 "R?" V 4230 2450 40  0000 C CNN
@@ -104,7 +104,7 @@ Wire Wire Line
 	4150 2700 4150 3200
 Connection ~ 4150 3200
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 57158019
 P 1650 3900
 F 0 "C?" H 1650 4000 40  0000 L CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 	5800 4300 5800 4650
 Connection ~ 5800 4650
 $Comp
-L GND-RESCUE-leds-controller #PWR?
+L GND #PWR?
 U 1 1 57158027
 P 6000 5000
 F 0 "#PWR?" H 6000 5000 30  0001 C CNN
@@ -139,7 +139,7 @@ F 3 "" H 6000 5000 60  0000 C CNN
 $EndComp
 Connection ~ 6000 4650
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 5715802E
 P 2200 3550
 F 0 "R?" V 2280 3550 40  0000 C CNN
@@ -150,7 +150,7 @@ F 3 "" H 2200 3550 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 57158035
 P 2200 4250
 F 0 "R?" V 2280 4250 40  0000 C CNN
@@ -176,7 +176,7 @@ Wire Wire Line
 	2500 3500 5300 3500
 Connection ~ 2200 3900
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 57158045
 P 3100 4050
 F 0 "C?" H 3100 4150 40  0000 L CNN
@@ -187,7 +187,7 @@ F 3 "" H 3100 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 5715804C
 P 4100 4250
 F 0 "R?" V 4180 4250 40  0000 C CNN
@@ -241,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2700 6050 2000
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 5715806B
 P 6850 2650
 F 0 "C?" H 6850 2750 40  0000 L CNN
@@ -270,7 +270,7 @@ Connection ~ 6850 3200
 Wire Wire Line
 	8550 3200 10500 3200
 $Comp
-L C-RESCUE-leds-controller C?
+L C C?
 U 1 1 5715807C
 P 9600 3500
 F 0 "C?" H 9600 3600 40  0000 L CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 	9600 3700 9600 3800
 Connection ~ 9600 3800
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 57158087
 P 8250 3800
 F 0 "R?" V 8330 3800 40  0000 C CNN
@@ -302,7 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3800 10500 3800
 $Comp
-L R-RESCUE-leds-controller R?
+L R R?
 U 1 1 57158090
 P 10200 4250
 F 0 "R?" V 10280 4250 40  0000 C CNN

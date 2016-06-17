@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -144,7 +144,7 @@ F 3 "" H 9400 3950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9450 4350 9450 4650
+	9450 4350 9450 4950
 Wire Wire Line
 	9450 4650 9900 4650
 Text HLabel 9900 4650 2    60   Output ~ 0
@@ -172,4 +172,42 @@ Connection ~ 3950 2950
 Wire Wire Line
 	3950 3650 3950 3950
 Connection ~ 5250 3950
+$Comp
+L LED D?
+U 1 1 5764C960
+P 9450 5550
+F 0 "D?" H 9450 5650 50  0000 C CNN
+F 1 "LED" H 9450 5450 50  0000 C CNN
+F 2 "" H 9450 5550 50  0000 C CNN
+F 3 "" H 9450 5550 50  0000 C CNN
+	1    9450 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5764C967
+P 9450 5100
+F 0 "R?" V 9530 5100 50  0000 C CNN
+F 1 "470" V 9450 5100 50  0000 C CNN
+F 2 "" V 9380 5100 50  0000 C CNN
+F 3 "" H 9450 5100 50  0000 C CNN
+	1    9450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5250 9450 5350
+$Comp
+L GND #PWR?
+U 1 1 5764C97D
+P 9450 6000
+F 0 "#PWR?" H 9450 5750 50  0001 C CNN
+F 1 "GND" H 9450 5850 50  0000 C CNN
+F 2 "" H 9450 6000 50  0000 C CNN
+F 3 "" H 9450 6000 50  0000 C CNN
+	1    9450 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 4650
+Wire Wire Line
+	9450 5750 9450 6000
 $EndSCHEMATC

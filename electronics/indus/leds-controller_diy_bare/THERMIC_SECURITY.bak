@@ -270,4 +270,16 @@ Wire Wire Line
 	8850 4250 8850 4350
 Wire Wire Line
 	8850 4850 8850 4750
+Text Notes 950  5700 0    60   ~ 0
+Question filtrage des signaux analogiques issus des thermistances. \nC'est filtré en aval du comparateur, mais ne faudrait-il pas filtrer en amont aussi,\n surtout que ces 2 signaux sortent potentiellement vers un micro controlleur externe.
+Wire Notes Line
+	750  5850 5150 5850
+Wire Notes Line
+	5150 5850 5150 5350
+Wire Notes Line
+	5150 5350 750  5350
+Wire Notes Line
+	750  5350 750  5850
+Text Notes 6600 3200 0    60   ~ 0
+Comparateur 1.6 à 5.5V
 $EndSCHEMATC

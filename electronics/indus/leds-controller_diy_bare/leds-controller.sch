@@ -61,7 +61,6 @@ F8 "REG_0.7A" I L 5150 3750 60
 F9 "REG_0.35A" I L 5150 3850 60 
 F10 "POT_IN" O R 6400 3200 60 
 F11 "POT_OUT" O R 6400 3100 60 
-F12 "THERM_OFF" I L 5150 3400 60 
 $EndSheet
 $Sheet
 S 5150 1800 1250 950 
@@ -78,7 +77,6 @@ F8 "REG_0.7A" I L 5150 2550 60
 F9 "REG_0.35A" I L 5150 2650 60 
 F10 "POT_IN" O R 6400 2000 60 
 F11 "POT_OUT" O R 6400 1900 60 
-F12 "THERM_OFF" I L 5150 2200 60 
 $EndSheet
 $Sheet
 S 5150 4200 1250 950 
@@ -95,7 +93,6 @@ F8 "REG_0.7A" I L 5150 4950 60
 F9 "REG_0.35A" I L 5150 5050 60 
 F10 "POT_IN" O R 6400 4400 60 
 F11 "POT_OUT" O R 6400 4300 60 
-F12 "THERM_OFF" I L 5150 4600 60 
 $EndSheet
 $Sheet
 S 5150 5400 1250 950 
@@ -112,7 +109,6 @@ F8 "REG_0.7A" I L 5150 6150 60
 F9 "REG_0.35A" I L 5150 6250 60 
 F10 "POT_IN" O R 6400 5600 60 
 F11 "POT_OUT" O R 6400 5500 60 
-F12 "THERM_OFF" I L 5150 5800 60 
 $EndSheet
 $Comp
 L CONN_01X02 P1
@@ -337,7 +333,7 @@ L DIODE D1
 U 1 1 5761ABE4
 P 1650 1350
 F 0 "D1" H 1650 1450 40  0000 C CNN
-F 1 "RS1B DIODE" H 1650 1250 40  0000 C CNN
+F 1 "SS16" H 1650 1250 40  0000 C CNN
 F 2 "ab2tech:AB2_DO-214AC" H 1650 1350 60  0001 C CNN
 F 3 "" H 1650 1350 60  0000 C CNN
 	1    1650 1350
@@ -402,9 +398,7 @@ U 576308EF
 F0 "THERMIC_SECURITY" 60
 F1 "THERMIC_SECURITY.sch" 60
 F2 "Vin_5V" I L 1700 3650 60 
-F3 "THERM_OFF" O R 2950 3600 60 
-F4 "THERM_LEDS" I L 1700 3750 60 
-F5 "THERM_CTRL" O R 2950 3900 60 
+F3 "THERM_CTRL" O R 2950 3900 60 
 $EndSheet
 $Comp
 L CONN_01X03 P10
@@ -428,10 +422,6 @@ F 3 "" H 1300 4150 50  0000 C CNN
 	1    1300 4150
 	1    0    0    -1  
 $EndComp
-Text Label 4350 2200 0    60   ~ 0
-THERM_OFF
-Text Label 3550 3600 2    60   ~ 0
-THERM_OFF
 Text Label 2200 5250 2    60   ~ 0
 PWM_COL1
 Text Label 2200 5350 2    60   ~ 0
@@ -487,8 +477,6 @@ Text Label 4350 3750 0    60   ~ 0
 REG_0.7A
 Text Label 4350 3850 0    60   ~ 0
 REG_0.35A
-Text Label 4350 3400 0    60   ~ 0
-THERM_OFF
 Text Label 3050 850  0    60   ~ 0
 ALIM_LEDS
 Text Label 7250 4950 2    60   ~ 0
@@ -510,34 +498,18 @@ Wire Wire Line
 Wire Wire Line
 	5150 1900 4350 1900
 Wire Wire Line
-	2950 3600 3550 3600
-Wire Wire Line
-	1050 3650 1300 3650
-Wire Wire Line
-	1300 3650 1700 3650
-Wire Wire Line
-	1700 3750 1500 3750
-Wire Wire Line
-	1500 3750 1050 3750
+	1050 3650 1700 3650
 Wire Wire Line
 	5150 2050 3950 2050
 Connection ~ 3950 850 
 Wire Wire Line
-	5150 2200 4350 2200
-Wire Wire Line
-	1300 3850 1300 4100
-Wire Wire Line
-	1300 4100 1300 4150
+	1300 3850 1300 4150
 Wire Wire Line
 	1050 3850 1300 3850
 Wire Wire Line
-	5600 1150 5850 1150
+	5600 1150 6450 1150
 Wire Wire Line
-	5850 1150 6450 1150
-Wire Wire Line
-	5600 850  5850 850 
-Wire Wire Line
-	5850 850  7050 850 
+	5600 850  7050 850 
 Wire Wire Line
 	1450 5750 1450 6000
 Wire Wire Line
@@ -549,15 +521,9 @@ Connection ~ 1650 1700
 Wire Wire Line
 	1650 1550 1650 1700
 Wire Wire Line
-	2050 1550 2050 1700
+	2050 1550 2050 1900
 Wire Wire Line
-	2050 1700 2050 1900
-Wire Wire Line
-	1200 1700 1650 1700
-Wire Wire Line
-	1650 1700 2050 1700
-Wire Wire Line
-	2050 1700 2450 1700
+	1200 1700 2450 1700
 Connection ~ 2450 850 
 Wire Wire Line
 	2450 850  2450 1150
@@ -570,9 +536,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 5150 2200 5150
 Wire Wire Line
-	2200 5250 1550 5250
-Wire Wire Line
-	1550 5250 1500 5250
+	1500 5250 2200 5250
 Wire Wire Line
 	1200 5250 1050 5250
 Wire Wire Line
@@ -650,13 +614,7 @@ Connection ~ 3950 2050
 Wire Wire Line
 	3950 5650 5150 5650
 Wire Wire Line
-	3950 850  3950 2050
-Wire Wire Line
-	3950 2050 3950 3250
-Wire Wire Line
-	3950 3250 3950 4450
-Wire Wire Line
-	3950 4450 3950 5650
+	3950 850  3950 5650
 Wire Wire Line
 	10250 5500 10600 5500
 Wire Wire Line
@@ -664,19 +622,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 5400 9050 5400
 Wire Wire Line
-	8200 5700 8750 5700
+	8200 5700 9050 5700
 Wire Wire Line
-	8750 5700 9050 5700
-Wire Wire Line
-	1050 850  1650 850 
-Wire Wire Line
-	1650 850  2050 850 
-Wire Wire Line
-	2050 850  2450 850 
-Wire Wire Line
-	2450 850  3950 850 
-Wire Wire Line
-	3950 850  4500 850 
+	1050 850  4500 850 
 Wire Wire Line
 	1200 950  1200 1700
 Wire Wire Line
@@ -694,8 +642,6 @@ Wire Wire Line
 	6400 3850 7250 3850
 Wire Wire Line
 	6400 3750 7250 3750
-Wire Wire Line
-	5150 3400 4350 3400
 Wire Wire Line
 	5150 3850 4350 3850
 Wire Wire Line
@@ -727,7 +673,6 @@ Wire Wire Line
 	1500 3750 1500 4950
 Wire Wire Line
 	1500 4950 1050 4950
-Connection ~ 1500 3750
 Text Label 4350 4750 0    60   ~ 0
 REG_1.2A
 Text Label 4350 4850 0    60   ~ 0
@@ -736,10 +681,6 @@ Text Label 4350 4950 0    60   ~ 0
 REG_0.7A
 Text Label 4350 5050 0    60   ~ 0
 REG_0.35A
-Text Label 4350 4600 0    60   ~ 0
-THERM_OFF
-Wire Wire Line
-	5150 4600 4350 4600
 Wire Wire Line
 	5150 5050 4350 5050
 Wire Wire Line
@@ -756,10 +697,6 @@ Text Label 4350 6150 0    60   ~ 0
 REG_0.7A
 Text Label 4350 6250 0    60   ~ 0
 REG_0.35A
-Text Label 4350 5800 0    60   ~ 0
-THERM_OFF
-Wire Wire Line
-	5150 5800 4350 5800
 Wire Wire Line
 	5150 6250 4350 6250
 Wire Wire Line
@@ -794,9 +731,7 @@ F 3 "" H 1350 5250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 5350 1550 5350
-Wire Wire Line
-	1550 5350 1500 5350
+	1500 5350 2200 5350
 Wire Wire Line
 	1200 5350 1050 5350
 $Comp
@@ -811,9 +746,7 @@ F 3 "" H 1350 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 5450 1550 5450
-Wire Wire Line
-	1550 5450 1500 5450
+	1500 5450 2200 5450
 Wire Wire Line
 	1200 5450 1050 5450
 $Comp
@@ -828,9 +761,7 @@ F 3 "" H 1350 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 5550 1550 5550
-Wire Wire Line
-	1550 5550 1500 5550
+	1500 5550 2200 5550
 Wire Wire Line
 	1200 5550 1050 5550
 $Comp
@@ -845,9 +776,7 @@ F 3 "" H 1350 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 5650 1550 5650
-Wire Wire Line
-	1550 5650 1500 5650
+	1500 5650 2200 5650
 Wire Wire Line
 	1200 5650 1050 5650
 $Comp
@@ -865,4 +794,35 @@ Text Notes 7800 2100 0    60   ~ 0
 Chaque potard permet de dimer analogiquement\nen réduisant linéairement la tension appliquée sur\nla PIN IADJ de chaque controlleur.
 Text Notes 800  2750 0    60   ~ 0
 SECURITE THERMIQUE\n- les controlleurs s'arrètent à une certaine T°\n- la T° des cartes de leds est prise en compte aussi
+Wire Wire Line
+	1500 4450 1900 4450
+Connection ~ 1500 4450
+$Comp
+L C C?
+U 1 1 57683C7B
+P 2050 4450
+F 0 "C?" H 2075 4550 50  0000 L CNN
+F 1 "10nF" H 2075 4350 50  0000 L CNN
+F 2 "" H 2088 4300 50  0000 C CNN
+F 3 "" H 2050 4450 50  0000 C CNN
+	1    2050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 576840C0
+P 2450 4700
+F 0 "#PWR?" H 2450 4450 50  0001 C CNN
+F 1 "GND" H 2450 4550 50  0000 C CNN
+F 2 "" H 2450 4700 50  0000 C CNN
+F 3 "" H 2450 4700 50  0000 C CNN
+	1    2450 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4450 2450 4450
+Wire Wire Line
+	2450 4450 2450 4700
+Wire Wire Line
+	1050 3750 1500 3750
 $EndSCHEMATC

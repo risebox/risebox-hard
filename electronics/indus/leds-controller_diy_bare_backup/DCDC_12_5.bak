@@ -1,0 +1,213 @@
+EESchema Schematic File Version 2
+LIBS:leds-controller-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:risebox
+LIBS:tps54335a
+LIBS:leds-controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TL2575 U5
+U 1 1 5762406A
+P 5450 3200
+F 0 "U5" H 5450 2850 60  0000 C CNN
+F 1 "TL2575HV-12" H 5450 3650 60  0000 C CNN
+F 2 "" H 5450 3200 60  0000 C CNN
+F 3 "" H 5450 3200 60  0000 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3050 2950 0    60   Input ~ 0
+Vin_12V_60V
+Wire Wire Line
+	3050 2950 4850 2950
+$Comp
+L GND #PWR17
+U 1 1 576240CC
+P 5650 4200
+F 0 "#PWR17" H 5650 3950 50  0001 C CNN
+F 1 "GND" H 5650 4050 50  0000 C CNN
+F 2 "" H 5650 4200 50  0000 C CNN
+F 3 "" H 5650 4200 50  0000 C CNN
+	1    5650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3550 5250 3950
+Wire Wire Line
+	3950 3950 9150 3950
+Wire Wire Line
+	5650 3550 5650 4200
+Connection ~ 5650 3950
+$Comp
+L D_Schottky D8
+U 1 1 576240F0
+P 6450 3550
+F 0 "D8" H 6450 3650 50  0000 C CNN
+F 1 "CD214A-B160LF" H 6450 3450 50  0000 C CNN
+F 2 "" H 6450 3550 50  0000 C CNN
+F 3 "" H 6450 3550 50  0000 C CNN
+	1    6450 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3950 6450 3700
+Wire Wire Line
+	6050 3100 6800 3100
+$Comp
+L INDUCTOR L5
+U 1 1 57624177
+P 7100 3100
+F 0 "L5" V 7050 3100 50  0000 C CNN
+F 1 "SRR1210A-681M" V 7200 3100 50  0000 C CNN
+F 2 "" H 7100 3100 50  0000 C CNN
+F 3 "" H 7100 3100 50  0000 C CNN
+	1    7100 3100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6450 3100
+Wire Wire Line
+	6050 2950 7650 2950
+Wire Wire Line
+	7400 3100 9900 3100
+Wire Wire Line
+	7650 2950 7650 3100
+Connection ~ 7650 3100
+Wire Wire Line
+	6450 3400 6450 3100
+$Comp
+L C C19
+U 1 1 57624207
+P 8050 3550
+F 0 "C19" H 8075 3650 50  0000 L CNN
+F 1 "330µF LOW ESR 35V - EEEFC1V331P" H 7350 3400 50  0000 L CNN
+F 2 "" H 8088 3400 50  0000 C CNN
+F 3 "" H 8050 3550 50  0000 C CNN
+	1    8050 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3400 8050 3100
+Connection ~ 8050 3100
+Wire Wire Line
+	8050 3950 8050 3700
+Connection ~ 6450 3950
+$Comp
+L 7805 U6
+U 1 1 576245A9
+P 9400 3950
+F 0 "U6" H 9550 3754 60  0000 C CNN
+F 1 "L7805AD2T-TR" H 9400 4150 60  0000 C CNN
+F 2 "" H 9400 3950 60  0000 C CNN
+F 3 "" H 9400 3950 60  0000 C CNN
+	1    9400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9450 4350 9450 4950
+Wire Wire Line
+	9450 4650 9900 4650
+Text HLabel 9900 4650 2    60   Output ~ 0
+5V
+Connection ~ 8050 3950
+Wire Wire Line
+	9450 3550 9450 3100
+Connection ~ 9450 3100
+Text HLabel 9900 3100 2    60   Output ~ 0
+12V
+$Comp
+L C C18
+U 1 1 5762464E
+P 3950 3500
+F 0 "C18" H 3975 3600 50  0000 L CNN
+F 1 "100µF" H 3975 3400 50  0000 L CNN
+F 2 "" H 3988 3350 50  0000 C CNN
+F 3 "" H 3950 3500 50  0000 C CNN
+	1    3950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3350 3950 2950
+Connection ~ 3950 2950
+Wire Wire Line
+	3950 3650 3950 3950
+Connection ~ 5250 3950
+$Comp
+L LED D9
+U 1 1 5764C960
+P 9450 5550
+F 0 "D9" H 9450 5650 50  0000 C CNN
+F 1 "KP-2012SGC" H 9450 5450 50  0000 C CNN
+F 2 "" H 9450 5550 50  0000 C CNN
+F 3 "" H 9450 5550 50  0000 C CNN
+	1    9450 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R30
+U 1 1 5764C967
+P 9450 5100
+F 0 "R30" V 9530 5100 50  0000 C CNN
+F 1 "470" V 9450 5100 50  0000 C CNN
+F 2 "" V 9380 5100 50  0000 C CNN
+F 3 "" H 9450 5100 50  0000 C CNN
+	1    9450 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5250 9450 5350
+$Comp
+L GND #PWR18
+U 1 1 5764C97D
+P 9450 6000
+F 0 "#PWR18" H 9450 5750 50  0001 C CNN
+F 1 "GND" H 9450 5850 50  0000 C CNN
+F 2 "" H 9450 6000 50  0000 C CNN
+F 3 "" H 9450 6000 50  0000 C CNN
+	1    9450 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 4650
+Wire Wire Line
+	9450 5750 9450 6000
+$EndSCHEMATC

@@ -1,0 +1,477 @@
+EESchema Schematic File Version 2
+LIBS:leds-controller-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:risebox
+LIBS:tps54335a
+LIBS:leds-controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 9
+Title "Carte controlleur de LEDs 4 canaux"
+Date ""
+Rev "WIP"
+Comp "Risebox"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 10550 3950 2    60   Output ~ 0
+LED+
+Text HLabel 10550 4550 2    60   Output ~ 0
+LED-
+Text HLabel 1200 3950 0    60   Input ~ 0
+VIN
+$Comp
+L TPS92513 U1
+U 1 1 5766268C
+P 5900 4050
+F 0 "U1" H 6250 3100 60  0000 C CNN
+F 1 "TPS92513" H 5500 3100 60  0000 C CNN
+F 2 "" H 6050 4150 60  0000 C CNN
+F 3 "" H 6050 4150 60  0000 C CNN
+	1    5900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-leds-controller C2
+U 1 1 57662693
+P 1750 4650
+F 0 "C2" H 1750 4750 40  0000 L CNN
+F 1 "C" H 1756 4565 40  0000 L CNN
+F 2 "" H 1788 4500 30  0000 C CNN
+F 3 "" H 1750 4650 60  0000 C CNN
+	1    1750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-leds-controller #PWR11
+U 1 1 5766269A
+P 6050 5750
+F 0 "#PWR11" H 6050 5750 30  0001 C CNN
+F 1 "GND" H 6050 5680 30  0001 C CNN
+F 2 "" H 6050 5750 60  0000 C CNN
+F 3 "" H 6050 5750 60  0000 C CNN
+	1    6050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-leds-controller R7
+U 1 1 576626A0
+P 3650 4300
+F 0 "R7" V 3730 4300 40  0000 C CNN
+F 1 "176k" V 3657 4301 40  0000 C CNN
+F 2 "" V 3580 4300 30  0000 C CNN
+F 3 "" H 3650 4300 30  0000 C CNN
+	1    3650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-leds-controller R8
+U 1 1 576626A7
+P 3650 5000
+F 0 "R8" V 3730 5000 40  0000 C CNN
+F 1 "19.3k" V 3657 5001 40  0000 C CNN
+F 2 "" V 3580 5000 30  0000 C CNN
+F 3 "" H 3650 5000 30  0000 C CNN
+	1    3650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-leds-controller C3
+U 1 1 576626AE
+P 4400 4950
+F 0 "C3" H 4400 5050 40  0000 L CNN
+F 1 "C" H 4406 4865 40  0000 L CNN
+F 2 "" H 4438 4800 30  0000 C CNN
+F 3 "" H 4400 4950 60  0000 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-leds-controller R9
+U 1 1 576626B5
+P 4950 5000
+F 0 "R9" V 5030 5000 40  0000 C CNN
+F 1 "R" V 4957 5001 40  0000 C CNN
+F 2 "" V 4880 5000 30  0000 C CNN
+F 3 "" H 4950 5000 30  0000 C CNN
+	1    4950 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 576626BC
+P 8300 3950
+F 0 "L1" V 8250 3950 40  0000 C CNN
+F 1 "XAL6060-153MEC - 15µH - 6A" V 8400 3950 40  0000 C CNN
+F 2 "risebox:SELF_COILCRAFT_XAL6060-153" H 8300 3950 60  0001 C CNN
+F 3 "" H 8300 3950 60  0000 C CNN
+	1    8300 3950
+	0    -1   -1   0   
+$EndComp
+Text Notes 8650 3700 2    60   ~ 0
+self métallique
+$Comp
+L C-RESCUE-leds-controller C4
+U 1 1 576626C4
+P 6900 3400
+F 0 "C4" H 6900 3500 40  0000 L CNN
+F 1 "C" H 6906 3315 40  0000 L CNN
+F 2 "" H 6938 3250 30  0000 C CNN
+F 3 "" H 6900 3400 60  0000 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-leds-controller C5
+U 1 1 576626CB
+P 9650 4250
+F 0 "C5" H 9650 4350 40  0000 L CNN
+F 1 "C" H 9656 4165 40  0000 L CNN
+F 2 "" H 9688 4100 30  0000 C CNN
+F 3 "" H 9650 4250 60  0000 C CNN
+	1    9650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-leds-controller R10
+U 1 1 576626D2
+P 8300 4550
+F 0 "R10" V 8380 4550 40  0000 C CNN
+F 1 "R" V 8307 4551 40  0000 C CNN
+F 2 "" V 8230 4550 30  0000 C CNN
+F 3 "" H 8300 4550 30  0000 C CNN
+	1    8300 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-leds-controller R11
+U 1 1 576626D9
+P 10250 5000
+F 0 "R11" V 10330 5000 40  0000 C CNN
+F 1 "R" V 10257 5001 40  0000 C CNN
+F 2 "" V 10180 5000 30  0000 C CNN
+F 3 "" H 10250 5000 30  0000 C CNN
+	1    10250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D3
+U 1 1 576626E0
+P 7450 5000
+F 0 "D3" H 7450 5100 40  0000 C CNN
+F 1 "DIODESCH" H 7450 4900 40  0000 C CNN
+F 2 "" H 7450 5000 60  0000 C CNN
+F 3 "" H 7450 5000 60  0000 C CNN
+	1    7450 5000
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1200 3500 0    60   Input ~ 0
+PWM
+Text Label 1700 3500 2    60   ~ 0
+PDIM
+Text Label 4900 4100 0    60   ~ 0
+PDIM
+$Comp
+L JUMPER JP6
+U 1 1 576626EA
+P 2500 1500
+F 0 "JP6" H 2500 1650 50  0000 C CNN
+F 1 "JUMPER" H 2500 1420 50  0000 C CNN
+F 2 "" H 2500 1500 50  0000 C CNN
+F 3 "" H 2500 1500 50  0000 C CNN
+	1    2500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP7
+U 1 1 576626F1
+P 2500 1850
+F 0 "JP7" H 2500 2000 50  0000 C CNN
+F 1 "JUMPER" H 2500 1770 50  0000 C CNN
+F 2 "" H 2500 1850 50  0000 C CNN
+F 3 "" H 2500 1850 50  0000 C CNN
+	1    2500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP8
+U 1 1 576626F8
+P 2500 2200
+F 0 "JP8" H 2500 2350 50  0000 C CNN
+F 1 "JUMPER" H 2500 2120 50  0000 C CNN
+F 2 "" H 2500 2200 50  0000 C CNN
+F 3 "" H 2500 2200 50  0000 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP9
+U 1 1 576626FF
+P 2500 2550
+F 0 "JP9" H 2500 2700 50  0000 C CNN
+F 1 "JUMPER" H 2500 2470 50  0000 C CNN
+F 2 "" H 2500 2550 50  0000 C CNN
+F 3 "" H 2500 2550 50  0000 C CNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+Text HLabel 1200 1500 0    60   Input ~ 0
+REG_1.2A
+Text HLabel 1200 1850 0    60   Input ~ 0
+REG_1A
+Text HLabel 1200 2200 0    60   Input ~ 0
+REG_0.7A
+Text HLabel 1200 2550 0    60   Input ~ 0
+REG_0.35A
+$Comp
+L JUMPER JP10
+U 1 1 5766270A
+P 5750 1950
+F 0 "JP10" H 5750 2100 50  0000 C CNN
+F 1 "JUMPER" H 5750 1870 50  0000 C CNN
+F 2 "" H 5750 1950 50  0000 C CNN
+F 3 "" H 5750 1950 50  0000 C CNN
+	1    5750 1950
+	0    1    1    0   
+$EndComp
+Text HLabel 10550 1500 2    60   Output ~ 0
+POT_IN
+Text HLabel 10550 2450 2    60   Output ~ 0
+POT_OUT
+Wire Wire Line
+	1200 3950 1750 3950
+Wire Wire Line
+	1750 3950 3650 3950
+Wire Wire Line
+	3650 3950 3650 3950
+Wire Wire Line
+	3650 3950 5400 3950
+Wire Wire Line
+	1750 5400 3650 5400
+Wire Wire Line
+	3650 5400 4400 5400
+Wire Wire Line
+	4400 5400 4950 5400
+Wire Wire Line
+	4950 5400 5850 5400
+Wire Wire Line
+	5850 5400 6050 5400
+Wire Wire Line
+	6050 5400 7450 5400
+Wire Wire Line
+	7450 5400 10250 5400
+Wire Wire Line
+	6050 5050 6050 5400
+Wire Wire Line
+	6050 5400 6050 5750
+Wire Wire Line
+	5850 5050 5850 5400
+Connection ~ 5850 5400
+Connection ~ 6050 5400
+Wire Wire Line
+	3650 4550 3650 4650
+Wire Wire Line
+	3650 4650 3650 4750
+Wire Wire Line
+	3950 4650 3950 4250
+Wire Wire Line
+	3950 4250 5350 4250
+Connection ~ 3650 4650
+Wire Wire Line
+	4400 5150 4400 5400
+Connection ~ 4400 5400
+Wire Wire Line
+	4400 4750 4400 4400
+Wire Wire Line
+	4400 4400 5350 4400
+Wire Wire Line
+	5350 4550 4950 4550
+Wire Wire Line
+	4950 4550 4950 4750
+Wire Wire Line
+	4950 5250 4950 5400
+Connection ~ 4950 5400
+Wire Notes Line
+	7900 4150 8750 4150
+Wire Notes Line
+	8750 3600 7900 3600
+Wire Notes Line
+	7900 3600 7900 3700
+Wire Notes Line
+	7900 4150 7900 4050
+Wire Notes Line
+	8750 4150 8750 4050
+Wire Notes Line
+	8750 3600 8750 3700
+Wire Wire Line
+	6500 3950 6900 3950
+Wire Wire Line
+	6900 3950 7450 3950
+Wire Wire Line
+	7450 3950 8000 3950
+Wire Wire Line
+	6100 3450 6100 2750
+Wire Wire Line
+	6100 2750 6900 2750
+Wire Wire Line
+	6900 2750 6900 3200
+Wire Wire Line
+	6900 3600 6900 3950
+Connection ~ 6900 3950
+Wire Wire Line
+	8600 3950 9650 3950
+Wire Wire Line
+	9650 3950 10550 3950
+Wire Wire Line
+	9650 4050 9650 3950
+Connection ~ 9650 3950
+Wire Wire Line
+	9650 4450 9650 4550
+Connection ~ 9650 4550
+Wire Wire Line
+	6500 4550 8050 4550
+Wire Wire Line
+	8550 4550 9650 4550
+Wire Wire Line
+	9650 4550 10250 4550
+Wire Wire Line
+	10250 4550 10550 4550
+Wire Wire Line
+	10250 4750 10250 4550
+Connection ~ 10250 4550
+Wire Wire Line
+	10250 5400 10250 5250
+Wire Wire Line
+	7450 4800 7450 3950
+Connection ~ 7450 3950
+Wire Wire Line
+	7450 5200 7450 5400
+Connection ~ 7450 5400
+Wire Wire Line
+	1200 3500 1700 3500
+Wire Wire Line
+	5350 4100 4900 4100
+Wire Wire Line
+	1200 1500 2200 1500
+Wire Wire Line
+	1200 1850 2200 1850
+Wire Wire Line
+	1200 2200 2200 2200
+Wire Wire Line
+	1200 2550 2200 2550
+Wire Wire Line
+	2800 1500 4050 1500
+Wire Wire Line
+	4050 1500 5750 1500
+Wire Wire Line
+	5750 1500 10550 1500
+Wire Wire Line
+	2800 1850 4050 1850
+Wire Wire Line
+	4050 1500 4050 1850
+Wire Wire Line
+	4050 1850 4050 2200
+Wire Wire Line
+	4050 2200 4050 2550
+Connection ~ 4050 1500
+Wire Wire Line
+	4050 2200 2800 2200
+Connection ~ 4050 1850
+Wire Wire Line
+	4050 2550 2800 2550
+Connection ~ 4050 2200
+Connection ~ 5750 1500
+Wire Wire Line
+	5750 2450 10550 2450
+Connection ~ 5750 2450
+Wire Wire Line
+	5750 2250 5750 2450
+Wire Wire Line
+	5750 2450 5750 3450
+Wire Wire Line
+	5750 1650 5750 1500
+Wire Wire Line
+	1750 4450 1750 3950
+Connection ~ 1750 3950
+Wire Wire Line
+	1750 4850 1750 5400
+Wire Wire Line
+	3650 5250 3650 5300
+Wire Wire Line
+	3650 5300 3650 5400
+Wire Wire Line
+	3650 4050 3650 3950
+Connection ~ 3650 3950
+Connection ~ 3650 5400
+Wire Wire Line
+	2950 4800 2950 4650
+Wire Wire Line
+	2950 4650 3650 4650
+Wire Wire Line
+	3650 4650 3950 4650
+Wire Wire Line
+	2950 5200 2950 5300
+Wire Wire Line
+	2950 5300 3650 5300
+Connection ~ 3650 5300
+$Comp
+L Q_NPN_BCE Q2
+U 1 1 57662775
+P 2850 5000
+F 0 "Q2" H 3150 5050 50  0000 R CNN
+F 1 "Q_NPN_BCE" H 3450 4950 50  0000 R CNN
+F 2 "" H 3050 5100 50  0000 C CNN
+F 3 "" H 2850 5000 50  0000 C CNN
+	1    2850 5000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1200 5000 0    60   Input ~ 0
+THERM_OFF
+$Comp
+L R R6
+U 1 1 5766277D
+P 2300 5000
+F 0 "R6" V 2380 5000 50  0000 C CNN
+F 1 "R" V 2300 5000 50  0000 C CNN
+F 2 "" V 2230 5000 50  0000 C CNN
+F 3 "" H 2300 5000 50  0000 C CNN
+	1    2300 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 5000 2650 5000
+Wire Wire Line
+	2150 5000 1200 5000
+$EndSCHEMATC

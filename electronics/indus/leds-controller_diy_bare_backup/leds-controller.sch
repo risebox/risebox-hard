@@ -402,7 +402,9 @@ U 576308EF
 F0 "THERMIC_SECURITY" 60
 F1 "THERMIC_SECURITY.sch" 60
 F2 "Vin_5V" I L 1700 3650 60 
-F3 "THERM_CTRL" O R 2950 3900 60 
+F3 "THERM_OFF" O R 2950 3600 60 
+F4 "THERM_LEDS" I L 1700 3750 60 
+F5 "THERM_CTRL" O R 2950 3900 60 
 $EndSheet
 $Comp
 L CONN_01X03 P10
@@ -427,6 +429,8 @@ F 3 "" H 1300 4150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4350 2200 0    60   ~ 0
+THERM_OFF
+Text Label 3550 3600 2    60   ~ 0
 THERM_OFF
 Text Label 2200 5250 2    60   ~ 0
 PWM_COL1
@@ -506,7 +510,11 @@ Wire Wire Line
 Wire Wire Line
 	5150 1900 4350 1900
 Wire Wire Line
+	2950 3600 3550 3600
+Wire Wire Line
 	1050 3650 1700 3650
+Wire Wire Line
+	1050 3750 1700 3750
 Wire Wire Line
 	5150 2050 3950 2050
 Connection ~ 3950 850 
@@ -685,6 +693,7 @@ Wire Wire Line
 	1500 3750 1500 4950
 Wire Wire Line
 	1500 4950 1050 4950
+Connection ~ 1500 3750
 Text Label 4350 4750 0    60   ~ 0
 REG_1.2A
 Text Label 4350 4850 0    60   ~ 0
@@ -814,35 +823,4 @@ Text Notes 7800 2100 0    60   ~ 0
 Chaque potard permet de dimer analogiquement\nen réduisant linéairement la tension appliquée sur\nla PIN IADJ de chaque controlleur.
 Text Notes 800  2750 0    60   ~ 0
 SECURITE THERMIQUE\n- les controlleurs s'arrètent à une certaine T°\n- la T° des cartes de leds est prise en compte aussi
-Wire Wire Line
-	1500 4450 1900 4450
-Connection ~ 1500 4450
-$Comp
-L C C?
-U 1 1 57683C7B
-P 2050 4450
-F 0 "C?" H 2075 4550 50  0000 L CNN
-F 1 "10nF" H 2075 4350 50  0000 L CNN
-F 2 "" H 2088 4300 50  0000 C CNN
-F 3 "" H 2050 4450 50  0000 C CNN
-	1    2050 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 576840C0
-P 2450 4700
-F 0 "#PWR?" H 2450 4450 50  0001 C CNN
-F 1 "GND" H 2450 4550 50  0000 C CNN
-F 2 "" H 2450 4700 50  0000 C CNN
-F 3 "" H 2450 4700 50  0000 C CNN
-	1    2450 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4450 2450 4450
-Wire Wire Line
-	2450 4450 2450 4700
-Wire Wire Line
-	1050 3750 1500 3750
 $EndSCHEMATC

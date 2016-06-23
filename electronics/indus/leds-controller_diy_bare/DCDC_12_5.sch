@@ -73,8 +73,6 @@ F 3 "" H 5650 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3550 5250 3950
-Wire Wire Line
 	3950 3950 9150 3950
 Wire Wire Line
 	5650 3550 5650 4200
@@ -171,7 +169,6 @@ Wire Wire Line
 Connection ~ 3950 2950
 Wire Wire Line
 	3950 3650 3950 3950
-Connection ~ 5250 3950
 $Comp
 L LED D9
 U 1 1 5764C960
@@ -210,4 +207,7 @@ $EndComp
 Connection ~ 9450 4650
 Wire Wire Line
 	9450 5750 9450 6000
+Connection ~ 5250 3950
+Wire Wire Line
+	5250 3550 5250 3950
 $EndSCHEMATC

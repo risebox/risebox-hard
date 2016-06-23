@@ -50,7 +50,7 @@ Text HLabel 10550 3950 2    60   Output ~ 0
 LED+
 Text HLabel 10550 4550 2    60   Output ~ 0
 LED-
-Text HLabel 1200 3950 0    60   Input ~ 0
+Text HLabel 1400 3950 0    60   Input ~ 0
 VIN
 $Comp
 L TPS92513 U1
@@ -271,7 +271,7 @@ POT_IN
 Text HLabel 10550 2450 2    60   Output ~ 0
 POT_OUT
 Wire Wire Line
-	1200 3950 5400 3950
+	1400 3950 5350 3950
 Wire Wire Line
 	1750 5400 10250 5400
 Wire Wire Line
@@ -381,8 +381,8 @@ Wire Wire Line
 Wire Wire Line
 	5750 1650 5750 1500
 Wire Wire Line
-	1750 4450 1750 3950
-Connection ~ 1750 3950
+	1750 4450 1950 3950
+Connection ~ 1950 3950
 Wire Wire Line
 	1750 4850 1750 5400
 Wire Wire Line

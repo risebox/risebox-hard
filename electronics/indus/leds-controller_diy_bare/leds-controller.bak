@@ -455,12 +455,12 @@ $EndComp
 $Comp
 L +12V #PWR010
 U 1 1 57656258
-P 8750 5650
-F 0 "#PWR010" H 8750 5500 50  0001 C CNN
-F 1 "+12V" H 8750 5790 50  0000 C CNN
-F 2 "" H 8750 5650 50  0000 C CNN
-F 3 "" H 8750 5650 50  0000 C CNN
-	1    8750 5650
+P 8750 5700
+F 0 "#PWR010" H 8750 5550 50  0001 C CNN
+F 1 "+12V" H 8750 5840 50  0000 C CNN
+F 2 "" H 8750 5700 50  0000 C CNN
+F 3 "" H 8750 5700 50  0000 C CNN
+	1    8750 5700
 	1    0    0    -1  
 $EndComp
 Text Label 1700 3050 2    60   ~ 0
@@ -484,9 +484,9 @@ COLOR3+
 Text Label 7250 5050 2    60   ~ 0
 COLOR3-
 Text Label 7250 6150 2    60   ~ 0
-COLOR3+
+COLOR4+
 Text Label 7250 6250 2    60   ~ 0
-COLOR3-
+COLOR4-
 Text Label 8200 5400 0    60   ~ 0
 PWM_FANS
 Wire Wire Line
@@ -633,11 +633,8 @@ Wire Wire Line
 	5850 800  5850 850 
 Connection ~ 5850 850 
 Wire Wire Line
-	5850 1100 5850 1150
+	5850 1100 5850 1600
 Connection ~ 5850 1150
-Wire Wire Line
-	8750 5650 8750 5700
-Connection ~ 8750 5700
 Wire Wire Line
 	6400 3850 7250 3850
 Wire Wire Line
@@ -825,4 +822,9 @@ Wire Wire Line
 	2450 4450 2450 4700
 Wire Wire Line
 	1050 3750 1500 3750
+Connection ~ 8750 5700
+Wire Wire Line
+	5850 1600 8750 1600
+Wire Wire Line
+	8750 1600 8750 5700
 $EndSCHEMATC

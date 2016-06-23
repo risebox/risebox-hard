@@ -271,7 +271,7 @@ POT_IN
 Text HLabel 10450 1950 2    60   Output ~ 0
 POT_OUT
 Wire Wire Line
-	1100 3450 5300 3450
+	1100 3450 5250 3450
 Wire Wire Line
 	1650 4900 10150 4900
 Wire Wire Line
@@ -388,8 +388,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 4750 3550 4900
 Wire Wire Line
-	3550 3550 3550 3450
-Connection ~ 3550 3450
+	3550 3550 3500 3450
+Connection ~ 3500 3450
 Connection ~ 3550 4900
 Wire Wire Line
 	3550 4150 3850 4150

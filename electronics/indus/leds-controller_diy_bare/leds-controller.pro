@@ -1,4 +1,4 @@
-update=13/06/2016 13:46:47
+update=Jeudi 23 juin 2016 10:58:35
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,7 +29,7 @@ ModuleOutlineThickness=0.150000000000
 version=1
 [eeschema]
 version=1
-LibDir=../../indus
+LibDir=../../indus;/Users/nicolasnardone/dev/risebox-hard/electronics/indus/shared
 [eeschema/libraries]
 LibName1=leds-controller-rescue
 LibName2=power

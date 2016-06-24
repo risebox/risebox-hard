@@ -259,7 +259,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D3746)
-    (at 64.77 90.17 90)
+    (at 30.48 59.69 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C90E/57662693)
@@ -288,7 +288,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D374C)
-    (at 73.66 82.55)
+    (at 39.37 52.07)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C90E/576626AE)
@@ -317,7 +317,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D3752)
-    (at 64.77 83.82)
+    (at 30.48 53.34)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C90E/576626C4)
@@ -346,7 +346,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D3758)
-    (at 59.69 83.82)
+    (at 25.4 53.34)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C90E/576626CB)
@@ -375,7 +375,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D375E)
-    (at 67.31 127)
+    (at 8.89 144.78)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91C/5766F8E6)
@@ -404,7 +404,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D3764)
-    (at 63.5 114.3)
+    (at 5.08 132.08)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C91C/5766F901)
@@ -433,7 +433,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D376A)
-    (at 54.61 119.38 90)
+    (at -3.81 137.16 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C91C/5766F917)
@@ -462,7 +462,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D3770)
-    (at 68.58 113.03 90)
+    (at 10.16 130.81 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91C/5766F91E)
@@ -491,7 +491,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D3776)
-    (at 111.76 133.35 90)
+    (at 102.87 124.46 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91F/57673004)
@@ -520,7 +520,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D377C)
-    (at 113.03 127 270)
+    (at 104.14 118.11 270)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C91F/5767301F)
@@ -549,7 +549,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D3782)
-    (at 105.41 135.89 180)
+    (at 96.52 127 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C91F/57673035)
@@ -578,7 +578,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D3788)
-    (at 113.03 138.43)
+    (at 104.14 129.54)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91F/5767303C)
@@ -607,7 +607,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D378E)
-    (at 116.84 93.98)
+    (at 102.87 35.56)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C919/5715571A)
@@ -636,7 +636,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D3794)
-    (at 110.49 83.82 180)
+    (at 96.52 25.4 180)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C919/5715589F)
@@ -665,7 +665,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 576D379A)
-    (at 110.49 90.17 90)
+    (at 96.52 31.75 90)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56E1C919/571560D6)
@@ -694,7 +694,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D37A0)
-    (at 107.95 96.52)
+    (at 93.98 38.1)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C919/57156549)
@@ -883,7 +883,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D37BE)
-    (at 73.66 73.66)
+    (at 39.37 43.18)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C90E/576AB4F9)
@@ -912,7 +912,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D37C4)
-    (at 72.39 125.73 90)
+    (at 13.97 143.51 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91C/576AB9EE)
@@ -941,7 +941,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D37CA)
-    (at 119.38 137.16)
+    (at 110.49 128.27)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C91F/576AC01B)
@@ -970,7 +970,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer F.Cu) (tedit 5415D7BD) (tstamp 576D37D0)
-    (at 118.11 97.79)
+    (at 104.14 39.37)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /56E1C919/576AC3F8)
@@ -1064,7 +1064,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 5530FCB9) (tstamp 576D37E2)
-    (at 66.04 74.93)
+    (at 31.75 44.45)
     (descr SOD-123)
     (tags SOD-123)
     (path /56E1C90E/576626E0)
@@ -1094,7 +1094,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 5530FCB9) (tstamp 576D37E8)
-    (at 119.38 81.28 180)
+    (at 105.41 22.86 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /56E1C919/57156848)
@@ -1124,7 +1124,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 5530FCB9) (tstamp 576D37EE)
-    (at 66.04 133.35 180)
+    (at 7.62 151.13 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /56E1C91C/5766F933)
@@ -1154,7 +1154,7 @@
   )
 
   (module Diodes_SMD:SOD-123 (layer F.Cu) (tedit 5530FCB9) (tstamp 576D37F4)
-    (at 125.73 137.16 90)
+    (at 116.84 128.27 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /56E1C91F/57673051)
@@ -1279,7 +1279,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D380C)
-    (at 97.79 78.74)
+    (at 83.82 20.32)
     (path /56E1C919/5760B831)
     (attr virtual)
     (fp_text reference JP1 (at 0 -3.9) (layer F.SilkS)
@@ -1300,7 +1300,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3812)
-    (at 106.68 72.39)
+    (at 92.71 13.97)
     (path /56E1C919/5760B8E2)
     (attr virtual)
     (fp_text reference JP2 (at 0 -3.9) (layer F.SilkS)
@@ -1321,7 +1321,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3818)
-    (at 114.3 66.04)
+    (at 100.33 7.62)
     (path /56E1C919/5760B931)
     (attr virtual)
     (fp_text reference JP3 (at 0 -3.9) (layer F.SilkS)
@@ -1342,7 +1342,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D381E)
-    (at 116.84 74.93)
+    (at 102.87 16.51)
     (path /56E1C919/5760B986)
     (attr virtual)
     (fp_text reference JP4 (at 0 -3.9) (layer F.SilkS)
@@ -1363,7 +1363,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3824)
-    (at 123.19 68.58)
+    (at 109.22 10.16)
     (path /56E1C919/5760BC5B)
     (attr virtual)
     (fp_text reference JP5 (at 0 -3.9) (layer F.SilkS)
@@ -1384,7 +1384,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D382A)
-    (at 50.8 81.28)
+    (at 16.51 50.8)
     (path /56E1C90E/576626EA)
     (attr virtual)
     (fp_text reference JP6 (at 0 -3.9) (layer F.SilkS)
@@ -1405,7 +1405,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3830)
-    (at 40.64 80.01)
+    (at 6.35 49.53)
     (path /56E1C90E/576626F1)
     (attr virtual)
     (fp_text reference JP7 (at 0 -3.9) (layer F.SilkS)
@@ -1426,7 +1426,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3836)
-    (at 45.72 72.39)
+    (at 11.43 41.91)
     (path /56E1C90E/576626F8)
     (attr virtual)
     (fp_text reference JP8 (at 0 -3.9) (layer F.SilkS)
@@ -1447,7 +1447,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D383C)
-    (at 58.42 77.47)
+    (at 24.13 46.99)
     (path /56E1C90E/576626FF)
     (attr virtual)
     (fp_text reference JP9 (at 0 -3.9) (layer F.SilkS)
@@ -1468,7 +1468,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3842)
-    (at 55.88 67.31)
+    (at 21.59 36.83)
     (path /56E1C90E/5766270A)
     (attr virtual)
     (fp_text reference JP10 (at 0 -3.9) (layer F.SilkS)
@@ -1489,7 +1489,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3848)
-    (at 49.53 123.19)
+    (at -8.89 140.97)
     (path /56E1C91C/5766F93D)
     (attr virtual)
     (fp_text reference JP11 (at 0 -3.9) (layer F.SilkS)
@@ -1510,7 +1510,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D384E)
-    (at 39.37 114.3)
+    (at -19.05 132.08)
     (path /56E1C91C/5766F944)
     (attr virtual)
     (fp_text reference JP12 (at 0 -3.9) (layer F.SilkS)
@@ -1531,7 +1531,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3854)
-    (at 50.8 111.76)
+    (at -7.62 129.54)
     (path /56E1C91C/5766F94B)
     (attr virtual)
     (fp_text reference JP13 (at 0 -3.9) (layer F.SilkS)
@@ -1552,7 +1552,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D385A)
-    (at 29.21 114.3)
+    (at -29.21 132.08)
     (path /56E1C91C/5766F952)
     (attr virtual)
     (fp_text reference JP14 (at 0 -3.9) (layer F.SilkS)
@@ -1573,7 +1573,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3860)
-    (at 43.18 105.41)
+    (at -15.24 123.19)
     (path /56E1C91C/5766F95D)
     (attr virtual)
     (fp_text reference JP15 (at 0 -3.9) (layer F.SilkS)
@@ -1594,7 +1594,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3866)
-    (at 93.98 118.11)
+    (at 85.09 109.22)
     (path /56E1C91F/5767305B)
     (attr virtual)
     (fp_text reference JP16 (at 0 -3.9) (layer F.SilkS)
@@ -1615,7 +1615,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D386C)
-    (at 102.87 115.57)
+    (at 93.98 106.68)
     (path /56E1C91F/57673062)
     (attr virtual)
     (fp_text reference JP17 (at 0 -3.9) (layer F.SilkS)
@@ -1636,7 +1636,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3872)
-    (at 110.49 119.38)
+    (at 101.6 110.49)
     (path /56E1C91F/57673069)
     (attr virtual)
     (fp_text reference JP18 (at 0 -3.9) (layer F.SilkS)
@@ -1657,7 +1657,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D3878)
-    (at 121.92 116.84)
+    (at 113.03 107.95)
     (path /56E1C91F/57673070)
     (attr virtual)
     (fp_text reference JP19 (at 0 -3.9) (layer F.SilkS)
@@ -1678,7 +1678,7 @@
   )
 
   (module Connect:PINHEAD1-2 (layer F.Cu) (tedit 0) (tstamp 576D387E)
-    (at 114.3 110.49)
+    (at 105.41 101.6)
     (path /56E1C91F/5767307B)
     (attr virtual)
     (fp_text reference JP20 (at 0 -3.9) (layer F.SilkS)
@@ -1699,7 +1699,7 @@
   )
 
   (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 56031BD7) (tstamp 576D3884)
-    (at 58.42 90.17)
+    (at 24.13 59.69)
     (path /56E1C90E/576626BC)
     (fp_text reference L1 (at -0.01 -4.93) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1718,7 +1718,7 @@
   )
 
   (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 56031BD7) (tstamp 576D388A)
-    (at 59.69 129.54)
+    (at 1.27 147.32)
     (path /56E1C91C/5766F90F)
     (fp_text reference L2 (at -0.01 -4.93) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1737,7 +1737,7 @@
   )
 
   (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 56031BD7) (tstamp 576D3890)
-    (at 104.14 90.17)
+    (at 90.17 31.75)
     (path /56E1C919/57155F0C)
     (fp_text reference L3 (at -0.01 -4.93) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1756,7 +1756,7 @@
   )
 
   (module risebox:SELF_COILCRAFT_XAL6060-153 (layer F.Cu) (tedit 56031BD7) (tstamp 576D3896)
-    (at 104.14 128.27)
+    (at 95.25 119.38)
     (path /56E1C91F/5767302D)
     (fp_text reference L4 (at -0.01 -4.93) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1889,12 +1889,12 @@
   )
 
   (module risebox:POT_PTV09A-4020F-B103 (layer F.Cu) (tedit 576C5E95) (tstamp 576D38BF)
-    (at 123.19 172.72 180)
+    (at -11.43 39.37 90)
     (path /57617720)
-    (fp_text reference P4 (at 0 -7.5 180) (layer F.SilkS)
+    (fp_text reference P4 (at 0 -7.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value POT_COLOR2 (at 0 9.5 180) (layer F.Fab)
+    (fp_text value POT_COLOR2 (at 0 9.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -2.5) (end 2.5 0) (layer F.SilkS) (width 0.15))
@@ -1903,23 +1903,23 @@
     (fp_line (start -5 -5.5) (end -5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 5 -5.5) (end 5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start -5 -5.5) (end 5 -5.5) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole circle (at 2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 2.5 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (pad 1 thru_hole circle (at -2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -2.5 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 36 /Color2/POT_OUT))
-    (pad "" np_thru_hole rect (at 5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad "" np_thru_hole rect (at -5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 2 thru_hole circle (at 0 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad "" np_thru_hole rect (at 5.3 0 90) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole rect (at -5.3 0 90) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad 2 thru_hole circle (at 0 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 35 /Color2/POT_IN))
   )
 
   (module risebox:POT_PTV09A-4020F-B103 (layer F.Cu) (tedit 576C5E95) (tstamp 576D38C8)
-    (at 137.16 172.72 180)
+    (at -41.91 152.4 90)
     (path /576178DF)
-    (fp_text reference P5 (at 0 -7.5 180) (layer F.SilkS)
+    (fp_text reference P5 (at 0 -7.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value POT_COLOR3 (at 0 9.5 180) (layer F.Fab)
+    (fp_text value POT_COLOR3 (at 0 9.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -2.5) (end 2.5 0) (layer F.SilkS) (width 0.15))
@@ -1928,18 +1928,18 @@
     (fp_line (start -5 -5.5) (end -5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 5 -5.5) (end 5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start -5 -5.5) (end 5 -5.5) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole circle (at 2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 2.5 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (pad 1 thru_hole circle (at -2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -2.5 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 38 /Color3/POT_OUT))
-    (pad "" np_thru_hole rect (at 5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad "" np_thru_hole rect (at -5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 2 thru_hole circle (at 0 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad "" np_thru_hole rect (at 5.3 0 90) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole rect (at -5.3 0 90) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad 2 thru_hole circle (at 0 7 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 37 /Color3/POT_IN))
   )
 
   (module risebox:POT_PTV09A-4020F-B103 (layer F.Cu) (tedit 576C5E95) (tstamp 576D38D1)
-    (at 151.13 172.72 180)
+    (at 90.17 140.97 180)
     (path /57617AA5)
     (fp_text reference P6 (at 0 -7.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1964,12 +1964,12 @@
   )
 
   (module risebox:POT_PTV09A-4020F-B103 (layer F.Cu) (tedit 576C5E95) (tstamp 576D38DA)
-    (at 109.22 172.72 180)
+    (at 86.36 -10.16)
     (path /5761151B)
-    (fp_text reference P7 (at 0 -7.5 180) (layer F.SilkS)
+    (fp_text reference P7 (at 0 -7.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value POT_COLOR1 (at 0 9.5 180) (layer F.Fab)
+    (fp_text value POT_COLOR1 (at 0 9.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -2.5) (end 2.5 0) (layer F.SilkS) (width 0.15))
@@ -1978,13 +1978,13 @@
     (fp_line (start -5 -5.5) (end -5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start 5 -5.5) (end 5 5.5) (layer F.SilkS) (width 0.15))
     (fp_line (start -5 -5.5) (end 5 -5.5) (layer F.SilkS) (width 0.15))
-    (pad 3 thru_hole circle (at 2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 3 thru_hole circle (at 2.5 7) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
-    (pad 1 thru_hole circle (at -2.5 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad 1 thru_hole circle (at -2.5 7) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 34 /Color1/POT_OUT))
-    (pad "" np_thru_hole rect (at 5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad "" np_thru_hole rect (at -5.3 0 180) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
-    (pad 2 thru_hole circle (at 0 7 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
+    (pad "" np_thru_hole rect (at 5.3 0) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole rect (at -5.3 0) (size 1.8 2.2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+    (pad 2 thru_hole circle (at 0 7) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask F.SilkS)
       (net 30 /Color1/POT_IN))
   )
 
@@ -2238,7 +2238,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D391C)
-    (at 67.31 93.98)
+    (at 33.02 63.5)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C90E/576626A0)
@@ -2267,7 +2267,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3922)
-    (at 73.66 91.44)
+    (at 39.37 60.96)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C90E/576626A7)
@@ -2296,7 +2296,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3928)
-    (at 73.66 86.36 90)
+    (at 39.37 55.88 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C90E/576626B5)
@@ -2325,7 +2325,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D392E)
-    (at 68.58 80.01 270)
+    (at 34.29 49.53 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C90E/576626D2)
@@ -2354,7 +2354,7 @@
   )
 
   (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5415CFA7) (tstamp 576D3934)
-    (at 64.77 80.01 180)
+    (at 30.48 49.53 180)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /56E1C90E/576626D9)
@@ -2383,7 +2383,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D393A)
-    (at 64.77 123.19 90)
+    (at 6.35 140.97 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91C/5766F8F3)
@@ -2412,7 +2412,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3940)
-    (at 119.38 90.17)
+    (at 105.41 31.75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C919/571557E1)
@@ -2441,7 +2441,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3946)
-    (at 124.46 87.63 90)
+    (at 110.49 29.21 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C919/5715580E)
@@ -2470,7 +2470,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D394C)
-    (at 119.38 85.09 90)
+    (at 105.41 26.67 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C919/571558C4)
@@ -2499,7 +2499,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3952)
-    (at 114.3 81.28 270)
+    (at 100.33 22.86 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C919/5715662A)
@@ -2528,7 +2528,7 @@
   )
 
   (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5415CFA7) (tstamp 576D3958)
-    (at 107.95 80.01 180)
+    (at 93.98 21.59 180)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /56E1C919/57156725)
@@ -2557,7 +2557,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D395E)
-    (at 71.12 120.65 90)
+    (at 12.7 138.43 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91C/5766F8FA)
@@ -2586,7 +2586,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3964)
-    (at 66.04 118.11 90)
+    (at 7.62 135.89 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91C/5766F908)
@@ -2615,7 +2615,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D396A)
-    (at 59.69 110.49 270)
+    (at 1.27 128.27 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91C/5766F925)
@@ -2644,7 +2644,7 @@
   )
 
   (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5415CFA7) (tstamp 576D3970)
-    (at 55.88 113.03 270)
+    (at -2.54 130.81 270)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /56E1C91C/5766F92C)
@@ -2673,7 +2673,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3976)
-    (at 121.92 132.08 270)
+    (at 113.03 123.19 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91F/57673011)
@@ -2702,7 +2702,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D397C)
-    (at 128.27 132.08 90)
+    (at 119.38 123.19 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91F/57673018)
@@ -2731,7 +2731,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3982)
-    (at 124.46 128.27 90)
+    (at 115.57 119.38 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91F/57673026)
@@ -2760,7 +2760,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 576D3988)
-    (at 120.65 124.46 180)
+    (at 111.76 115.57 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56E1C91F/57673043)
@@ -2789,7 +2789,7 @@
   )
 
   (module Resistors_SMD:R_1206 (layer F.Cu) (tedit 5415CFA7) (tstamp 576D398E)
-    (at 116.84 123.19 90)
+    (at 107.95 114.3 90)
     (descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1206")
     (path /56E1C91F/5767304A)
@@ -3183,7 +3183,7 @@
   )
 
   (module risebox:BUCK_TPS92513_PowerPAD (layer F.Cu) (tedit 576D0AA7) (tstamp 576D39EB)
-    (at 68.58 87.63)
+    (at 34.29 57.15)
     (path /56E1C90E/5766268C)
     (clearance 0.1)
     (fp_text reference U1 (at 0 -4.1656) (layer F.SilkS)
@@ -3221,7 +3221,7 @@
   )
 
   (module risebox:BUCK_TPS92513_PowerPAD (layer F.Cu) (tedit 576D0AA7) (tstamp 576D39FA)
-    (at 59.69 119.38)
+    (at 1.27 137.16)
     (path /56E1C91C/5766F8DF)
     (clearance 0.1)
     (fp_text reference U2 (at 0 -4.1656) (layer F.SilkS)
@@ -3259,7 +3259,7 @@
   )
 
   (module risebox:BUCK_TPS92513_PowerPAD (layer F.Cu) (tedit 576D0AA7) (tstamp 576D3A09)
-    (at 116.84 130.81)
+    (at 107.95 121.92)
     (path /56E1C91F/57672FFD)
     (clearance 0.1)
     (fp_text reference U3 (at 0 -4.1656) (layer F.SilkS)
@@ -3297,7 +3297,7 @@
   )
 
   (module risebox:BUCK_TPS92513_PowerPAD (layer F.Cu) (tedit 576D0AA7) (tstamp 576D3A18)
-    (at 114.3 88.9)
+    (at 100.33 30.48)
     (path /56E1C919/57155637)
     (clearance 0.1)
     (fp_text reference U4 (at 0 -4.1656) (layer F.SilkS)

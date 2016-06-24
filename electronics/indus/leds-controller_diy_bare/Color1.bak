@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:risebox
 LIBS:tps54335a
+LIBS:risebox
 LIBS:leds-controller-cache
 EELAYER 25 0
 EELAYER END
@@ -75,10 +75,10 @@ F 3 "" H 1650 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR013
+L GND-RESCUE-leds-controller #PWR012
 U 1 1 571557B2
 P 5950 5250
-F 0 "#PWR013" H 5950 5250 30  0001 C CNN
+F 0 "#PWR012" H 5950 5250 30  0001 C CNN
 F 1 "GND" H 5950 5180 30  0001 C CNN
 F 2 "" H 5950 5250 60  0000 C CNN
 F 3 "" H 5950 5250 60  0000 C CNN
@@ -388,8 +388,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 4750 3550 4900
 Wire Wire Line
-	3550 3550 3500 3450
-Connection ~ 3500 3450
+	3550 3550 3550 3450
+Connection ~ 3550 3450
 Connection ~ 3550 4900
 Wire Wire Line
 	3550 4150 3850 4150

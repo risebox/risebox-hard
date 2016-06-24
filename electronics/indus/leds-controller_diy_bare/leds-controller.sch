@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:risebox
 LIBS:tps54335a
+LIBS:risebox
 LIBS:leds-controller-cache
 EELAYER 25 0
 EELAYER END
@@ -203,7 +203,7 @@ U 1 1 57611EA6
 P 10800 2600
 F 0 "P8" H 10800 2850 50  0000 C CNN
 F 1 "LED+" V 10900 2600 50  0000 C CNN
-F 2 "Connect:PINHEAD1-3" H 10800 2600 50  0001 C CNN
+F 2 "risebox:PINHEAD1-4" H 10800 2600 50  0001 C CNN
 F 3 "" H 10800 2600 50  0000 C CNN
 	1    10800 2600
 	1    0    0    -1  
@@ -214,7 +214,7 @@ U 1 1 57611FC3
 P 10800 3900
 F 0 "P9" H 10800 4150 50  0000 C CNN
 F 1 "LED-" V 10900 3900 50  0000 C CNN
-F 2 "Connect:PINHEAD1-3" H 10800 3900 50  0001 C CNN
+F 2 "risebox:PINHEAD1-4" H 10800 3900 50  0001 C CNN
 F 3 "" H 10800 3900 50  0000 C CNN
 	1    10800 3900
 	1    0    0    -1  
@@ -319,7 +319,7 @@ U 1 1 57616232
 P 850 5300
 F 0 "P2" H 850 5650 50  0000 C CNN
 F 1 "MICRO_CTRL" V 950 5300 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_10pins" H 850 5300 50  0001 C CNN
+F 2 "risebox:PINHEAD1-10" H 850 5300 50  0001 C CNN
 F 3 "" H 850 5300 50  0000 C CNN
 	1    850  5300
 	-1   0    0    1   
@@ -406,7 +406,7 @@ U 1 1 57631AFC
 P 850 3750
 F 0 "P10" H 850 3950 50  0000 C CNN
 F 1 "THERM_LEDS" V 950 3750 50  0000 C CNN
-F 2 "risebox:PINHEAD1-4" H 850 3750 50  0001 C CNN
+F 2 "Connect:PINHEAD1-3" H 850 3750 50  0001 C CNN
 F 3 "" H 850 3750 50  0000 C CNN
 	1    850  3750
 	-1   0    0    1   
@@ -452,17 +452,6 @@ F 3 "" H 5850 800 50  0000 C CNN
 	1    5850 800 
 	1    0    0    -1  
 $EndComp
-$Comp
-L +12V #PWR010
-U 1 1 57656258
-P 8750 5700
-F 0 "#PWR010" H 8750 5550 50  0001 C CNN
-F 1 "+12V" H 8750 5840 50  0000 C CNN
-F 2 "" H 8750 5700 50  0000 C CNN
-F 3 "" H 8750 5700 50  0000 C CNN
-	1    8750 5700
-	1    0    0    -1  
-$EndComp
 Text Label 1700 3050 2    60   ~ 0
 ALIM_5V
 Text Label 7250 3750 2    60   ~ 0
@@ -489,6 +478,107 @@ Text Label 7250 6250 2    60   ~ 0
 COLOR4-
 Text Label 8200 5400 0    60   ~ 0
 PWM_FANS
+Text Label 4350 4750 0    60   ~ 0
+REG_1.2A
+Text Label 4350 4850 0    60   ~ 0
+REG_1A
+Text Label 4350 4950 0    60   ~ 0
+REG_0.7A
+Text Label 4350 5050 0    60   ~ 0
+REG_0.35A
+Text Label 4350 5950 0    60   ~ 0
+REG_1.2A
+Text Label 4350 6050 0    60   ~ 0
+REG_1A
+Text Label 4350 6150 0    60   ~ 0
+REG_0.7A
+Text Label 4350 6250 0    60   ~ 0
+REG_0.35A
+Text Label 2200 5050 2    60   ~ 0
+THERM_CTRL
+Text Label 1500 4950 1    60   ~ 0
+THERM_LEDS
+$Comp
+L R R1
+U 1 1 5764FDF1
+P 1350 5250
+F 0 "R1" V 1430 5250 50  0000 C CNN
+F 1 "1k" V 1350 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1280 5250 50  0001 C CNN
+F 3 "" H 1350 5250 50  0000 C CNN
+	1    1350 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5765059C
+P 1350 5350
+F 0 "R2" V 1430 5350 50  0000 C CNN
+F 1 "1k" V 1350 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1280 5350 50  0001 C CNN
+F 3 "" H 1350 5350 50  0000 C CNN
+	1    1350 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 57650987
+P 1350 5450
+F 0 "R3" V 1430 5450 50  0000 C CNN
+F 1 "1k" V 1350 5450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1280 5450 50  0001 C CNN
+F 3 "" H 1350 5450 50  0000 C CNN
+	1    1350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 57650B23
+P 1350 5550
+F 0 "R4" V 1430 5550 50  0000 C CNN
+F 1 "1k" V 1350 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1280 5550 50  0001 C CNN
+F 3 "" H 1350 5550 50  0000 C CNN
+	1    1350 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 57650CC5
+P 1350 5650
+F 0 "R5" V 1430 5650 50  0000 C CNN
+F 1 "1k" V 1350 5650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1280 5650 50  0001 C CNN
+F 3 "" H 1350 5650 50  0000 C CNN
+	1    1350 5650
+	0    1    1    0   
+$EndComp
+Text Notes 7800 2100 0    60   ~ 0
+Chaque potard permet de dimer analogiquement\nen réduisant linéairement la tension appliquée sur\nla PIN IADJ de chaque controlleur.
+Text Notes 800  2750 0    60   ~ 0
+SECURITE THERMIQUE\n- les controlleurs s'arrètent à une certaine T°\n- la T° des cartes de leds est prise en compte aussi
+$Comp
+L C C21
+U 1 1 57683C7B
+P 2050 4450
+F 0 "C21" H 2075 4550 50  0000 L CNN
+F 1 "10nF" H 2075 4350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2088 4300 50  0001 C CNN
+F 3 "" H 2050 4450 50  0000 C CNN
+	1    2050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 576840C0
+P 2450 4700
+F 0 "#PWR010" H 2450 4450 50  0001 C CNN
+F 1 "GND" H 2450 4550 50  0000 C CNN
+F 2 "" H 2450 4700 50  0000 C CNN
+F 3 "" H 2450 4700 50  0000 C CNN
+	1    2450 4700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	5150 5500 4400 5500
 Wire Wire Line
@@ -633,7 +723,7 @@ Wire Wire Line
 	5850 800  5850 850 
 Connection ~ 5850 850 
 Wire Wire Line
-	5850 1100 5850 1600
+	5850 1100 5850 1150
 Connection ~ 5850 1150
 Wire Wire Line
 	6400 3850 7250 3850
@@ -670,14 +760,6 @@ Wire Wire Line
 	1500 3750 1500 4950
 Wire Wire Line
 	1500 4950 1050 4950
-Text Label 4350 4750 0    60   ~ 0
-REG_1.2A
-Text Label 4350 4850 0    60   ~ 0
-REG_1A
-Text Label 4350 4950 0    60   ~ 0
-REG_0.7A
-Text Label 4350 5050 0    60   ~ 0
-REG_0.35A
 Wire Wire Line
 	5150 5050 4350 5050
 Wire Wire Line
@@ -686,14 +768,6 @@ Wire Wire Line
 	5150 4850 4350 4850
 Wire Wire Line
 	5150 4750 4350 4750
-Text Label 4350 5950 0    60   ~ 0
-REG_1.2A
-Text Label 4350 6050 0    60   ~ 0
-REG_1A
-Text Label 4350 6150 0    60   ~ 0
-REG_0.7A
-Text Label 4350 6250 0    60   ~ 0
-REG_0.35A
 Wire Wire Line
 	5150 6250 4350 6250
 Wire Wire Line
@@ -705,10 +779,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 4450 3950 4450
 Connection ~ 3950 4450
-Text Label 2200 5050 2    60   ~ 0
-THERM_CTRL
-Text Label 1500 4950 1    60   ~ 0
-THERM_LEDS
 Wire Wire Line
 	1150 4850 1150 4100
 Wire Wire Line
@@ -716,115 +786,29 @@ Wire Wire Line
 Connection ~ 1300 4100
 Wire Wire Line
 	1050 4850 1150 4850
-$Comp
-L R R1
-U 1 1 5764FDF1
-P 1350 5250
-F 0 "R1" V 1430 5250 50  0000 C CNN
-F 1 "1k" V 1350 5250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1280 5250 50  0001 C CNN
-F 3 "" H 1350 5250 50  0000 C CNN
-	1    1350 5250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1500 5350 2200 5350
 Wire Wire Line
 	1200 5350 1050 5350
-$Comp
-L R R2
-U 1 1 5765059C
-P 1350 5350
-F 0 "R2" V 1430 5350 50  0000 C CNN
-F 1 "1k" V 1350 5350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1280 5350 50  0001 C CNN
-F 3 "" H 1350 5350 50  0000 C CNN
-	1    1350 5350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1500 5450 2200 5450
 Wire Wire Line
 	1200 5450 1050 5450
-$Comp
-L R R3
-U 1 1 57650987
-P 1350 5450
-F 0 "R3" V 1430 5450 50  0000 C CNN
-F 1 "1k" V 1350 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1280 5450 50  0001 C CNN
-F 3 "" H 1350 5450 50  0000 C CNN
-	1    1350 5450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1500 5550 2200 5550
 Wire Wire Line
 	1200 5550 1050 5550
-$Comp
-L R R4
-U 1 1 57650B23
-P 1350 5550
-F 0 "R4" V 1430 5550 50  0000 C CNN
-F 1 "1k" V 1350 5550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1280 5550 50  0001 C CNN
-F 3 "" H 1350 5550 50  0000 C CNN
-	1    1350 5550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1500 5650 2200 5650
 Wire Wire Line
 	1200 5650 1050 5650
-$Comp
-L R R5
-U 1 1 57650CC5
-P 1350 5650
-F 0 "R5" V 1430 5650 50  0000 C CNN
-F 1 "1k" V 1350 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 1280 5650 50  0001 C CNN
-F 3 "" H 1350 5650 50  0000 C CNN
-	1    1350 5650
-	0    1    1    0   
-$EndComp
-Text Notes 7800 2100 0    60   ~ 0
-Chaque potard permet de dimer analogiquement\nen réduisant linéairement la tension appliquée sur\nla PIN IADJ de chaque controlleur.
-Text Notes 800  2750 0    60   ~ 0
-SECURITE THERMIQUE\n- les controlleurs s'arrètent à une certaine T°\n- la T° des cartes de leds est prise en compte aussi
 Wire Wire Line
 	1500 4450 1900 4450
 Connection ~ 1500 4450
-$Comp
-L C C21
-U 1 1 57683C7B
-P 2050 4450
-F 0 "C21" H 2075 4550 50  0000 L CNN
-F 1 "10nF" H 2075 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 2088 4300 50  0001 C CNN
-F 3 "" H 2050 4450 50  0000 C CNN
-	1    2050 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 576840C0
-P 2450 4700
-F 0 "#PWR011" H 2450 4450 50  0001 C CNN
-F 1 "GND" H 2450 4550 50  0000 C CNN
-F 2 "" H 2450 4700 50  0000 C CNN
-F 3 "" H 2450 4700 50  0000 C CNN
-	1    2450 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 4450 2450 4450
 Wire Wire Line
 	2450 4450 2450 4700
 Wire Wire Line
 	1050 3750 1500 3750
-Connection ~ 8750 5700
-Wire Wire Line
-	5850 1600 8750 1600
-Wire Wire Line
-	8750 1600 8750 5700
 $EndSCHEMATC

@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:risebox
 LIBS:tps54335a
+LIBS:risebox
 LIBS:leds-controller-cache
 EELAYER 25 0
 EELAYER END
@@ -75,10 +75,10 @@ F 3 "" H 1800 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-leds-controller #PWR015
+L GND-RESCUE-leds-controller #PWR014
 U 1 1 5767300B
 P 6100 5800
-F 0 "#PWR015" H 6100 5800 30  0001 C CNN
+F 0 "#PWR014" H 6100 5800 30  0001 C CNN
 F 1 "GND" H 6100 5730 30  0001 C CNN
 F 2 "" H 6100 5800 60  0000 C CNN
 F 3 "" H 6100 5800 60  0000 C CNN

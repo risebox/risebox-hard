@@ -3,10 +3,10 @@
   (general
     (links 24)
     (no_connects 16)
-    (area 40.589999 69.799999 270.690001 105.460001)
+    (area 35.0489 69.4855 351.900201 157.251191)
     (thickness 1.6)
-    (drawings 51)
-    (tracks 85)
+    (drawings 24)
+    (tracks 87)
     (zones 0)
     (modules 21)
     (nets 24)
@@ -60,8 +60,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 0.5 1.8)
+    (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -397,7 +397,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5773ED16) (tstamp 5772A7BF)
-    (at 238.9948 80.2805)
+    (at 184.28 85.37)
     (path /56E1A294)
     (fp_text reference D9 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -421,7 +421,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A7CC)
-    (at 229.2104 95.9576)
+    (at 180.01 85.37)
     (path /56E1BEE7)
     (fp_text reference D10 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -445,7 +445,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A7D9)
-    (at 222.3048 112.3936)
+    (at 180 89.65)
     (path /56E1C424)
     (fp_text reference D11 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -469,7 +469,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A7E6)
-    (at 222.5048 121.7936)
+    (at 184.3 89.65)
     (path /56E1C45B)
     (fp_text reference D12 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -493,7 +493,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5773ED0F) (tstamp 5772A7F3)
-    (at 235.1848 80.2805)
+    (at 238.19 85.37)
     (path /56E1A2C5)
     (fp_text reference D13 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -517,7 +517,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A800)
-    (at 224.917 96.0628)
+    (at 233.89 85.36)
     (path /56E1BEED)
     (fp_text reference D14 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -540,8 +540,8 @@
       (net 14 "Net-(D10-Pad2)") (solder_mask_margin 0.05) (solder_paste_margin -0.05))
   )
 
-  (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A80D)
-    (at 237.6048 112.3936)
+  (module risebox:LUXEON-C (layer F.Cu) (tedit 5774EA87) (tstamp 5772A80D)
+    (at 233.89 89.65)
     (path /56E1C42A)
     (fp_text reference D15 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -565,7 +565,7 @@
   )
 
   (module risebox:LUXEON-C (layer F.Cu) (tedit 5772A4EB) (tstamp 5772A81A)
-    (at 237.7048 121.5936)
+    (at 238.19 89.64)
     (path /56E1C461)
     (fp_text reference D16 (at 0.03 -8.72) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -589,7 +589,7 @@
   )
 
   (module risebox:CONNECT_TE_3-647166-4 (layer F.Cu) (tedit 577454F0) (tstamp 57745C4B)
-    (at 45.1739 87.7443 270)
+    (at 45.7 87.49 270)
     (path /574871E9)
     (fp_text reference P1 (at 0.05 8.4 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -655,57 +655,30 @@
       (net 19 "Net-(D15-Pad2)"))
   )
 
-  (gr_line (start 71.2674 87.3984) (end 305.2674 87.3984) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B9))
-  (gr_line (start 93.2892 87.3984) (end 327.2892 87.3984) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B8))
-  (gr_line (start 117.8002 87.2714) (end 351.8002 87.2714) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B7))
-  (gr_line (start 178.9739 83.7206) (end 185.9739 83.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B6))
-  (gr_line (start 185.9739 83.7206) (end 185.9739 90.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B5))
-  (gr_line (start 185.9739 90.7206) (end 178.9739 90.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B4))
-  (gr_line (start 178.9739 90.7206) (end 178.9739 83.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B3))
-  (gr_line (start 178.9739 90.7206) (end 178.9739 83.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B2))
-  (gr_line (start 185.9739 90.7206) (end 178.9739 90.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B1))
-  (gr_line (start 185.9739 83.7206) (end 185.9739 90.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B0))
-  (gr_line (start 178.9739 83.7206) (end 185.9739 83.7206) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7AF))
-  (gr_line (start 95.7784 87.2714) (end 329.7784 87.2714) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7AE))
-  (gr_line (start 221 84) (end 228 84) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 221 91) (end 221 84) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 228 84) (end 228 91) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 228 91) (end 221 91) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 66.7462 87.2333) (end 300.7462 87.2333) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75F))
-  (gr_line (start 149.9417 83.6825) (end 156.9417 83.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75E))
-  (gr_line (start 156.9417 83.6825) (end 156.9417 90.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75D))
-  (gr_line (start 156.9417 90.6825) (end 149.9417 90.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75C))
-  (gr_line (start 149.9417 90.6825) (end 149.9417 83.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75B))
-  (gr_line (start 149.9417 90.6825) (end 149.9417 83.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75A))
-  (gr_line (start 156.9417 90.6825) (end 149.9417 90.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F759))
-  (gr_line (start 156.9417 83.6825) (end 156.9417 90.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F758))
-  (gr_line (start 149.9417 83.6825) (end 156.9417 83.6825) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F757))
-  (gr_line (start 88.768 87.2333) (end 322.768 87.2333) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F756))
-  (gr_line (start 64.257 87.3603) (end 298.257 87.3603) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECF0))
-  (gr_line (start 42.2352 87.3603) (end 276.2352 87.3603) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 178.6489 91) (end 178.6489 84) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B2))
+  (gr_line (start 185.6489 91) (end 178.6489 91) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B1))
+  (gr_line (start 185.6489 84) (end 185.6489 91) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7B0))
+  (gr_line (start 178.6489 84) (end 185.6489 84) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F7AF))
+  (gr_line (start 232.5417 91) (end 232.5417 84) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F75A))
+  (gr_line (start 239.5417 91) (end 232.5417 91) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F759))
+  (gr_line (start 239.5417 84) (end 239.5417 91) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F758))
+  (gr_line (start 232.5417 84) (end 239.5417 84) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F757))
+  (gr_line (start 42.2352 87.5) (end 276.2352 87.5) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 182.3086 99.949) (end 235.6386 99.949) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F13D))
   (gr_line (start 128.9559 100.9777) (end 182.2859 100.9777) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773F111))
   (gr_line (start 75.6159 99.9236) (end 128.9459 99.9236) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 125.4307 83.8095) (end 132.4307 83.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECEF))
-  (gr_line (start 132.4307 83.8095) (end 132.4307 90.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECEE))
-  (gr_line (start 132.4307 90.8095) (end 125.4307 90.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECED))
-  (gr_line (start 125.4307 90.8095) (end 125.4307 83.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECEC))
   (gr_line (start 125.4307 90.8095) (end 125.4307 83.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECEB))
   (gr_line (start 132.4307 90.8095) (end 125.4307 90.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECEA))
   (gr_line (start 132.4307 83.8095) (end 132.4307 90.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECE9))
   (gr_line (start 125.4307 83.8095) (end 132.4307 83.8095) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 5773ECE8))
-  (gr_line (start 68.3442 84.1397) (end 75.3442 84.1397) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 57727AA9))
-  (gr_line (start 75.3442 84.1397) (end 75.3442 91.1397) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 57727AA8))
-  (gr_line (start 75.3442 91.1397) (end 68.3442 91.1397) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 57727AA7))
-  (gr_line (start 68.3442 91.1397) (end 68.3442 84.1397) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 57727AA6))
   (gr_line (start 68.3442 91.1397) (end 68.3442 84.1397) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 75.3442 91.1397) (end 68.3442 91.1397) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 75.3442 84.1397) (end 75.3442 91.1397) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 68.3442 84.1397) (end 75.3442 84.1397) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 270.64 69.85) (end 40.64 69.85) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 270.47 105.41) (end 270.47 69.85) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 40.64 105.41) (end 267.97 105.41) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 40.64 69.85) (end 40.64 105.41) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 270.64 70) (end 40.64 70) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 270.64 105) (end 270.64 70) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 40.64 105) (end 270.64 105) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 40.64 70) (end 40.64 105) (angle 90) (layer Edge.Cuts) (width 0.1))
 
   (segment (start 117.3353 82.7532) (end 117.3353 82.6008) (width 0.8) (layer F.Cu) (net 1))
   (segment (start 118.8847 81.0514) (end 128.905 81.0514) (width 0.8) (layer F.Cu) (net 1) (tstamp 5773EFC1))
@@ -722,7 +695,7 @@
   (segment (start 130.2004 83.947) (end 130.2004 83.2485) (width 0.3) (layer F.Cu) (net 1) (tstamp 5773EF59))
   (segment (start 130.2004 83.2485) (end 130.2004 83.185) (width 0.3) (layer F.Cu) (net 1) (tstamp 5773EFA2))
   (segment (start 130.3267 84.0733) (end 130.2004 83.947) (width 0.3) (layer F.Cu) (net 1) (tstamp 5773EF4F))
-  (segment (start 45.1739 83.9743) (end 63.0578 83.9193) (width 0.8) (layer F.Cu) (net 2) (status 10))
+  (segment (start 45.7 83.72) (end 63.0578 83.9193) (width 0.8) (layer F.Cu) (net 2) (status 10))
   (segment (start 72.3942 82.6897) (end 73.2442 83.5397) (width 0.8) (layer F.Cu) (net 2) (tstamp 5773D712))
   (segment (start 73.2442 83.5397) (end 73.2442 85.4897) (width 0.3) (layer F.Cu) (net 2) (tstamp 5773D6C5))
   (segment (start 71.7042 82.6897) (end 72.3442 82.6897) (width 0.8) (layer F.Cu) (net 2))
@@ -737,9 +710,11 @@
   (segment (start 81.0669 85.217) (end 78.6442 87.6397) (width 0.8) (layer F.Cu) (net 3) (tstamp 5773F2B2))
   (segment (start 125.5903 85.217) (end 81.0669 85.217) (width 0.8) (layer F.Cu) (net 3) (tstamp 5773F288))
   (segment (start 125.6538 85.1535) (end 125.5903 85.217) (width 0.3) (layer F.Cu) (net 3) (tstamp 5773F276))
-  (segment (start 45.1739 86.5143) (end 64.8866 86.4593) (width 0.8) (layer F.Cu) (net 4) (status 10))
+  (segment (start 65.02 86.3259) (end 47.2709 86.3259) (width 0.6) (layer F.Cu) (net 4))
+  (segment (start 47.2709 86.3259) (end 47.165 86.22) (width 0.6) (layer F.Cu) (net 4) (tstamp 5774DFB8))
   (segment (start 65.7062 85.6397) (end 68.4942 85.6397) (width 0.8) (layer F.Cu) (net 4) (tstamp 5773DDF9))
-  (segment (start 64.8866 86.4593) (end 65.7062 85.6397) (width 0.8) (layer F.Cu) (net 4) (tstamp 5773DDED))
+  (segment (start 64.8866 86.4593) (end 65.02 86.3259) (width 0.8) (layer F.Cu) (net 4) (tstamp 5773DDED))
+  (segment (start 65.02 86.3259) (end 65.7062 85.6397) (width 0.8) (layer F.Cu) (net 4) (tstamp 5774DFB6))
   (segment (start 68.9442 85.4897) (end 68.4942 85.6397) (width 0.3) (layer F.Cu) (net 4) (status 10))
   (segment (start 68.4942 85.6397) (end 68.4442 85.6897) (width 0.8) (layer F.Cu) (net 4) (tstamp 5772BE5D))
   (segment (start 123.571 87.3506) (end 128.1176 87.3506) (width 0.8) (layer F.Cu) (net 5))
@@ -756,7 +731,7 @@
   (segment (start 75.0824 89.9795) (end 79.629 89.9795) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773E855))
   (segment (start 79.629 89.9795) (end 79.6671 89.9795) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F301))
   (segment (start 74.8926 89.7897) (end 75.0824 89.9795) (width 0.3) (layer F.Cu) (net 5) (tstamp 5773E851))
-  (segment (start 45.1739 89.0143) (end 65.9553 88.9593) (width 0.8) (layer F.Cu) (net 6) (status 10))
+  (segment (start 45.7 88.76) (end 65.9553 88.9593) (width 0.8) (layer F.Cu) (net 6) (status 10))
   (segment (start 65.9807 88.9847) (end 67.3354 87.63) (width 0.8) (layer F.Cu) (net 6) (tstamp 5773D80E))
   (segment (start 67.3354 87.63) (end 70.71995 87.61095) (width 0.8) (layer F.Cu) (net 6) (tstamp 5773D810))
   (segment (start 70.71995 87.61095) (end 72.87965 89.77065) (width 0.6) (layer F.Cu) (net 6) (tstamp 5773D819))
@@ -772,7 +747,7 @@
   (segment (start 76.1873 93.0529) (end 83.0834 93.0529) (width 0.8) (layer F.Cu) (net 7))
   (segment (start 124.8029 90.69) (end 126.0341 89.4588) (width 0.3) (layer F.Cu) (net 7) (tstamp 5773F4B6))
   (segment (start 70.4442 89.7897) (end 70.4442 90.5483) (width 0.3) (layer F.Cu) (net 7))
-  (segment (start 45.1739 91.5143) (end 56.166 91.4593) (width 0.8) (layer F.Cu) (net 8) (status 10))
+  (segment (start 45.7 91.26) (end 56.166 91.4593) (width 0.8) (layer F.Cu) (net 8) (status 10))
   (segment (start 66.1255 92.6084) (end 67.47975 91.25415) (width 0.8) (layer F.Cu) (net 8) (tstamp 5773D97E))
   (segment (start 67.47975 91.25415) (end 68.9442 89.7897) (width 0.3) (layer F.Cu) (net 8))
   (segment (start 57.3151 92.6084) (end 66.1255 92.6084) (width 0.8) (layer F.Cu) (net 8) (tstamp 5773DE08))
@@ -1025,13 +1000,13 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 153.1747 90.8939) (xy 152.8826 91.5797) (xy 151.9174 90.2335) (xy 151.9174 88.4301) (xy 152.2095 88.4301)
-        (xy 153.1747 90.8939)
+        (xy 235.7747 91.1939) (xy 235.4826 91.8797) (xy 234.5174 90.5335) (xy 234.5174 88.7301) (xy 234.8095 88.7301)
+        (xy 235.7747 91.1939)
       )
     )
     (filled_polygon
       (pts
-        (xy 153.037516 90.891892) (xy 152.85424 91.322191) (xy 152.163551 90.358862) (xy 152.18914 90.2325) (xy 152.18914 88.726301)
+        (xy 235.637516 91.191892) (xy 235.45424 91.622191) (xy 234.763551 90.658862) (xy 234.78914 90.5325) (xy 234.78914 89.026301)
       )
     )
   )
@@ -1041,12 +1016,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 156.21 88.4428) (xy 157.2133 88.4428) (xy 157.2133 90.2335) (xy 156.21 90.2335) (xy 156.21 88.4555)
+        (xy 238.81 88.7428) (xy 239.8133 88.7428) (xy 239.8133 90.5335) (xy 238.81 90.5335) (xy 238.81 88.7555)
       )
     )
     (filled_polygon
       (pts
-        (xy 157.0863 90.1065) (xy 156.48914 90.1065) (xy 156.48914 88.5698) (xy 157.0863 88.5698)
+        (xy 239.6863 90.4065) (xy 239.08914 90.4065) (xy 239.08914 88.8698) (xy 239.6863 88.8698)
       )
     )
   )
@@ -1056,7 +1031,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 157.0355 85.9155) (xy 156.21 85.9155) (xy 156.21 84.1248) (xy 157.0482 84.1248) (xy 157.0355 85.9155)
+        (xy 239.6455 86.2655) (xy 238.82 86.2655) (xy 238.82 84.4748) (xy 239.6582 84.4748) (xy 239.6455 86.2655)
       )
     )
   )
@@ -1066,7 +1041,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150.6601 88.4301) (xy 150.6728 88.4301) (xy 150.660101 88.430284) (xy 150.6601 88.4301)
+        (xy 233.2601 88.7301) (xy 233.2728 88.7301) (xy 233.260101 88.730284) (xy 233.2601 88.7301)
       )
     )
   )
@@ -1076,14 +1051,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150.6728 90.8304) (xy 148.8186 91.4019) (xy 148.8186 90.4875) (xy 149.7965 88.4428) (xy 150.660101 88.430284)
-        (xy 150.6728 90.8304)
+        (xy 233.2728 91.1304) (xy 231.4186 91.7019) (xy 231.4186 90.7875) (xy 232.3965 88.7428) (xy 233.260101 88.730284)
+        (xy 233.2728 91.1304)
       )
     )
     (filled_polygon
       (pts
-        (xy 150.39426 90.2325) (xy 150.438538 90.467817) (xy 150.544753 90.63288) (xy 150.545349 90.745471) (xy 148.9456 91.402903)
-        (xy 148.9456 90.516307) (xy 149.87709 88.568646) (xy 150.39426 88.56115)
+        (xy 232.99426 90.5325) (xy 233.038538 90.767817) (xy 233.144753 90.93288) (xy 233.145349 91.045471) (xy 231.5456 91.702903)
+        (xy 231.5456 90.816307) (xy 232.47709 88.868646) (xy 232.99426 88.86115)
       )
     )
   )
@@ -1093,7 +1068,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 152.5016 85.9409) (xy 151.9174 85.9409) (xy 151.9174 84.1375) (xy 152.527 84.1375) (xy 152.5016 85.9409)
+        (xy 235.1016 86.2409) (xy 234.5174 86.2409) (xy 234.5174 84.4375) (xy 235.127 84.4375) (xy 235.1016 86.2409)
       )
     )
   )
@@ -1103,12 +1078,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 154.9527 90.2208) (xy 154.1018 90.2208) (xy 154.1018 88.4301) (xy 154.94 88.4301) (xy 154.9527 90.2208)
+        (xy 237.5527 90.5208) (xy 236.7018 90.5208) (xy 236.7018 88.7301) (xy 237.54 88.7301) (xy 237.5527 90.5208)
       )
     )
     (filled_polygon
       (pts
-        (xy 154.69426 90.0938) (xy 154.2288 90.0938) (xy 154.2288 88.5571) (xy 154.69426 88.5571)
+        (xy 237.29426 90.3938) (xy 236.8288 90.3938) (xy 236.8288 88.8571) (xy 237.29426 88.8571)
       )
     )
   )
@@ -1118,7 +1093,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 154.9417 85.9325) (xy 154.4417 85.9325) (xy 154.4417 82.6825) (xy 154.9925 82.6698) (xy 154.9925 85.9198)
+        (xy 237.5117 86.2725) (xy 237.0117 86.2725) (xy 237.0117 83.0225) (xy 237.5625 83.0098) (xy 237.5625 86.2598)
       )
     )
   )
@@ -1128,7 +1103,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 150.6893 85.9301) (xy 149.8417 85.9301) (xy 149.8163 84.1301) (xy 150.6639 84.1301) (xy 150.6893 85.9301)
+        (xy 233.2693 86.2501) (xy 232.4217 86.2501) (xy 232.3963 84.4501) (xy 233.2439 84.4501) (xy 233.2693 86.2501)
       )
     )
   )
@@ -1138,7 +1113,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 179.7215 85.9682) (xy 178.8739 85.9682) (xy 178.8485 84.1682) (xy 179.6961 84.1682) (xy 179.7215 85.9682)
+        (xy 179.4065 86.2682) (xy 178.5589 86.2682) (xy 178.5335 84.4682) (xy 179.3811 84.4682) (xy 179.4065 86.2682)
       )
     )
   )
@@ -1148,7 +1123,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 183.9739 85.9706) (xy 183.4739 85.9706) (xy 183.4739 82.7206) (xy 184.0247 82.7079) (xy 184.0247 85.9579)
+        (xy 183.6089 86.2706) (xy 183.1089 86.2706) (xy 183.1089 83.0206) (xy 183.6597 83.0079) (xy 183.6597 86.2579)
       )
     )
   )
@@ -1158,12 +1133,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 183.9849 90.2589) (xy 183.134 90.2589) (xy 183.134 88.4682) (xy 183.9722 88.4682) (xy 183.9849 90.2589)
+        (xy 183.6899 90.5489) (xy 182.839 90.5489) (xy 182.839 88.7582) (xy 183.6772 88.7582) (xy 183.6899 90.5489)
       )
     )
     (filled_polygon
       (pts
-        (xy 183.72646 90.1319) (xy 183.261 90.1319) (xy 183.261 88.5952) (xy 183.72646 88.5952)
+        (xy 183.43146 90.4219) (xy 182.966 90.4219) (xy 182.966 88.8852) (xy 183.43146 88.8852)
       )
     )
   )
@@ -1173,7 +1148,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 181.5338 85.979) (xy 180.9496 85.979) (xy 180.9496 84.1756) (xy 181.5592 84.1756) (xy 181.5338 85.979)
+        (xy 181.2288 86.269) (xy 180.6446 86.269) (xy 180.6446 84.4656) (xy 181.2542 84.4656) (xy 181.2288 86.269)
       )
     )
   )
@@ -1183,14 +1158,14 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 179.705 90.8685) (xy 177.8508 91.44) (xy 177.8508 90.5256) (xy 178.8287 88.4809) (xy 179.692301 88.468384)
-        (xy 179.705 90.8685)
+        (xy 179.37 91.1485) (xy 177.5158 91.72) (xy 177.5158 90.8056) (xy 178.4937 88.7609) (xy 179.357301 88.748384)
+        (xy 179.37 91.1485)
       )
     )
     (filled_polygon
       (pts
-        (xy 179.42646 90.2706) (xy 179.470738 90.505917) (xy 179.576953 90.67098) (xy 179.577549 90.783571) (xy 177.9778 91.441003)
-        (xy 177.9778 90.554407) (xy 178.90929 88.606746) (xy 179.42646 88.59925)
+        (xy 179.09146 90.5506) (xy 179.135738 90.785917) (xy 179.241953 90.95098) (xy 179.242549 91.063571) (xy 177.6428 91.721003)
+        (xy 177.6428 90.834407) (xy 178.57429 88.886746) (xy 179.09146 88.87925)
       )
     )
   )
@@ -1200,7 +1175,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 179.6923 88.4682) (xy 179.705 88.4682) (xy 179.692301 88.468384) (xy 179.6923 88.4682)
+        (xy 179.3573 88.7482) (xy 179.37 88.7482) (xy 179.357301 88.748384) (xy 179.3573 88.7482)
       )
     )
   )
@@ -1210,7 +1185,7 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 186.0677 85.9536) (xy 185.2422 85.9536) (xy 185.2422 84.1629) (xy 186.0804 84.1629) (xy 186.0677 85.9536)
+        (xy 185.7327 86.2636) (xy 184.9072 86.2636) (xy 184.9072 84.4729) (xy 185.7454 84.4729) (xy 185.7327 86.2636)
       )
     )
   )
@@ -1220,12 +1195,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 185.2422 88.4809) (xy 186.2455 88.4809) (xy 186.2455 90.2716) (xy 185.2422 90.2716) (xy 185.2422 88.4936)
+        (xy 184.9272 88.7609) (xy 185.9305 88.7609) (xy 185.9305 90.5516) (xy 184.9272 90.5516) (xy 184.9272 88.7736)
       )
     )
     (filled_polygon
       (pts
-        (xy 186.1185 90.1446) (xy 185.52134 90.1446) (xy 185.52134 88.6079) (xy 186.1185 88.6079)
+        (xy 185.8035 90.4246) (xy 185.20634 90.4246) (xy 185.20634 88.8879) (xy 185.8035 88.8879)
       )
     )
   )
@@ -1235,13 +1210,13 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 182.2069 90.932) (xy 181.9148 91.6178) (xy 180.9496 90.2716) (xy 180.9496 88.4682) (xy 181.2417 88.4682)
-        (xy 182.2069 90.932)
+        (xy 181.8919 91.222) (xy 181.5998 91.9078) (xy 180.6346 90.5616) (xy 180.6346 88.7582) (xy 180.9267 88.7582)
+        (xy 181.8919 91.222)
       )
     )
     (filled_polygon
       (pts
-        (xy 182.069716 90.929992) (xy 181.88644 91.360291) (xy 181.195751 90.396962) (xy 181.22134 90.2706) (xy 181.22134 88.764401)
+        (xy 181.754716 91.219992) (xy 181.57144 91.650291) (xy 180.880751 90.686962) (xy 180.90634 90.5606) (xy 180.90634 89.054401)
       )
     )
   )

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/nicolasnardone/dev/risebox-hard/electronics/indus/leds_diy/leds.sch)
-    (date "Jeudi 30 juin 2016 01:20:50")
+    (date "Jeudi 30 juin 2016 14:12:39")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

@@ -1,4 +1,4 @@
-update=24/06/2016 12:33:42
+update=01/07/2016 18:27:42
 version=1
 last_client=kicad
 [cvpcb]
@@ -64,3 +64,13 @@ LibName30=contrib
 LibName31=valves
 LibName32=tps54335a
 LibName33=shared/risebox
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

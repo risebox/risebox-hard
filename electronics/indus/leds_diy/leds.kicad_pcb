@@ -3,7 +3,7 @@
   (general
     (links 24)
     (no_connects 0)
-    (area 35.575 69.820815 276.335201 105.179185)
+    (area 36.075 69.820815 276.335201 105.179185)
     (thickness 1.6)
     (drawings 28)
     (tracks 190)
@@ -66,8 +66,8 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x00020_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -87,7 +87,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )

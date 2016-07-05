@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/nicolasnardone/dev/risebox-hard/electronics/indus/leds_diy/leds.sch)
-    (date "Jeudi 30 juin 2016 14:12:39")
+    (date "Mardi 05 juillet 2016 15:54:00")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -214,10 +214,10 @@
   (libraries
     (library (logical leds-rescue)
       (uri /Users/nicolasnardone/dev/risebox-hard/electronics/indus/leds_diy/leds-rescue.lib))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib")))
+      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib")))
   (nets
     (net (code 1) (name "Net-(D1-Pad1)")
       (node (ref P1) (pin 1))

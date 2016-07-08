@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00020_00000001)
+      (layerselection 0x01028_00000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Gerber/))
   )
 
   (net 0 "")

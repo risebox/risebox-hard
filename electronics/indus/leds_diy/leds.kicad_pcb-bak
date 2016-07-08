@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.6)
     (user_trace_width 0.3)
     (user_trace_width 0.8)
     (trace_clearance 0.3)
@@ -721,16 +721,16 @@
   (segment (start 65.02 86.3259) (end 65.7062 85.6397) (width 0.8) (layer F.Cu) (net 4) (tstamp 5774DFB6))
   (segment (start 68.9442 85.4897) (end 68.4942 85.6397) (width 0.3) (layer F.Cu) (net 4) (status 10))
   (segment (start 68.4942 85.6397) (end 68.4442 85.6897) (width 0.8) (layer F.Cu) (net 4) (tstamp 5772BE5D))
-  (segment (start 123.571 87.3506) (end 128.1176 87.3506) (width 0.8) (layer F.Cu) (net 5))
-  (segment (start 130.0734 89.4588) (end 129.6416 89.154) (width 0.3) (layer F.Cu) (net 5) (tstamp 5773F33C))
-  (segment (start 129.6416 89.154) (end 129.6416 88.8746) (width 0.3) (layer F.Cu) (net 5) (tstamp 5773F34F))
-  (segment (start 129.6416 88.8746) (end 128.1303 87.3633) (width 0.6) (layer F.Cu) (net 5) (tstamp 5773F356))
+  (segment (start 123.571 87.3506) (end 128.0676 87.3906) (width 0.8) (layer F.Cu) (net 5))
+  (segment (start 130.0734 89.4588) (end 129.5916 89.194) (width 0.3) (layer F.Cu) (net 5) (tstamp 5773F33C))
+  (segment (start 129.5916 89.194) (end 129.5916 88.9146) (width 0.3) (layer F.Cu) (net 5) (tstamp 5773F34F))
+  (segment (start 129.5916 88.9146) (end 128.0803 87.4033) (width 0.6) (layer F.Cu) (net 5) (tstamp 5773F356))
   (segment (start 79.629 89.9795) (end 80.9879 89.9795) (width 0.8) (layer F.Cu) (net 5))
   (segment (start 122.7963 88.1253) (end 123.571 87.3506) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F31E))
   (segment (start 82.8421 88.1253) (end 122.7963 88.1253) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F30B))
   (segment (start 80.9879 89.9795) (end 82.8421 88.1253) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F303))
   (segment (start 130.0734 89.4588) (end 130.3267 89.4588) (width 0.3) (layer F.Cu) (net 5))
-  (segment (start 128.1176 87.3506) (end 128.1303 87.3633) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F443))
+  (segment (start 128.0676 87.3906) (end 128.0803 87.4033) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F443))
   (segment (start 74.7442 89.7897) (end 74.8926 89.7897) (width 0.3) (layer F.Cu) (net 5))
   (segment (start 75.0824 89.9795) (end 79.629 89.9795) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773E855))
   (segment (start 79.629 89.9795) (end 79.6671 89.9795) (width 0.8) (layer F.Cu) (net 5) (tstamp 5773F301))
@@ -984,13 +984,13 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 130.4307 86.0595) (xy 129.9307 86.0595) (xy 129.9307 82.8095) (xy 130.4815 82.7968) (xy 130.4815 86.0468)
+        (xy 130.4307 86.0595) (xy 130.2 86.06) (xy 129.9307 82.8095) (xy 130.4815 82.7968) (xy 130.4815 86.0468)
       )
     )
     (filled_polygon
       (pts
-        (xy 130.3545 83.819792) (xy 130.230269 84.00161) (xy 130.17926 84.2535) (xy 130.17926 85.9325) (xy 130.0577 85.9325)
-        (xy 130.0577 82.933605) (xy 130.3545 82.926762)
+        (xy 130.3545 83.819792) (xy 130.230269 84.00161) (xy 130.17926 84.2535) (xy 130.17926 84.271505) (xy 130.068396 82.933359)
+        (xy 130.3545 82.926762)
       )
     )
   )
